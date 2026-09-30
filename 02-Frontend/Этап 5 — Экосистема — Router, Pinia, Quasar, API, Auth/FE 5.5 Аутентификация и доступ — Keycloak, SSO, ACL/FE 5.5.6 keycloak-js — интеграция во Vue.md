@@ -22,6 +22,7 @@ time: 4
 <div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~4 мин чтения</span><span class="chip">Уровень: middle</span></div>
 <!-- meta:end -->
 
+
 > [!info] Зачем это на собесе
 > Практика: инициализация Keycloak до старта приложения, обновление токена и выход.
 
