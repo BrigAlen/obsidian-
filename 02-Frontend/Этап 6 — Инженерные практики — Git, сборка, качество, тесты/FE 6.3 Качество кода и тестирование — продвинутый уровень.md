@@ -18,7 +18,7 @@ tags: [domain/frontend, stage/6, kind/section]
 
 ## Темы
 <!-- toc:start -->
-**Итого:** 11 тем · ~50 мин · готово 0 из 11
+**Итого:** 11 тем · ~33 мин · готово 0 из 11
 
 <div class="bar"><span style="width:0%"></span></div>
 
@@ -26,7 +26,7 @@ tags: [domain/frontend, stage/6, kind/section]
 |---|---|---|---|---|
 | 1 | [[FE 6.3.1 ESLint\|ESLint]] | <span class="badge should">Желательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
 | 2 | [[FE 6.3.2 Prettier\|Prettier]] | <span class="badge should">Желательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
-| 3 | [[FE 6.3.3 Stylelint\|Stylelint]] | <span class="badge should">Желательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
+| 3 | [[FE 6.3.3 Stylelint\|Stylelint]] | <span class="badge should">Желательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
 | 4 | [[FE 6.3.4 Husky и lint-staged\|Husky и lint-staged]] | <span class="badge should">Желательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
 | 5 | [[FE 6.3.5 Conventional commits и commitlint\|Conventional commits и commitlint]] | <span class="badge should">Желательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
 | 6 | [[FE 6.3.6 TDD и написание тестируемого кода\|TDD и написание тестируемого кода]] | <span class="badge should">Желательно</span> | 3 мин | <span class="badge todo">Не начато</span> |

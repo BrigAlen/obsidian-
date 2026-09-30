@@ -58,6 +58,7 @@ time: 3
 
 
 
+
 > [!info] Зачем это на собесе
 > Самые применимые паттерны: Strategy, Observer, Mediator, Chain — встречаются в ASP.NET Core и MediatR.
 
