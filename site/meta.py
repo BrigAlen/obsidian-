@@ -120,7 +120,7 @@ for p, n in notes.items():
     stage = int(fm_get(fm, "stage", "0") or 0)
     section = fm_get(fm, "section")
     key = section or f"{stage}.{fm_get(fm, 'order')}"   # тема-раздел без вложенных страниц: этап.порядок
-    prio = SECTION_PRIO.get((domain, key)) or STAGE_PRIO.get(domain, {}).get(stage, "should")
+    prio = fm_get(fm, "priority_override") or SECTION_PRIO.get((domain, key)) or STAGE_PRIO.get(domain, {}).get(stage, "should")
     words, code_lines = estimate(body)
     stub = words < 150
     minutes = 20 if stub else max(3, round(words / 170 + code_lines / 12))

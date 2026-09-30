@@ -7,10 +7,11 @@ order: 7
 status: todo
 level: junior
 notion_id: 989a7cb59909408b97dfdc1ac9f0ee9d
-tags: [domain/backend, stage/1, topic/networks, topic/tcp, topic/debugging, level/junior, priority/should]
+tags: [domain/backend, stage/1, topic/networks, topic/tcp, topic/debugging, level/junior, priority/must]
+priority_override: must
 reviewed:
 next_review:
-priority: should
+priority: must
 time: 15
 ---
 
@@ -19,7 +20,7 @@ time: 15
 ↑ [[BE 1.1 Сети и протоколы для бэкенда|1.1 Сети и протоколы для бэкенда]] · ← [[BE 1.1.6 TCP на практике — сокеты, TcpClient и TcpListener, фрейминг|Предыдущая]]
 
 <!-- meta:start -->
-<div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">~15 мин чтения</span><span class="chip">Уровень: junior</span></div>
+<div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~15 мин чтения</span><span class="chip">Уровень: junior</span></div>
 <!-- meta:end -->
 
 > [!info] Зачем это на собесе

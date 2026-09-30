@@ -37,7 +37,7 @@ sequenceDiagram
   participant DB as БД
   participant R as Relay
   participant K as Kafka
-  S->>DB: BEGIN; insert order; insert outbox; COMMIT
+  S->>DB: BEGIN, insert order, insert outbox, COMMIT
   R->>DB: выбрать неотправленные
   R->>K: publish
   R->>DB: пометить отправленными

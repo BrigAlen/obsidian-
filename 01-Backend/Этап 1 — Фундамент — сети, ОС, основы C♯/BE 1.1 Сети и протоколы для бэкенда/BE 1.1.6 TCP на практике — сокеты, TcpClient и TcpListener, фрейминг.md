@@ -7,10 +7,11 @@ order: 6
 status: todo
 level: junior
 notion_id: 5ed3a4c4c3fc446390d9843c124770bb
-tags: [domain/backend, stage/1, topic/networks, topic/tcp, topic/sockets, level/junior, priority/should]
+tags: [domain/backend, stage/1, topic/networks, topic/tcp, topic/sockets, level/junior, priority/must]
+priority_override: must
 reviewed:
 next_review:
-priority: should
+priority: must
 time: 15
 ---
 
@@ -19,7 +20,7 @@ time: 15
 ↑ [[BE 1.1 Сети и протоколы для бэкенда|1.1 Сети и протоколы для бэкенда]] · ← [[BE 1.1.5 Стили API — REST, RPC, GraphQL, WebSocket, SSE|Предыдущая]] · → [[BE 1.1.7 Запрос по TCP руками — nc, telnet, openssl s_client, HTTP и Redis|Следующая]]
 
 <!-- meta:start -->
-<div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">~15 мин чтения</span><span class="chip">Уровень: junior</span></div>
+<div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~15 мин чтения</span><span class="chip">Уровень: junior</span></div>
 <!-- meta:end -->
 
 > [!info] Зачем это на собесе
