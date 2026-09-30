@@ -1,0 +1,67 @@
+name: Deploy site
+
+# Пересборка сайта (Quartz -> GitHub Pages) при каждом пуше в main.
+# Однократно: Settings -> Pages -> Source: "GitHub Actions".
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: vault
+          fetch-depth: 0
+
+      - uses: actions/checkout@v4
+        with:
+          repository: jackyzha0/quartz
+          ref: v4
+          path: quartz
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Assemble site sources
+        run: |
+          rm -rf quartz/content
+          mkdir quartz/content
+          rsync -a --exclude '.git' --exclude '.github' --exclude 'site' --exclude '_templates' --exclude 'README.md' vault/ quartz/content/
+          cp vault/site/quartz.config.ts quartz/quartz.config.ts
+          if [ -f vault/site/quartz.layout.ts ]; then cp vault/site/quartz.layout.ts quartz/quartz.layout.ts; fi
+          if [ -d vault/site/static ]; then cp -r vault/site/static/. quartz/quartz/static/; fi
+
+      - name: Install
+        working-directory: quartz
+        run: npm ci
+
+      - name: Build
+        working-directory: quartz
+        run: npx quartz build
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: quartz/public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
