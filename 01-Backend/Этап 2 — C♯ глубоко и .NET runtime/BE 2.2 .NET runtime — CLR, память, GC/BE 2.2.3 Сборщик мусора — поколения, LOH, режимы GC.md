@@ -23,6 +23,8 @@ time: 5
 <!-- meta:end -->
 
 
+
+
 > [!info] Зачем это на собесе
 > GC — главный вопрос про .NET runtime на middle+/senior собесе: поколения, LOH, режимы Workstation/Server, паузы, влияние на латентность API и память контейнера.
 
