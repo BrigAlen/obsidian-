@@ -31,6 +31,7 @@ time: 3
 
 
 
+
 > [!info] Зачем это на собесе
 > `<script setup>` — стандарт; вопросы про макросы (`defineProps`, `defineEmits`, `defineModel`) и почему их не нужно импортировать.
 

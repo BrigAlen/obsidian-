@@ -26,6 +26,7 @@ time: 3
 
 
 
+
 > [!info] Зачем это на собесе
 > Ждут: чем OAuth отличается от OIDC и почему для SPA нужен Authorization Code + PKCE.
 
