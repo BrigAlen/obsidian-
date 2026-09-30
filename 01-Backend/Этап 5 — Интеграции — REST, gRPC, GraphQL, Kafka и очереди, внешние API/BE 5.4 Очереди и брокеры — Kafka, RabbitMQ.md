@@ -18,7 +18,7 @@ tags: [domain/backend, stage/5, kind/section]
 
 ## Темы
 <!-- toc:start -->
-**Итого:** 10 тем · ~31 мин · готово 0 из 10
+**Итого:** 11 тем · ~40 мин · готово 0 из 11
 
 <div class="bar"><span style="width:0%"></span></div>
 
@@ -34,6 +34,7 @@ tags: [domain/backend, stage/5, kind/section]
 | 8 | [[BE 5.4.8 Transactional Outbox и Inbox, идемпотентные консьюмеры\|Transactional Outbox и Inbox, идемпотентные консьюмеры]] | <span class="badge must">Обязательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
 | 9 | [[BE 5.4.9 Dead letter queue, retry, poison messages\|Dead letter queue, retry, poison messages]] | <span class="badge must">Обязательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
 | 10 | [[BE 5.4.10 MassTransit и абстракции над брокерами\|MassTransit и абстракции над брокерами]] | <span class="badge must">Обязательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
+| 11 | [[BE 5.4.11 Альтернативы Kafka и RabbitMQ — NATS JetStream, Redpanda, Pulsar и облачные очереди\|Альтернативы Kafka и RabbitMQ: NATS JetStream, Redpanda, Pulsar и облачные очереди]] | <span class="badge should">Желательно</span> | 9 мин | <span class="badge todo">Не начато</span> |
 <!-- toc:end -->
 
 ## Чек-лист раздела

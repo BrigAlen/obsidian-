@@ -11,15 +11,15 @@ tags: [domain/backend, stage/7, level/senior, topic/devops, topic/docker, topic/
 reviewed:
 next_review:
 priority: nice
-time: 4
+time: 3
 ---
 
 # Как поднимается Clinic: docker compose, Makefile, порядок запуска, healthcheck
 
-↑ [[BE 7.6 DevOps для бэкенд-разработчика — деплой наших систем и CI-CD|7.6 DevOps для бэкенд-разработчика: деплой наших систем и CI/CD]] · ← [[BE 7.6.2 Dockerfile для .NET-микросервисов — общий core-образ, multi-stage, как у нас|Предыдущая]] · → [[BE 7.6.4 Конфигурация и секреты — env-файлы, Ansible-фабрика, окружения dev-staging-prod|Следующая]]
+↑ [[BE 7.6 DevOps для бэкенд-разработчика — деплой наших систем и CI-CD|7.6 DevOps для бэкенд-разработчика]] · ← [[BE 7.6.2 Dockerfile для .NET-микросервисов — общий core-образ, multi-stage, как у нас|Предыдущая]] · → [[BE 7.6.4 Конфигурация и секреты — env-файлы, Ansible-фабрика, окружения dev-staging-prod|Следующая]]
 
 <!-- meta:start -->
-<div class="meta-strip"><span class="badge nice">По желанию</span><span class="chip">~4 мин чтения</span><span class="chip">Уровень: senior</span></div>
+<div class="meta-strip"><span class="badge nice">По желанию</span><span class="chip">~3 мин чтения</span><span class="chip">Уровень: senior</span></div>
 <!-- meta:end -->
 
 > [!info] Зачем это на собесе

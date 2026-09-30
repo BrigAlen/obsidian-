@@ -16,7 +16,7 @@ time: 3
 
 # Конфигурация и секреты: env-файлы, Ansible-фабрика, окружения dev/staging/prod
 
-↑ [[BE 7.6 DevOps для бэкенд-разработчика — деплой наших систем и CI-CD|7.6 DevOps для бэкенд-разработчика: деплой наших систем и CI/CD]] · ← [[BE 7.6.3 Как поднимается Clinic — docker compose, Makefile, порядок запуска, healthcheck|Предыдущая]] · → [[BE 7.6.5 CI-CD для .NET-микросервисов и фронта в GitLab — пайплайн от MR до прода|Следующая]]
+↑ [[BE 7.6 DevOps для бэкенд-разработчика — деплой наших систем и CI-CD|7.6 DevOps для бэкенд-разработчика]] · ← [[BE 7.6.3 Как поднимается Clinic — docker compose, Makefile, порядок запуска, healthcheck|Предыдущая]] · → [[BE 7.6.5 CI-CD для .NET-микросервисов и фронта в GitLab — пайплайн от MR до прода|Следующая]]
 
 <!-- meta:start -->
 <div class="meta-strip"><span class="badge nice">По желанию</span><span class="chip">~3 мин чтения</span><span class="chip">Уровень: senior</span></div>

@@ -16,7 +16,7 @@ time: 3
 
 # MassTransit и абстракции над брокерами
 
-↑ [[BE 5.4 Очереди и брокеры — Kafka, RabbitMQ|5.4 Очереди и брокеры: Kafka, RabbitMQ]] · ← [[BE 5.4.9 Dead letter queue, retry, poison messages|Предыдущая]]
+↑ [[BE 5.4 Очереди и брокеры — Kafka, RabbitMQ|5.4 Очереди и брокеры: Kafka, RabbitMQ]] · ← [[BE 5.4.9 Dead letter queue, retry, poison messages|Предыдущая]] · → [[BE 5.4.11 Альтернативы Kafka и RabbitMQ — NATS JetStream, Redpanda, Pulsar и облачные очереди|Следующая]]
 
 <!-- meta:start -->
 <div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~3 мин чтения</span><span class="chip">Уровень: middle</span></div>

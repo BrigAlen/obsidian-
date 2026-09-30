@@ -18,7 +18,7 @@ tags: [domain/backend, stage/8, kind/section]
 
 ## Темы
 <!-- toc:start -->
-**Итого:** 8 тем · ~24 мин · готово 0 из 8
+**Итого:** 9 тем · ~35 мин · готово 0 из 9
 
 <div class="bar"><span style="width:0%"></span></div>
 
@@ -32,6 +32,7 @@ tags: [domain/backend, stage/8, kind/section]
 | 6 | [[BE 8.3.6 Eventual consistency, CAP и PACELC\|Eventual consistency, CAP и PACELC]] | <span class="badge should">Желательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
 | 7 | [[BE 8.3.7 Распределённые блокировки, лидерство, часы\|Распределённые блокировки, лидерство, часы]] | <span class="badge should">Желательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
 | 8 | [[BE 8.3.8 Общий код между сервисами — shared kernel, NuGet-пакеты, базовые образы\|Общий код между сервисами: shared kernel, NuGet-пакеты, базовые образы]] | <span class="badge should">Желательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
+| 9 | [[BE 8.3.9 Dapr и Orleans — sidecar-блоки и виртуальные акторы\|Dapr и Orleans: sidecar-блоки и виртуальные акторы]] | <span class="badge should">Желательно</span> | 11 мин | <span class="badge todo">Не начато</span> |
 <!-- toc:end -->
 
 ## Чек-лист раздела

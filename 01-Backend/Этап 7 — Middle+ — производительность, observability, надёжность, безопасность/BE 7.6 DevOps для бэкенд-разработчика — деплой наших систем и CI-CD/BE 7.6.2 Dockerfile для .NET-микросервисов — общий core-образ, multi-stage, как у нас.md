@@ -16,7 +16,7 @@ time: 3
 
 # Dockerfile для .NET-микросервисов: общий core-образ, multi-stage, как у нас
 
-↑ [[BE 7.6 DevOps для бэкенд-разработчика — деплой наших систем и CI-CD|7.6 DevOps для бэкенд-разработчика: деплой наших систем и CI/CD]] · ← [[BE 7.6.1 Путь кода до прода — сборка, образ, registry, миграции, деплой|Предыдущая]] · → [[BE 7.6.3 Как поднимается Clinic — docker compose, Makefile, порядок запуска, healthcheck|Следующая]]
+↑ [[BE 7.6 DevOps для бэкенд-разработчика — деплой наших систем и CI-CD|7.6 DevOps для бэкенд-разработчика]] · ← [[BE 7.6.1 Путь кода до прода — сборка, образ, registry, миграции, деплой|Предыдущая]] · → [[BE 7.6.3 Как поднимается Clinic — docker compose, Makefile, порядок запуска, healthcheck|Следующая]]
 
 <!-- meta:start -->
 <div class="meta-strip"><span class="badge nice">По желанию</span><span class="chip">~3 мин чтения</span><span class="chip">Уровень: senior</span></div>
