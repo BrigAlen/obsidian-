@@ -22,6 +22,7 @@ time: 6
 <div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~6 мин чтения</span><span class="chip">Уровень: middle</span></div>
 <!-- meta:end -->
 
+
 > [!info] Зачем это на собесе
 > `Task` — основа асинхронности в .NET. Вопросы: чем Task отличается от Thread, что такое Task.Run и когда он нужен, как работают WhenAll и WhenAny, как обрабатывать исключения нескольких задач.
 

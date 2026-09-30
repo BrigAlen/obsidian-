@@ -22,6 +22,7 @@ time: 5
 <div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~5 мин чтения</span><span class="chip">Уровень: middle</span></div>
 <!-- meta:end -->
 
+
 > [!info] Зачем это на собесе
 > Память сервиса растёт и в конце концов приходит OOMKilled. «Как вы искали утечку?» — вопрос на практический опыт. Ждут знания типовых причин (события, статика, кэши, замыкания, неосвобождённые ресурсы) и инструментов (dotnet-counters, dotnet-gcdump, dotnet-dump, профайлеры).
 

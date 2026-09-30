@@ -22,6 +22,7 @@ time: 5
 <div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~5 мин чтения</span><span class="chip">Уровень: middle</span></div>
 <!-- meta:end -->
 
+
 > [!info] Зачем это на собесе
 > «Что происходит между `dotnet run` и выполнением вашего метода?» — вопрос на понимание платформы. Ждут цепочку: компилятор → IL и метаданные → загрузка сборок CLR → JIT → машинный код, а также осознанный выбор между JIT и Native AOT.
 

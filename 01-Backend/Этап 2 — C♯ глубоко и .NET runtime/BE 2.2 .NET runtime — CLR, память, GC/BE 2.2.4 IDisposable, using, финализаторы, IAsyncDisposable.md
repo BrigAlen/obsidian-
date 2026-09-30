@@ -22,6 +22,7 @@ time: 8
 <div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~8 мин чтения</span><span class="chip">Уровень: middle</span></div>
 <!-- meta:end -->
 
+
 > [!info] Зачем это на собесе
 > GC освобождает только управляемую память, а соединения с БД, файлы, сокеты и HTTP-ответы надо закрывать явно. Спросят паттерн Dispose, разницу `Dispose` и финализатора, `using` и кто освобождает сервисы в DI.
 

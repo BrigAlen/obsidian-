@@ -22,6 +22,7 @@ time: 6
 <div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~6 мин чтения</span><span class="chip">Уровень: middle</span></div>
 <!-- meta:end -->
 
+
 > [!info] Зачем это на собесе
 > boxing — скрытый источник аллокаций и нагрузки на GC. Вопросы «что такое boxing, где он происходит неявно» и «где хранится value type внутри класса» задают почти всегда.
 

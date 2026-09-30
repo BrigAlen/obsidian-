@@ -22,6 +22,7 @@ time: 6
 <div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~6 мин чтения</span><span class="chip">Уровень: middle</span></div>
 <!-- meta:end -->
 
+
 > [!info] Зачем это на собесе
 > «Что делает `await`?» — вопрос, который отделяет тех, кто пишет `async`, от тех, кто его понимает. Ждут: компилятор строит конечный автомат, `await` не блокирует поток, продолжение возвращается в `SynchronizationContext` или в пул, `ConfigureAwait(false)` нужен в библиотеках.
 

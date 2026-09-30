@@ -22,6 +22,7 @@ time: 8
 <div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~8 мин чтения</span><span class="chip">Уровень: middle</span></div>
 <!-- meta:end -->
 
+
 > [!info] Зачем это на собесе
 > Классика: «как защитить общий ресурс», «чем lock отличается от SemaphoreSlim», «почему нельзя await внутри lock». Отвечать нужно с примерами и с оговорками по производительности.
 

@@ -22,6 +22,7 @@ time: 5
 <div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~5 мин чтения</span><span class="chip">Уровень: middle</span></div>
 <!-- meta:end -->
 
+
 > [!info] Зачем это на собесе
 > GC — главный вопрос про .NET runtime на middle+/senior собесе: поколения, LOH, режимы Workstation/Server, паузы, влияние на латентность API и память контейнера.
 
