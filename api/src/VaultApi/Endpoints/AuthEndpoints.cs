@@ -85,7 +85,7 @@ public static partial class AuthEndpoints
 
         g.MapGet("/me", (ClaimsPrincipal p) => p.Identity?.IsAuthenticated == true
             ? Results.Ok(new { login = p.Identity.Name, role = p.FindFirstValue(ClaimTypes.Role) })
-            : Results.Json(new { error = "Не выполнен вход" }, statusCode: 401));
+            : Results.NoContent()); // аноним: без ошибки, чтобы не шуметь в консоли браузера
 
         g.MapPost("/auth/password", async (ChangePasswordRequest r, ClaimsPrincipal p, AppDb db, IPasswordHasher<User> hasher, HttpContext ctx) =>
         {
