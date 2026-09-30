@@ -18,7 +18,7 @@ Observers, планирование кадров, History, файлы, сист�
 
 ## Темы
 <!-- toc:start -->
-**Итого:** 10 тем · ~31 мин · готово 0 из 10
+**Итого:** 12 тем · ~50 мин · готово 0 из 12
 
 <div class="bar"><span style="width:0%"></span></div>
 
@@ -34,6 +34,8 @@ Observers, планирование кадров, History, файлы, сист�
 | 8 | [[FE 7.4.8 Canvas и SVG\|Canvas и SVG]] | <span class="badge should">Желательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
 | 9 | [[FE 7.4.9 Web Components и Shadow DOM\|Web Components и Shadow DOM]] | <span class="badge should">Желательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
 | 10 | [[FE 7.4.10 PWA и Service Workers\|PWA и Service Workers]] | <span class="badge should">Желательно</span> | 4 мин | <span class="badge todo">Не начато</span> |
+| 11 | [[FE 7.4.11 WebAssembly — когда нужен, как загрузить и вызвать из JS\|WebAssembly: когда нужен, как загрузить и вызвать из JS]] | <span class="badge should">Желательно</span> | 9 мин | <span class="badge todo">Не начато</span> |
+| 12 | [[FE 7.4.12 WebRTC — P2P-соединение, сигнализация, STUN и TURN\|WebRTC: P2P-соединение, сигнализация, STUN и TURN]] | <span class="badge should">Желательно</span> | 10 мин | <span class="badge todo">Не начато</span> |
 <!-- toc:end -->
 
 ## Чек-лист раздела

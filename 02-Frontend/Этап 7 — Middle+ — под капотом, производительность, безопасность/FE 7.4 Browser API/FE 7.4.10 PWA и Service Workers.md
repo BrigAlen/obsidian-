@@ -16,7 +16,7 @@ time: 4
 
 # PWA и Service Workers
 
-↑ [[FE 7.4 Browser API|7.4 Browser API]] · ← [[FE 7.4.9 Web Components и Shadow DOM|Предыдущая]]
+↑ [[FE 7.4 Browser API|7.4 Browser API]] · ← [[FE 7.4.9 Web Components и Shadow DOM|Предыдущая]] · → [[FE 7.4.11 WebAssembly — когда нужен, как загрузить и вызвать из JS|Следующая]]
 
 <!-- meta:start -->
 <div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">~4 мин чтения</span><span class="chip">Уровень: senior</span></div>
