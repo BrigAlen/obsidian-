@@ -52,6 +52,7 @@ time: 3
 
 
 
+
 > [!info] Зачем это на собесе
 > Аналог `WebApplicationFactory` в Node.js: проверка всего HTTP-конвейера.
 
