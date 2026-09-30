@@ -12,14 +12,14 @@ tags: [domain/backend, kind/stage]
 
 ## Темы
 <!-- toc:start -->
-**Итого:** 7 тем · ~2 ч 20 мин · готово 0 из 7
+**Итого:** 17 тем · ~2 ч 16 мин · готово 0 из 17
 
 <div class="bar"><span style="width:0%"></span></div>
 
 | # | Раздел или тема | Приоритет | Чтение | Прогресс |
 |---|---|---|---|---|
-| 1 | [[BE 5.1 Проектирование REST API\|Проектирование REST API]] | <span class="badge must">Обязательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
-| 2 | [[BE 5.2 gRPC\|gRPC]] | <span class="badge must">Обязательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
+| 1 | [[BE 8.3 Микросервисы и распределённые системы\|5.1 Проектирование REST API]] | <span class="badge must">Обязательно</span> | 18 мин | 0 из 6<br><div class="bar"><span style="width:0%"></span></div> |
+| 2 | [[BE 8.3 Микросервисы и распределённые системы\|5.2 gRPC]] | <span class="badge must">Обязательно</span> | 18 мин | 0 из 6<br><div class="bar"><span style="width:0%"></span></div> |
 | 3 | [[BE 5.3 GraphQL на бэкенде и Federation\|GraphQL на бэкенде и Federation]] | <span class="badge must">Обязательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
 | 4 | [[BE 5.4 Очереди и брокеры — Kafka, RabbitMQ\|Очереди и брокеры: Kafka, RabbitMQ]] | <span class="badge must">Обязательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
 | 5 | [[BE 5.5 Интеграции со сторонними API — 1С, Битрикс24, FHIR\|Интеграции со сторонними API: 1С, Битрикс24, FHIR]] | <span class="badge nice">По желанию</span> | 20 мин | <span class="badge todo">Не начато</span> |
