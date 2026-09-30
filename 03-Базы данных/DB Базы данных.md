@@ -4,7 +4,7 @@ domain: db
 tags: [db, moc]
 ---
 
-# 🗄️ Базы данных
+# Базы данных
 
 SQL, PostgreSQL, ClickHouse, Redis, MongoDB, MinIO (S3), миграции, репликация и шардирование.
 

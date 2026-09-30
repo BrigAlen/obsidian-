@@ -4,7 +4,7 @@ domain: devops
 tags: [devops, moc]
 ---
 
-# 🚢 DevOps
+# DevOps
 
 Linux, Docker, CI/CD, Nginx, Kubernetes, Ansible, Terraform, observability, безопасность.
 

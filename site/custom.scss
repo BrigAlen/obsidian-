@@ -1,0 +1,45 @@
+// Outline-иконки (Lucide, inline SVG) в заголовках и ссылках
+.ic {
+  width: 1.1em;
+  height: 1.1em;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  vertical-align: -0.15em;
+  margin-right: 0.45em;
+}
+
+// Плитки разделов на главной
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 0.8rem;
+  margin: 1.2rem 0;
+
+  a.card {
+    display: block;
+    padding: 0.9rem 1rem;
+    border: 1px solid var(--lightgray);
+    border-radius: 8px;
+    background: transparent;
+    color: var(--darkgray);
+    text-decoration: none;
+    transition: border-color 0.15s ease;
+
+    &:hover {
+      border-color: var(--secondary);
+    }
+
+    strong {
+      display: block;
+      color: var(--dark);
+      margin-bottom: 0.2rem;
+    }
+
+    span {
+      font-size: 0.85rem;
+    }
+  }
+}

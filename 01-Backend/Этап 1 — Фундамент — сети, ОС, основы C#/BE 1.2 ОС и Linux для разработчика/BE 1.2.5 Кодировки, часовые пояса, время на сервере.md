@@ -45,7 +45,7 @@ var text  = Encoding.UTF8.GetString(bytes);            // декодирован
 await File.WriteAllTextAsync("report.csv", csv, new UTF8Encoding(encoderShouldEmitUTF8Identifier: true));
 
 // Длина «видимых» символов, а не char
-var info = new System.Globalization.StringInfo("👨‍👩‍👧");
+var info = new System.Globalization.StringInfo("e\u0301");
 Console.WriteLine(info.LengthInTextElements);          // 1
 ```
 - В HTTP кодировку задаёт `Content-Type: application/json; charset=utf-8`. `System.Text.Json` работает с UTF-8.
