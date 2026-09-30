@@ -25,9 +25,6 @@ time: 5
 > [!info] Зачем это на собесе
 > Модификаторы задают границы инкапсуляции и наследования. Спросят, чем `protected internal` отличается от `private protected`, что такое `static`-класс, зачем `sealed`, для чего `partial` и как это связано с кодогенерацией.
 
-> [!note] Переписано
-> В Notion эта страница содержала шаблонный текст без отношения к теме. Здесь — содержательная версия.
-
 ## Объяснение
 
 ### Модификаторы доступа
@@ -115,6 +112,6 @@ public partial class Patient { public bool IsValid() => !string.IsNullOrWhiteSpa
 
 ## Связанные темы
 - Предыдущая: [[N:3ea331048679817b85dbefe554670a2e]] · Следующая: [[N:3ea33104867981e28367f6c926e84d93]]
-- Extension-методы: [[N:3ea3310486798117bfebf3d65b3a41c0]]
-- Source Generators: [[N:3ea331048679815b8f0ee4a2c4f3f6d3]]
+- Extension-методы: [[BE 2.1.6 Extension methods и fluent API|2.1.6 Extension methods и fluent API]]
+- Source Generators: [[BE 2.1.10 Source generators и Roslyn (как в analytics_generator)|2.1.10 Source generators и Roslyn (как в analytics_generator)]]
 - InternalsVisibleTo в тестах: [[N:3ea33104867981949ce3d506cbd130b4]]

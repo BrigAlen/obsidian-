@@ -11,7 +11,7 @@ tags: [domain/frontend, stage/5, level/middle, topic/api, topic/errors, topic/ab
 reviewed:
 next_review:
 priority: must
-time: 4
+time: 3
 ---
 
 # Обработка ошибок, retry, отмена запросов (AbortController)
@@ -19,14 +19,11 @@ time: 4
 ↑ [[FE 5.4 Работа с API — REST, GraphQL, WebSocket|5.4 Работа с API: REST, GraphQL, WebSocket]] · ← [[FE 5.4.3 Axios — инстансы и интерсепторы|Предыдущая]] · → [[FE 5.4.5 GraphQL — query, mutation, subscription, fragments|Следующая]]
 
 <!-- meta:start -->
-<div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~4 мин чтения</span><span class="chip">Уровень: middle</span></div>
+<div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~3 мин чтения</span><span class="chip">Уровень: middle</span></div>
 <!-- meta:end -->
 
 > [!info] Зачем это на собесе
 > Гонки запросов и устойчивость: отмена устаревших запросов и разумные повторы.
-
-> [!note] Переписано
-> Страница в Notion была заготовкой, содержимое написано заново.
 
 ## Объяснение
 

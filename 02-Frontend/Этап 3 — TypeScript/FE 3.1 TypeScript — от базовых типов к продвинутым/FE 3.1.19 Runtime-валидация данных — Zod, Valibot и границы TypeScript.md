@@ -11,7 +11,7 @@ tags: [domain/frontend, stage/3, level/middle, topic/typescript, topic/validatio
 reviewed:
 next_review:
 priority: must
-time: 4
+time: 3
 ---
 
 # Runtime-валидация данных: Zod, Valibot и границы TypeScript
@@ -19,14 +19,11 @@ time: 4
 ↑ [[FE 3.1 TypeScript — от базовых типов к продвинутым|3.1 TypeScript: от базовых типов к продвинутым]] · ← [[FE 3.1.18 Задачи на TypeScript|Предыдущая]]
 
 <!-- meta:start -->
-<div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~4 мин чтения</span><span class="chip">Уровень: middle</span></div>
+<div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~3 мин чтения</span><span class="chip">Уровень: middle</span></div>
 <!-- meta:end -->
 
 > [!info] Зачем это на собесе
 > «TypeScript гарантирует типы?» — нет, только в компиляции. На границах (API, формы, localStorage) нужна проверка в рантайме.
-
-> [!note] Переписано
-> Страница в Notion была заготовкой, содержимое написано заново.
 
 ## Объяснение
 

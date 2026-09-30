@@ -109,8 +109,8 @@ app.UseForwardedHeaders();   // самым первым middleware
 
 ## Связанные темы
 - Предыдущая: [[N:3ea33104867981e388abd527913e239a]] · Следующая: [[N:3ea33104867981bb8a3cd70eff7d424c]]
-- Nginx как reverse proxy: [[N:3ea331048679813ab4cef1ea50e395bd]]
+- Nginx как reverse proxy: [[DO 4.2 Nginx как reverse proxy и API gateway для микросервисов|4.2 Nginx как reverse proxy и API gateway для микросервисов]]
 - API Gateway и BFF: [[N:3ea33104867981cfa283cc1de55bd7d1]]
 - Health checks: [[N:3ea33104867981e0adc9fe8799f5ec40]]
-- Балансировка L4/L7 в DevOps: [[N:3ea33104867981a0a753f19cd10dd6a4]]
+- Балансировка L4/L7 в DevOps: [[DO 4.5 Балансировка L4 и L7, CDN|4.5 Балансировка L4 и L7, CDN]]
 - Масштабирование: [[N:3ea331048679819193bff686992609a1]]

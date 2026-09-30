@@ -25,9 +25,6 @@ time: 5
 > [!info] Зачем это на собесе
 > Records, `init`, `required` и primary constructors — «современный C#» в одном вопросе. Спросят, чем record отличается от class, как устроено равенство, что делает `with`, зачем `init` и `required`, чем primary constructor у record отличается от primary constructor у класса.
 
-> [!note] Переписано
-> В Notion эта страница содержала шаблонный текст без отношения к теме. Здесь — содержательная версия.
-
 ## Объяснение
 
 ### record: тип с равенством по значению

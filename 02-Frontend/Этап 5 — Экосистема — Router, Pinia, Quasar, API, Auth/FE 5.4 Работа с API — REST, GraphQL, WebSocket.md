@@ -18,7 +18,7 @@ tags: [domain/frontend, stage/5, kind/section]
 
 ## Темы
 <!-- toc:start -->
-**Итого:** 11 тем · ~35 мин · готово 0 из 11
+**Итого:** 11 тем · ~33 мин · готово 0 из 11
 
 <div class="bar"><span style="width:0%"></span></div>
 
@@ -26,8 +26,8 @@ tags: [domain/frontend, stage/5, kind/section]
 |---|---|---|---|---|
 | 1 | [[FE 5.4.1 REST — принципы и соглашения\|REST: принципы и соглашения]] | <span class="badge must">Обязательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
 | 2 | [[FE 5.4.2 Fetch API и Axios\|Fetch API и Axios]] | <span class="badge must">Обязательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
-| 3 | [[FE 5.4.3 Axios — инстансы и интерсепторы\|Axios: инстансы и интерсепторы]] | <span class="badge must">Обязательно</span> | 4 мин | <span class="badge todo">Не начато</span> |
-| 4 | [[FE 5.4.4 Обработка ошибок, retry, отмена запросов (AbortController)\|Обработка ошибок, retry, отмена запросов (AbortController)]] | <span class="badge must">Обязательно</span> | 4 мин | <span class="badge todo">Не начато</span> |
+| 3 | [[FE 5.4.3 Axios — инстансы и интерсепторы\|Axios: инстансы и интерсепторы]] | <span class="badge must">Обязательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
+| 4 | [[FE 5.4.4 Обработка ошибок, retry, отмена запросов (AbortController)\|Обработка ошибок, retry, отмена запросов (AbortController)]] | <span class="badge must">Обязательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
 | 5 | [[FE 5.4.5 GraphQL — query, mutation, subscription, fragments\|GraphQL: query, mutation, subscription, fragments]] | <span class="badge must">Обязательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
 | 6 | [[FE 5.4.6 GraphQL и REST — сравнение\|GraphQL и REST: сравнение]] | <span class="badge must">Обязательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
 | 7 | [[FE 5.4.7 graphql-codegen и graphql-request\|graphql-codegen и graphql-request]] | <span class="badge must">Обязательно</span> | 3 мин | <span class="badge todo">Не начато</span> |

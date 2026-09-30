@@ -25,9 +25,6 @@ time: 3
 > [!info] Зачем это на собесе
 > Уточняют: откуда берутся параметры, что такое route constraints и как работает endpoint routing.
 
-> [!note] Переписано
-> Страница в Notion была заготовкой, содержимое написано заново.
-
 ## Объяснение
 
 Endpoint routing: `UseRouting` сопоставляет запрос с endpoint, последующие middleware (авторизация, CORS) видят выбранный endpoint, `UseEndpoints`/`Map*` исполняет его.

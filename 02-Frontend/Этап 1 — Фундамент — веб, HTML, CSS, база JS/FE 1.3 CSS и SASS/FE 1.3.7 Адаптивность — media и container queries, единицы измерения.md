@@ -25,9 +25,6 @@ time: 3
 > [!info] Зачем это на собесе
 > Mobile-first, единицы измерения и container queries — типовые вопросы по адаптивной вёрстке.
 
-> [!note] Переписано
-> Страница в Notion была заготовкой, содержимое написано заново.
-
 ## Объяснение
 
 Обязательный мета-тег: `<meta name="viewport" content="width=device-width, initial-scale=1">`.

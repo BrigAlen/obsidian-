@@ -18,7 +18,7 @@ tags: [domain/backend, stage/2, kind/section]
 
 ## Темы
 <!-- toc:start -->
-**Итого:** 10 тем · ~51 мин · готово 0 из 10
+**Итого:** 10 тем · ~50 мин · готово 0 из 10
 
 <div class="bar"><span style="width:0%"></span></div>
 
@@ -29,7 +29,7 @@ tags: [domain/backend, stage/2, kind/section]
 | 3 | [[BE 2.3.3 async-await изнутри — state machine, SynchronizationContext, ConfigureAwait\|async∕await изнутри: state machine, SynchronizationContext, ConfigureAwait]] | <span class="badge must">Обязательно</span> | 6 мин | <span class="badge todo">Не начато</span> |
 | 4 | [[BE 2.3.4 ValueTask и аллокации\|ValueTask и аллокации]] | <span class="badge must">Обязательно</span> | 4 мин | <span class="badge todo">Не начато</span> |
 | 5 | [[BE 2.3.5 CancellationToken и таймауты\|CancellationToken и таймауты]] | <span class="badge must">Обязательно</span> | 6 мин | <span class="badge todo">Не начато</span> |
-| 6 | [[BE 2.3.6 Синхронизация — lock, Monitor, SemaphoreSlim, Interlocked, ReaderWriterLockSlim\|Синхронизация: lock, Monitor, SemaphoreSlim, Interlocked, ReaderWriterLockSlim]] | <span class="badge must">Обязательно</span> | 8 мин | <span class="badge todo">Не начато</span> |
+| 6 | [[BE 2.3.6 Синхронизация — lock, Monitor, SemaphoreSlim, Interlocked, ReaderWriterLockSlim\|Синхронизация: lock, Monitor, SemaphoreSlim, Interlocked, ReaderWriterLockSlim]] | <span class="badge must">Обязательно</span> | 7 мин | <span class="badge todo">Не начато</span> |
 | 7 | [[BE 2.3.7 Race condition, deadlock, livelock, starvation\|Race condition, deadlock, livelock, starvation]] | <span class="badge must">Обязательно</span> | 4 мин | <span class="badge todo">Не начато</span> |
 | 8 | [[BE 2.3.8 Потокобезопасные коллекции и Channels\|Потокобезопасные коллекции и Channels]] | <span class="badge must">Обязательно</span> | 4 мин | <span class="badge todo">Не начато</span> |
 | 9 | [[BE 2.3.9 Parallel, PLINQ, Task.WhenAll и ограничение параллелизма\|Parallel, PLINQ, Task.WhenAll и ограничение параллелизма]] | <span class="badge must">Обязательно</span> | 4 мин | <span class="badge todo">Не начато</span> |
