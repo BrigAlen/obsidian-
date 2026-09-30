@@ -1,96 +1,38 @@
 ---
-type: topic
+type: section
 domain: backend
 stage: 8
+section: "8.5"
 order: 5
 status: todo
 level: senior
-tags: [domain/backend, stage/8, level/senior, priority/should, flag/todo]
-reviewed: 
-next_review: 
-priority: should
-time: 20
+notion_id: 3ea331048679814c81a4cb201bb74030
+tags: [domain/backend, stage/8, kind/section]
 ---
 
-# Алгоритмы и структуры данных на C#
+# 8.5 Алгоритмы и структуры данных на C♯
 
-↑ [[BE Этап 8 · Senior — архитектура, DDD, микросервисы, System Design|Этап 8 · Senior: архитектура, DDD, микросервисы, System Design]]
+↑ [[BE Этап 8 · Senior — архитектура, DDD, микросервисы, System Design|Этап 8]]
 
-<!-- meta:start -->
-<div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">≈20 мин по плану</span><span class="chip">Уровень: senior</span><span class="chip">тема не наполнена</span></div>
-<!-- meta:end -->
+Big O, работа с массивами и строками, хэширование, графы, сортировка, динамическое программирование и типовые задачи live coding.
 
+## Темы
+<!-- toc:start -->
+**Итого:** 7 тем · ~28 мин · готово 0 из 7
 
+<div class="bar"><span style="width:0%"></span></div>
 
+| # | Тема | Приоритет | Чтение | Статус |
+|---|---|---|---|---|
+| 1 | [[BE 8.5.1 Big O и коллекции .NET\|Big O и коллекции .NET]] | <span class="badge should">Желательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
+| 2 | [[BE 8.5.2 Массивы и строки — два указателя, скользящее окно\|Массивы и строки: два указателя, скользящее окно]] | <span class="badge should">Желательно</span> | 5 мин | <span class="badge todo">Не начато</span> |
+| 3 | [[BE 8.5.3 Хэширование — Dictionary и HashSet в задачах\|Хэширование: Dictionary и HashSet в задачах]] | <span class="badge should">Желательно</span> | 4 мин | <span class="badge todo">Не начато</span> |
+| 4 | [[BE 8.5.4 Деревья, графы, BFS и DFS\|Деревья, графы, BFS и DFS]] | <span class="badge should">Желательно</span> | 5 мин | <span class="badge todo">Не начато</span> |
+| 5 | [[BE 8.5.5 Сортировка, бинарный поиск, PriorityQueue\|Сортировка, бинарный поиск, PriorityQueue]] | <span class="badge should">Желательно</span> | 4 мин | <span class="badge todo">Не начато</span> |
+| 6 | [[BE 8.5.6 Динамическое программирование\|Динамическое программирование]] | <span class="badge should">Желательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
+| 7 | [[BE 8.5.7 Типовые задачи лайв-кодинга на C♯\|Типовые задачи лайв-кодинга на C♯]] | <span class="badge should">Желательно</span> | 4 мин | <span class="badge todo">Не начато</span> |
+<!-- toc:end -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-> [!info] Зачем это на собесе
-> _Что именно проверяют этой темой и на каком уровне (junior / middle / senior)._
-
-## Подтемы
-- [ ]
-- [ ]
-- [ ]
-
-## Объяснение
-_Суть своими словами, минимум воды._
-
-## Примеры
-```csharp
-
-```
-
-## Нюансы и подводные камни
--
-
-## Практика
-_Задачи для закрепления._
-- [ ]
-
-## Вопросы с ответами
-> [!question]- Вопрос 1
-> Ответ.
-
-## Тестирование
--
-
-## Связанные темы
--
+## Чек-лист раздела
+- [ ] Прочитал все темы
+- [ ] Могу объяснить каждую тему за 2 минуты вслух
