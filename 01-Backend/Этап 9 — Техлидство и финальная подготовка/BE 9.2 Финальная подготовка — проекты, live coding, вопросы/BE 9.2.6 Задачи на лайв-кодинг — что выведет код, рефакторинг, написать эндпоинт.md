@@ -22,6 +22,8 @@ time: 6
 <div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~6 мин чтения</span><span class="chip">Уровень: senior</span></div>
 <!-- meta:end -->
 
+
+
 > [!info] Зачем это на собесе
 > Три типовых формата: «что выведет код», «найдите проблемы и отрефакторите», «напишите эндпоинт».
 

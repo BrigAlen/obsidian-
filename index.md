@@ -1,9 +1,9 @@
 ---
-title: Developer Compass
+title: Developer
 cssclasses: [i-home]
 ---
 
-# Developer Compass
+# Developer
 
 Навигатор по подготовке к собеседованиям Fullstack-разработчика: от фундамента до проектирования и production-эксплуатации. Темы с примерами, вопросами и приоритетами: что читать первым и сколько это займёт.
 
