@@ -25,9 +25,6 @@ time: 3
 > [!info] Зачем это на собесе
 > Знание готовых composables экономит время: `useStorage`, `useDebounceFn`, `useEventListener`.
 
-> [!note] Переписано
-> Страница в Notion была заготовкой, содержимое написано заново.
-
 ## Объяснение
 
 **VueUse** — коллекция сотен composables на Composition API (`@vueuse/core`, `@vueuse/integrations`, `@vueuse/router` и др.).

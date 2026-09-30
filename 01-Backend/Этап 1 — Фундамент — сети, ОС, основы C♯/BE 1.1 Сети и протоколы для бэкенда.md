@@ -19,7 +19,7 @@ tags: [domain/backend, stage/1, kind/section]
 
 ## Темы
 <!-- toc:start -->
-**Итого:** 5 тем · ~27 мин · готово 0 из 5
+**Итого:** 7 тем · ~57 мин · готово 0 из 7
 
 <div class="bar"><span style="width:0%"></span></div>
 
@@ -30,6 +30,8 @@ tags: [domain/backend, stage/1, kind/section]
 | 3 | [[BE 1.1.3 TLS, сертификаты, mTLS\|TLS, сертификаты, mTLS]] | <span class="badge should">Желательно</span> | 5 мин | <span class="badge todo">Не начато</span> |
 | 4 | [[BE 1.1.4 DNS, балансировка, reverse proxy\|DNS, балансировка, reverse proxy]] | <span class="badge should">Желательно</span> | 5 мин | <span class="badge todo">Не начато</span> |
 | 5 | [[BE 1.1.5 Стили API — REST, RPC, GraphQL, WebSocket, SSE\|Стили API: REST, RPC, GraphQL, WebSocket, SSE]] | <span class="badge should">Желательно</span> | 6 мин | <span class="badge todo">Не начато</span> |
+| 6 | [[BE 1.1.6 TCP на практике — сокеты, TcpClient и TcpListener, фрейминг\|TCP на практике: сокеты, TcpClient и TcpListener, фрейминг]] | <span class="badge must">Обязательно</span> | 15 мин | <span class="badge todo">Не начато</span> |
+| 7 | [[BE 1.1.7 Запрос по TCP руками — nc, telnet, openssl s_client, HTTP и Redis\|Запрос по TCP руками: nc, telnet, openssl s_client, HTTP и Redis]] | <span class="badge must">Обязательно</span> | 15 мин | <span class="badge todo">Не начато</span> |
 <!-- toc:end -->
 
 ## Чек-лист раздела

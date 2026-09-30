@@ -11,7 +11,7 @@ tags: [domain/backend, stage/8, level/senior, topic/algorithms, topic/hashing, p
 reviewed:
 next_review:
 priority: should
-time: 4
+time: 3
 ---
 
 # Хэширование: Dictionary и HashSet в задачах
@@ -19,14 +19,11 @@ time: 4
 ↑ [[BE 8.5 Алгоритмы и структуры данных на C♯|8.5 Алгоритмы и структуры данных на C♯]] · ← [[BE 8.5.2 Массивы и строки — два указателя, скользящее окно|Предыдущая]] · → [[BE 8.5.4 Деревья, графы, BFS и DFS|Следующая]]
 
 <!-- meta:start -->
-<div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">~4 мин чтения</span><span class="chip">Уровень: senior</span></div>
+<div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">~3 мин чтения</span><span class="chip">Уровень: senior</span></div>
 <!-- meta:end -->
 
 > [!info] Зачем это на собесе
 > Хэш-таблица — самый частый способ снизить сложность до O(n).
-
-> [!note] Переписано
-> Страница в Notion была заготовкой, содержимое написано заново.
 
 ## Объяснение
 

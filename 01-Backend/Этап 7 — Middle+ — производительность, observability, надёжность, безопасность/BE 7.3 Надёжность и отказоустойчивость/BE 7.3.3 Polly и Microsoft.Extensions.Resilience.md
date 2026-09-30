@@ -25,9 +25,6 @@ time: 3
 > [!info] Зачем это на собесе
 > Практика: как реализовать паттерны устойчивости в .NET без ручного кода.
 
-> [!note] Переписано
-> Страница в Notion была заготовкой, содержимое написано заново.
-
 ## Объяснение
 
 Polly v8 предоставляет `ResiliencePipeline`, а пакеты `Microsoft.Extensions.Http.Resilience` и `Microsoft.Extensions.Resilience` интегрируют его с DI и `HttpClient`.

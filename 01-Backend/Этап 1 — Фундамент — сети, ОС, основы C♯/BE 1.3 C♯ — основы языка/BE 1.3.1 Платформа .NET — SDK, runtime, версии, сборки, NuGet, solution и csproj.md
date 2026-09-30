@@ -116,6 +116,6 @@ dotnet ef migrations add Init        # инструменты (dotnet-tools.json
 
 - Следующая: [[N:3ea33104867981948314ef0273ece7b5]]
 - CLR, JIT, AOT: [[N:3ea331048679811dbdcde35749fbe9b4]]
-- Multi-stage build для .NET: [[N:3ea3310486798182a842d9f1a8be6b0e]]
+- Multi-stage build для .NET: [[DO 2.5 Multi-stage build для .NET и Vue-Quasar, базовые образы|2.5 Multi-stage build для .NET и Vue-Quasar, базовые образы]]
 - Общий код между сервисами (NuGet): [[N:3ea3310486798108a3caf17276ee36aa]]
 - Что нового в C# и .NET: [[N:3ea331048679811a82c2d9502acd1026]]

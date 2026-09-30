@@ -11,7 +11,7 @@ tags: [domain/frontend, stage/5, level/middle, topic/quasar, topic/components, p
 reviewed:
 next_review:
 priority: must
-time: 4
+time: 3
 ---
 
 # Ключевые компоненты: QTable, QForm, QInput, QSelect, QDialog
@@ -19,14 +19,11 @@ time: 4
 ↑ [[FE 5.3 Quasar|5.3 Quasar]] · ← [[FE 5.3.5 Grid и flex-классы Quasar|Предыдущая]] · → [[FE 5.3.7 Валидация форм в Quasar|Следующая]]
 
 <!-- meta:start -->
-<div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~4 мин чтения</span><span class="chip">Уровень: middle</span></div>
+<div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~3 мин чтения</span><span class="chip">Уровень: middle</span></div>
 <!-- meta:end -->
 
 > [!info] Зачем это на собесе
 > Самые используемые компоненты: таблицы с серверной пагинацией, формы, селекты, диалоги.
-
-> [!note] Переписано
-> Страница в Notion была заготовкой, содержимое написано заново.
 
 ## Объяснение
 

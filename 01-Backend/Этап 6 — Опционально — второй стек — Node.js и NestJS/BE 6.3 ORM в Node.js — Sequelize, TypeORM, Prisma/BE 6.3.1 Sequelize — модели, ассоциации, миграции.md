@@ -25,9 +25,6 @@ time: 3
 > [!info] Зачем это на собесе
 > Sequelize встречается в legacy Node.js-проектах; ждут понимания моделей, связей и миграций.
 
-> [!note] Переписано
-> Страница в Notion была заготовкой, содержимое написано заново.
-
 ## Объяснение
 
 Sequelize — ORM на паттерне Active Record/Data Mapper для PostgreSQL, MySQL, MSSQL, SQLite.

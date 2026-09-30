@@ -18,7 +18,7 @@ tags: [domain/frontend, stage/3, kind/section]
 
 ## Темы
 <!-- toc:start -->
-**Итого:** 19 тем · ~58 мин · готово 0 из 19
+**Итого:** 19 тем · ~57 мин · готово 0 из 19
 
 <div class="bar"><span style="width:0%"></span></div>
 
@@ -42,7 +42,7 @@ tags: [domain/frontend, stage/3, kind/section]
 | 16 | [[FE 3.1.16 tsconfig и strict-режим\|tsconfig и strict-режим]] | <span class="badge must">Обязательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
 | 17 | [[FE 3.1.17 Тестирование типов — expectTypeOf, vue-tsc в CI\|Тестирование типов: expectTypeOf, vue-tsc в CI]] | <span class="badge must">Обязательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
 | 18 | [[FE 3.1.18 Задачи на TypeScript\|Задачи на TypeScript]] | <span class="badge must">Обязательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
-| 19 | [[FE 3.1.19 Runtime-валидация данных — Zod, Valibot и границы TypeScript\|Runtime-валидация данных: Zod, Valibot и границы TypeScript]] | <span class="badge must">Обязательно</span> | 4 мин | <span class="badge todo">Не начато</span> |
+| 19 | [[FE 3.1.19 Runtime-валидация данных — Zod, Valibot и границы TypeScript\|Runtime-валидация данных: Zod, Valibot и границы TypeScript]] | <span class="badge must">Обязательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
 <!-- toc:end -->
 
 ## Чек-лист раздела

@@ -25,9 +25,6 @@ time: 4
 > [!info] Зачем это на собесе
 > Порядок обработки запроса в Nest и роль каждого компонента.
 
-> [!note] Переписано
-> Страница в Notion была заготовкой, содержимое написано заново.
-
 ## Объяснение
 
 Порядок: middleware → guards → interceptors (до) → pipes → handler → interceptors (после) → exception filters.

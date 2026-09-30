@@ -18,7 +18,7 @@ Box model, селекторы и каскад, позиционирование,
 
 ## Темы
 <!-- toc:start -->
-**Итого:** 12 тем · ~37 мин · готово 0 из 12
+**Итого:** 12 тем · ~36 мин · готово 0 из 12
 
 <div class="bar"><span style="width:0%"></span></div>
 
@@ -34,7 +34,7 @@ Box model, селекторы и каскад, позиционирование,
 | 8 | [[FE 1.3.8 CSS-переменные\|CSS-переменные]] | <span class="badge should">Желательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
 | 9 | [[FE 1.3.9 Анимации и transitions\|Анимации и transitions]] | <span class="badge should">Желательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
 | 10 | [[FE 1.3.10 Методологии — БЭМ, scoped styles, CSS Modules\|Методологии: БЭМ, scoped styles, CSS Modules]] | <span class="badge should">Желательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
-| 11 | [[FE 1.3.11 SASS-SCSS — переменные, миксины, функции, @use и @forward\|SASS∕SCSS: переменные, миксины, функции, @use и @forward]] | <span class="badge should">Желательно</span> | 4 мин | <span class="badge todo">Не начато</span> |
+| 11 | [[FE 1.3.11 SASS-SCSS — переменные, миксины, функции, @use и @forward\|SASS∕SCSS: переменные, миксины, функции, @use и @forward]] | <span class="badge should">Желательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
 | 12 | [[FE 1.3.12 Вёрстка на время\|Вёрстка на время]] | <span class="badge should">Желательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
 <!-- toc:end -->
 

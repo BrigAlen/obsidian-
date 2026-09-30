@@ -11,7 +11,7 @@ tags: [domain/frontend, stage/5, level/middle, topic/api, topic/axios, topic/int
 reviewed:
 next_review:
 priority: must
-time: 4
+time: 3
 ---
 
 # Axios: инстансы и интерсепторы
@@ -19,14 +19,11 @@ time: 4
 ↑ [[FE 5.4 Работа с API — REST, GraphQL, WebSocket|5.4 Работа с API: REST, GraphQL, WebSocket]] · ← [[FE 5.4.2 Fetch API и Axios|Предыдущая]] · → [[FE 5.4.4 Обработка ошибок, retry, отмена запросов (AbortController)|Следующая]]
 
 <!-- meta:start -->
-<div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~4 мин чтения</span><span class="chip">Уровень: middle</span></div>
+<div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~3 мин чтения</span><span class="chip">Уровень: middle</span></div>
 <!-- meta:end -->
 
 > [!info] Зачем это на собесе
 > Типовая задача: подстановка токена, обновление при 401, общий обработчик ошибок.
-
-> [!note] Переписано
-> Страница в Notion была заготовкой, содержимое написано заново.
 
 ## Объяснение
 

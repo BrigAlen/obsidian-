@@ -18,7 +18,7 @@ UI-фреймворк Quasar: CLI и режимы сборки, структур
 
 ## Темы
 <!-- toc:start -->
-**Итого:** 13 тем · ~43 мин · готово 0 из 13
+**Итого:** 13 тем · ~41 мин · готово 0 из 13
 
 <div class="bar"><span style="width:0%"></span></div>
 
@@ -29,12 +29,12 @@ UI-фреймворк Quasar: CLI и режимы сборки, структур
 | 3 | [[FE 5.3.3 Boot files\|Boot files]] | <span class="badge must">Обязательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
 | 4 | [[FE 5.3.4 Layout — QLayout, QHeader, QDrawer, QPage\|Layout: QLayout, QHeader, QDrawer, QPage]] | <span class="badge must">Обязательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
 | 5 | [[FE 5.3.5 Grid и flex-классы Quasar\|Grid и flex-классы Quasar]] | <span class="badge must">Обязательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
-| 6 | [[FE 5.3.6 Ключевые компоненты — QTable, QForm, QInput, QSelect, QDialog\|Ключевые компоненты: QTable, QForm, QInput, QSelect, QDialog]] | <span class="badge must">Обязательно</span> | 4 мин | <span class="badge todo">Не начато</span> |
+| 6 | [[FE 5.3.6 Ключевые компоненты — QTable, QForm, QInput, QSelect, QDialog\|Ключевые компоненты: QTable, QForm, QInput, QSelect, QDialog]] | <span class="badge must">Обязательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
 | 7 | [[FE 5.3.7 Валидация форм в Quasar\|Валидация форм в Quasar]] | <span class="badge must">Обязательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
 | 8 | [[FE 5.3.8 Quasar Plugins — Notify, Dialog, Loading, LocalStorage\|Quasar Plugins: Notify, Dialog, Loading, LocalStorage]] | <span class="badge must">Обязательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
 | 9 | [[FE 5.3.9 Темизация — SASS-переменные, brand colors, dark mode\|Темизация: SASS-переменные, brand colors, dark mode]] | <span class="badge must">Обязательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
 | 10 | [[FE 5.3.10 Режимы сборки — SPA, SSR, PWA, Electron, Capacitor\|Режимы сборки: SPA, SSR, PWA, Electron, Capacitor]] | <span class="badge must">Обязательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
-| 11 | [[FE 5.3.11 i18n\|i18n]] | <span class="badge must">Обязательно</span> | 4 мин | <span class="badge todo">Не начато</span> |
+| 11 | [[FE 5.3.11 i18n\|i18n]] | <span class="badge must">Обязательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
 | 12 | [[FE 5.3.12 Кастомизация и обёртки над компонентами Quasar\|Кастомизация и обёртки над компонентами Quasar]] | <span class="badge must">Обязательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
 | 13 | [[FE 5.3.13 Сложные формы — Quasar, VeeValidate и schema-driven validation\|Сложные формы: Quasar, VeeValidate и schema-driven validation]] | <span class="badge must">Обязательно</span> | 4 мин | <span class="badge todo">Не начато</span> |
 <!-- toc:end -->

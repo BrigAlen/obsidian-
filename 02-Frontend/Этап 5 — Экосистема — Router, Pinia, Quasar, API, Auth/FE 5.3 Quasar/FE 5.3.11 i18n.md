@@ -11,7 +11,7 @@ tags: [domain/frontend, stage/5, level/middle, topic/quasar, topic/i18n, topic/l
 reviewed:
 next_review:
 priority: must
-time: 4
+time: 3
 ---
 
 # i18n
@@ -19,14 +19,11 @@ time: 4
 ↑ [[FE 5.3 Quasar|5.3 Quasar]] · ← [[FE 5.3.10 Режимы сборки — SPA, SSR, PWA, Electron, Capacitor|Предыдущая]] · → [[FE 5.3.12 Кастомизация и обёртки над компонентами Quasar|Следующая]]
 
 <!-- meta:start -->
-<div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~4 мин чтения</span><span class="chip">Уровень: middle</span></div>
+<div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~3 мин чтения</span><span class="chip">Уровень: middle</span></div>
 <!-- meta:end -->
 
 > [!info] Зачем это на собесе
 > Локализация — типичное требование: vue-i18n, плюрали, форматы, ленивая загрузка.
-
-> [!note] Переписано
-> Страница в Notion была заготовкой, содержимое написано заново.
 
 ## Объяснение
 

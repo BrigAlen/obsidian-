@@ -42,4 +42,17 @@ for p in files:
     new = pat.sub(sub, text)
     open(p, "w", encoding="utf-8").write(new)
 
-print(f"links resolved: {resolved}, pending: {missing}")
+# Quartz обрезает подпись wiki-ссылки [[цель|текст/с/слэшем]] до последнего «/»:
+# заменяем слэш в подписи на «∕» (U+2215), визуально тот же знак
+alias = re.compile(r"\[\[([^\]|\n]+)\|([^\]\n]*/[^\]\n]*)\]\]")
+fixed = 0
+for p in files:
+    text = open(p, encoding="utf-8").read()
+    if "|" not in text or "/" not in text:
+        continue
+    new = alias.sub(lambda m: f"[[{m.group(1)}|{m.group(2).replace('/', '∕')}]]", text)
+    if new != text:
+        fixed += 1
+        open(p, "w", encoding="utf-8").write(new)
+
+print(f"links resolved: {resolved}, pending: {missing}, slash aliases fixed in {fixed} files")

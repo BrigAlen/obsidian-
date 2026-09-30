@@ -11,7 +11,7 @@ tags: [domain/backend, stage/2, level/middle, topic/dotnet, topic/concurrency, p
 reviewed:
 next_review:
 priority: must
-time: 8
+time: 7
 ---
 
 # Синхронизация: lock, Monitor, SemaphoreSlim, Interlocked, ReaderWriterLockSlim
@@ -19,14 +19,11 @@ time: 8
 ↑ [[BE 2.3 Асинхронность и многопоточность|2.3 Асинхронность и многопоточность]] · ← [[BE 2.3.5 CancellationToken и таймауты|Предыдущая]] · → [[BE 2.3.7 Race condition, deadlock, livelock, starvation|Следующая]]
 
 <!-- meta:start -->
-<div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~8 мин чтения</span><span class="chip">Уровень: middle</span></div>
+<div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~7 мин чтения</span><span class="chip">Уровень: middle</span></div>
 <!-- meta:end -->
 
 > [!info] Зачем это на собесе
 > Классика: «как защитить общий ресурс», «чем lock отличается от SemaphoreSlim», «почему нельзя await внутри lock». Отвечать нужно с примерами и с оговорками по производительности.
-
-> [!note] Переписано
-> Страница в Notion была заготовкой, содержимое написано заново.
 
 ## Объяснение
 

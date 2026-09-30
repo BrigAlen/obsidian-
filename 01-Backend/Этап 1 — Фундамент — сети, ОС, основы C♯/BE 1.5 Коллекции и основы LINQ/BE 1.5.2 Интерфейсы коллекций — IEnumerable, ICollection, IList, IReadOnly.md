@@ -11,7 +11,7 @@ tags: [domain/backend, stage/1, level/junior, topic/collections, topic/interface
 reviewed:
 next_review:
 priority: must
-time: 6
+time: 5
 ---
 
 # Интерфейсы коллекций: IEnumerable, ICollection, IList, IReadOnly
@@ -19,14 +19,11 @@ time: 6
 ↑ [[BE 1.5 Коллекции и основы LINQ|1.5 Коллекции и основы LINQ]] · ← [[BE 1.5.1 Массивы, List, Dictionary, HashSet, Queue, Stack|Предыдущая]] · → [[BE 1.5.3 Generics — обобщённые типы и методы|Следующая]]
 
 <!-- meta:start -->
-<div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~6 мин чтения</span><span class="chip">Уровень: junior</span></div>
+<div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~5 мин чтения</span><span class="chip">Уровень: junior</span></div>
 <!-- meta:end -->
 
 > [!info] Зачем это на собесе
 > Что принимать и что возвращать из методов: `IEnumerable<T>`, `IReadOnlyList<T>`, `List<T>`? Это вопрос про дизайн API и про отложенное выполнение. Заодно проверяют, понимаете ли вы, что скрывается за `foreach` и `yield`.
-
-> [!note] Переписано
-> В Notion эта страница содержала шаблонный текст без отношения к теме. Здесь — содержательная версия.
 
 ## Объяснение
 

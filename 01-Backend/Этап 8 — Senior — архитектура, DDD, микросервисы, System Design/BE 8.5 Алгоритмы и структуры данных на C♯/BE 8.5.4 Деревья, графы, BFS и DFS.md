@@ -11,7 +11,7 @@ tags: [domain/backend, stage/8, level/senior, topic/algorithms, topic/trees, top
 reviewed:
 next_review:
 priority: should
-time: 5
+time: 4
 ---
 
 # Деревья, графы, BFS и DFS
@@ -19,14 +19,11 @@ time: 5
 ↑ [[BE 8.5 Алгоритмы и структуры данных на C♯|8.5 Алгоритмы и структуры данных на C♯]] · ← [[BE 8.5.3 Хэширование — Dictionary и HashSet в задачах|Предыдущая]] · → [[BE 8.5.5 Сортировка, бинарный поиск, PriorityQueue|Следующая]]
 
 <!-- meta:start -->
-<div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">~5 мин чтения</span><span class="chip">Уровень: senior</span></div>
+<div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">~4 мин чтения</span><span class="chip">Уровень: senior</span></div>
 <!-- meta:end -->
 
 > [!info] Зачем это на собесе
 > Обходы деревьев и графов — стандартный блок алгоритмических задач.
-
-> [!note] Переписано
-> Страница в Notion была заготовкой, содержимое написано заново.
 
 ## Объяснение
 

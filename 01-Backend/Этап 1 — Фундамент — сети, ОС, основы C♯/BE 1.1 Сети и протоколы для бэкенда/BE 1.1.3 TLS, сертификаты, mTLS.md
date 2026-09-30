@@ -116,6 +116,6 @@ openssl x509 -in cert.pem -noout -dates -subject -ext subjectAltName          # 
 ## Связанные темы
 - Предыдущая: [[N:3ea331048679812882d9f5e746fcd550]] · Следующая: [[N:3ea331048679817aa584c01ff29564d5]]
 - TLS глазами браузера: [[N:3ea3310486798116a40fe7fca0db88e4]]
-- TLS в проде (certbot, HSTS): [[N:3ea33104867981c28785ddea2bf2dc4f]]
+- TLS в проде (certbot, HSTS): [[DO 4.4 TLS в проде — Let's Encrypt, certbot, HSTS|4.4 TLS в проде — Let's Encrypt, certbot, HSTS]]
 - Криптография в .NET: [[N:3ea331048679818080eee95e1cd52107]]
 - Секреты: [[N:3ea331048679819c9bb7c741225859ca]]

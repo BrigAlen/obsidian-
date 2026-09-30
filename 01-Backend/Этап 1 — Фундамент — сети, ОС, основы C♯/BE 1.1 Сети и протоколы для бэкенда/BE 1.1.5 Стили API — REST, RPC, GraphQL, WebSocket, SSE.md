@@ -7,8 +7,7 @@ order: 5
 status: todo
 level: junior
 notion_id: 3ea33104867981bb8a3cd70eff7d424c
-tags: [domain/backend, stage/1, topic/networks, topic/api, level/junior, flag/rewritten, priority/should]
-rewritten: true
+tags: [domain/backend, stage/1, topic/networks, topic/api, level/junior, priority/should]
 reviewed:
 next_review:
 priority: should
@@ -17,14 +16,11 @@ time: 6
 
 # Стили API: REST, RPC, GraphQL, WebSocket, SSE
 
-↑ [[BE 1.1 Сети и протоколы для бэкенда|1.1 Сети и протоколы для бэкенда]] · ← [[BE 1.1.4 DNS, балансировка, reverse proxy|Предыдущая]]
+↑ [[BE 1.1 Сети и протоколы для бэкенда|1.1 Сети и протоколы для бэкенда]] · ← [[BE 1.1.4 DNS, балансировка, reverse proxy|Предыдущая]] · → [[BE 1.1.6 TCP на практике — сокеты, TcpClient и TcpListener, фрейминг|Следующая]]
 
 <!-- meta:start -->
 <div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">~6 мин чтения</span><span class="chip">Уровень: junior</span></div>
 <!-- meta:end -->
-
-> [!note] Переписано
-> В Notion эта страница содержала шаблонный текст без отношения к теме. Здесь — содержательная версия.
 
 > [!info] Зачем это на собесе
 > «Как бы вы сделали API?» — стартовый вопрос почти любого интервью. Нужно уметь выбрать стиль под задачу и объяснить компромиссы: REST для публичных CRUD-API, gRPC между сервисами, GraphQL для гибких клиентских выборок, WebSocket и SSE для push.
@@ -139,4 +135,4 @@ service Patients { rpc Get (GetPatientRequest) returns (Patient); }
 - REST-дизайн: [[N:3ea331048679815bbaf8cf164556ce50]]
 - gRPC: [[N:3ea3310486798179a13ffc9e7cbe426f]]
 - GraphQL на бэкенде: [[N:3ea3310486798129b2f2f59ce40dd5b9]]
-- WebSocket, SSE и gRPC через Nginx: [[N:9236fc85d1dc460fbe8ba17be6ac68ca]]
+- WebSocket, SSE и gRPC через Nginx: [[DO 4.10 WebSocket, SSE и gRPC через Nginx|4.10 WebSocket, SSE и gRPC через Nginx]]

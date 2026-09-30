@@ -11,7 +11,7 @@ tags: [domain/frontend, stage/1, level/junior, topic/css, topic/sass, topic/scss
 reviewed:
 next_review:
 priority: should
-time: 4
+time: 3
 ---
 
 # SASS/SCSS: переменные, миксины, функции, @use и @forward
@@ -19,14 +19,11 @@ time: 4
 ↑ [[FE 1.3 CSS и SASS|1.3 CSS и SASS]] · ← [[FE 1.3.10 Методологии — БЭМ, scoped styles, CSS Modules|Предыдущая]] · → [[FE 1.3.12 Вёрстка на время|Следующая]]
 
 <!-- meta:start -->
-<div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">~4 мин чтения</span><span class="chip">Уровень: junior</span></div>
+<div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">~3 мин чтения</span><span class="chip">Уровень: junior</span></div>
 <!-- meta:end -->
 
 > [!info] Зачем это на собесе
 > SCSS — стандарт препроцессора; ждут знания модульной системы `@use` вместо `@import`.
-
-> [!note] Переписано
-> Страница в Notion была заготовкой, содержимое написано заново.
 
 ## Объяснение
 

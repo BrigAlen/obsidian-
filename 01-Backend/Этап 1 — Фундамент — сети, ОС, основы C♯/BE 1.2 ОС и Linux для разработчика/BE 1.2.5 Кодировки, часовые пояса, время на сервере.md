@@ -7,8 +7,7 @@ order: 5
 status: todo
 level: junior
 notion_id: 3ea3310486798180a101f27fb02bd5ef
-tags: [domain/backend, stage/1, topic/os, topic/datetime, topic/encoding, level/junior, flag/rewritten, priority/should]
-rewritten: true
+tags: [domain/backend, stage/1, topic/os, topic/datetime, topic/encoding, level/junior, priority/should]
 reviewed:
 next_review:
 priority: should
@@ -22,9 +21,6 @@ time: 6
 <!-- meta:start -->
 <div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">~6 мин чтения</span><span class="chip">Уровень: junior</span></div>
 <!-- meta:end -->
-
-> [!note] Переписано
-> В Notion эта страница содержала шаблонный текст без отношения к теме. Здесь — содержательная версия.
 
 > [!info] Зачем это на собесе
 > Баги со временем и кодировками — самые «дорогие» и незаметные: «кракозябры» в PDF и CSV, записи, «уехавшие» на час после перехода на летнее время, разные результаты на сервере и у клиента. Вопрос «как хранить и передавать время?» задают почти всегда.

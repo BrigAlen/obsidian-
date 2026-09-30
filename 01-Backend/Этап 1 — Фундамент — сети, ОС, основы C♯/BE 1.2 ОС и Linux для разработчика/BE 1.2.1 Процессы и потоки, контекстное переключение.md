@@ -94,4 +94,4 @@ ThreadPool.GetMinThreads(out var worker, out var io)
 - Thread и ThreadPool: [[N:3ea33104867981e489a4deea43404757]]
 - async/await изнутри: [[N:3ea33104867981e7b59cf5c1c7675837]]
 - Event loop в Node.js: [[N:3ea33104867981eca57edd25122e2f4d]]
-- Контейнеры, namespaces, cgroups: [[N:3ea33104867981ddb2bfcd171d33fb66]]
+- Контейнеры, namespaces, cgroups: [[DO 2.1 Контейнеры и виртуальные машины — namespaces, cgroups|2.1 Контейнеры и виртуальные машины — namespaces, cgroups]]

@@ -18,7 +18,7 @@ Big O, работа с массивами и строками, хэширова�
 
 ## Темы
 <!-- toc:start -->
-**Итого:** 7 тем · ~28 мин · готово 0 из 7
+**Итого:** 7 тем · ~26 мин · готово 0 из 7
 
 <div class="bar"><span style="width:0%"></span></div>
 
@@ -26,8 +26,8 @@ Big O, работа с массивами и строками, хэширова�
 |---|---|---|---|---|
 | 1 | [[BE 8.5.1 Big O и коллекции .NET\|Big O и коллекции .NET]] | <span class="badge should">Желательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
 | 2 | [[BE 8.5.2 Массивы и строки — два указателя, скользящее окно\|Массивы и строки: два указателя, скользящее окно]] | <span class="badge should">Желательно</span> | 5 мин | <span class="badge todo">Не начато</span> |
-| 3 | [[BE 8.5.3 Хэширование — Dictionary и HashSet в задачах\|Хэширование: Dictionary и HashSet в задачах]] | <span class="badge should">Желательно</span> | 4 мин | <span class="badge todo">Не начато</span> |
-| 4 | [[BE 8.5.4 Деревья, графы, BFS и DFS\|Деревья, графы, BFS и DFS]] | <span class="badge should">Желательно</span> | 5 мин | <span class="badge todo">Не начато</span> |
+| 3 | [[BE 8.5.3 Хэширование — Dictionary и HashSet в задачах\|Хэширование: Dictionary и HashSet в задачах]] | <span class="badge should">Желательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
+| 4 | [[BE 8.5.4 Деревья, графы, BFS и DFS\|Деревья, графы, BFS и DFS]] | <span class="badge should">Желательно</span> | 4 мин | <span class="badge todo">Не начато</span> |
 | 5 | [[BE 8.5.5 Сортировка, бинарный поиск, PriorityQueue\|Сортировка, бинарный поиск, PriorityQueue]] | <span class="badge should">Желательно</span> | 4 мин | <span class="badge todo">Не начато</span> |
 | 6 | [[BE 8.5.6 Динамическое программирование\|Динамическое программирование]] | <span class="badge should">Желательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
 | 7 | [[BE 8.5.7 Типовые задачи лайв-кодинга на C♯\|Типовые задачи лайв-кодинга на C♯]] | <span class="badge should">Желательно</span> | 4 мин | <span class="badge todo">Не начато</span> |

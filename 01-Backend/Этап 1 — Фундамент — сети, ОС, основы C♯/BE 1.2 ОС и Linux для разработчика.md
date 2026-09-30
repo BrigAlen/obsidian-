@@ -19,7 +19,7 @@ tags: [domain/backend, stage/1, kind/section]
 
 ## Темы
 <!-- toc:start -->
-**Итого:** 5 тем · ~23 мин · готово 0 из 5
+**Итого:** 5 тем · ~24 мин · готово 0 из 5
 
 <div class="bar"><span style="width:0%"></span></div>
 
@@ -27,7 +27,7 @@ tags: [domain/backend, stage/1, kind/section]
 |---|---|---|---|---|
 | 1 | [[BE 1.2.1 Процессы и потоки, контекстное переключение\|Процессы и потоки, контекстное переключение]] | <span class="badge should">Желательно</span> | 4 мин | <span class="badge todo">Не начато</span> |
 | 2 | [[BE 1.2.2 Память — стек, куча, виртуальная память\|Память: стек, куча, виртуальная память]] | <span class="badge should">Желательно</span> | 4 мин | <span class="badge todo">Не начато</span> |
-| 3 | [[BE 1.2.3 Файловая система, права, дескрипторы\|Файловая система, права, дескрипторы]] | <span class="badge should">Желательно</span> | 4 мин | <span class="badge todo">Не начато</span> |
+| 3 | [[BE 1.2.3 Файловая система, права, дескрипторы\|Файловая система, права, дескрипторы]] | <span class="badge should">Желательно</span> | 5 мин | <span class="badge todo">Не начато</span> |
 | 4 | [[BE 1.2.4 Linux и shell для бэкендера — логи, сигналы, переменные окружения\|Linux и shell для бэкендера: логи, сигналы, переменные окружения]] | <span class="badge should">Желательно</span> | 5 мин | <span class="badge todo">Не начато</span> |
 | 5 | [[BE 1.2.5 Кодировки, часовые пояса, время на сервере\|Кодировки, часовые пояса, время на сервере]] | <span class="badge should">Желательно</span> | 6 мин | <span class="badge todo">Не начато</span> |
 <!-- toc:end -->

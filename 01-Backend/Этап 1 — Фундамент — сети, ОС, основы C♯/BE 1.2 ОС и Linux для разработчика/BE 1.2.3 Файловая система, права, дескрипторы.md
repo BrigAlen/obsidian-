@@ -11,7 +11,7 @@ tags: [domain/backend, stage/1, topic/os, topic/linux, level/junior, priority/sh
 reviewed:
 next_review:
 priority: should
-time: 4
+time: 5
 ---
 
 # Файловая система, права, дескрипторы
@@ -19,7 +19,7 @@ time: 4
 ↑ [[BE 1.2 ОС и Linux для разработчика|1.2 ОС и Linux для разработчика]] · ← [[BE 1.2.2 Память — стек, куча, виртуальная память|Предыдущая]] · → [[BE 1.2.4 Linux и shell для бэкендера — логи, сигналы, переменные окружения|Следующая]]
 
 <!-- meta:start -->
-<div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">~4 мин чтения</span><span class="chip">Уровень: junior</span></div>
+<div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">~5 мин чтения</span><span class="chip">Уровень: junior</span></div>
 <!-- meta:end -->
 
 > [!info] Зачем это на собесе
@@ -105,6 +105,6 @@ File.SetUnixFileMode(path, UnixFileMode.UserRead | UnixFileMode.UserWrite);
 ## Связанные темы
 - Предыдущая: [[N:3ea33104867981129550de5de3011878]] · Следующая: [[N:3ea331048679818c8019d4ec5550c756]]
 - IDisposable и using: [[N:3ea33104867981dcbbedd3d78a7442c0]]
-- Linux в DevOps: [[N:3ea3310486798177a076d33ea6a2709f]]
-- Оптимизация Docker-образов (non-root): [[N:3ea33104867981cdbeeaf621d6bc3573]]
+- Linux в DevOps: [[DO Этап 1 · Фундамент — Linux, Bash, сети|Этап 1 · Фундамент — Linux, Bash, сети]]
+- Оптимизация Docker-образов (non-root): [[DO 2.6 Оптимизация образов — размер, .dockerignore, non-root, distroless, chiseled|2.6 Оптимизация образов — размер, .dockerignore, non-root, distroless, chiseled]]
 - Хранение файлов в MinIO: [[N:3ea33104867981dd851ddc18dbf209d9]]

@@ -151,18 +151,31 @@
 
     const cur = state.progress.get(slug) || "todo";
     const seg = el("div", { class: "seg" });
+    const segMsg = el("p", { class: "verr", role: "status" });
     for (const [val, label] of STATUS) {
-      seg.append(el("button", {
+      const btn = el("button", {
         class: "seg-btn" + (val === cur ? " on" : ""),
         onclick: async () => {
-          await api("PUT", "/api/progress/", { slug, status: val });
-          if (val === "todo") state.progress.delete(slug); else state.progress.set(slug, val);
-          decorateExplorer();
-          renderTopicPanel();
+          if (val === (state.progress.get(slug) || "todo")) return;
+          const all = seg.querySelectorAll("button");
+          all.forEach((b) => (b.disabled = true));
+          segMsg.textContent = "Сохраняю…";
+          try {
+            await api("PUT", "/api/progress/", { slug, status: val });
+            if (val === "todo") state.progress.delete(slug); else state.progress.set(slug, val);
+            decorateExplorer();
+            renderTopicPanel();
+          } catch (x) {
+            console.error("progress:", x);
+            all.forEach((b) => (b.disabled = false));
+            if (x.status === 401) { segMsg.textContent = "Сессия закончилась, войдите заново"; await refresh(); }
+            else segMsg.textContent = "Не удалось сохранить (" + x.message + "). Попробуйте ещё раз";
+          }
         },
-      }, label));
+      }, label);
+      seg.append(btn);
     }
-    panel.append(el("h2", {}, "Мой прогресс"), seg);
+    panel.append(el("h2", {}, "Мой прогресс"), seg, segMsg);
 
     const title = (document.querySelector("article h1, .article-title")?.textContent || slug).trim();
     const list = el("div", { class: "notes" });
