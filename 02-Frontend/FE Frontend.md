@@ -16,7 +16,7 @@ Vue 3 + Quasar + TypeScript, middle+/senior.
 
 ## Этапы
 <!-- toc:start -->
-**Итого:** 189 тем · ~13 ч 21 мин · готово 0 из 189
+**Итого:** 199 тем · ~13 ч 51 мин · готово 0 из 199
 
 <div class="bar"><span style="width:0%"></span></div>
 
@@ -27,7 +27,7 @@ Vue 3 + Quasar + TypeScript, middle+/senior.
 | [[FE Этап 3 · TypeScript\|Этап 3 · TypeScript]] | <span class="badge must">Обязательно</span> | 58 мин | 0 из 19<br><div class="bar"><span style="width:0%"></span></div> |
 | [[FE Этап 4 · Vue 3 — основы и компоненты\|Этап 4 · Vue 3: основы и компоненты]] | <span class="badge must">Обязательно</span> | 1 ч 32 мин | 0 из 29<br><div class="bar"><span style="width:0%"></span></div> |
 | [[FE Этап 5 · Экосистема — Router, Pinia, Quasar, API, Auth\|Этап 5 · Экосистема: Router, Pinia, Quasar, API, Auth]] | <span class="badge must">Обязательно</span> | 3 ч 8 мин | 0 из 58<br><div class="bar"><span style="width:0%"></span></div> |
-| [[FE Этап 6 · Инженерные практики — Git, сборка, качество, тесты\|Этап 6 · Инженерные практики: Git, сборка, качество, тесты]] | <span class="badge should">Желательно</span> | 1 ч 8 мин | 0 из 16<br><div class="bar"><span style="width:0%"></span></div> |
+| [[FE Этап 6 · Инженерные практики — Git, сборка, качество, тесты\|Этап 6 · Инженерные практики: Git, сборка, качество, тесты]] | <span class="badge should">Желательно</span> | 1 ч 38 мин | 0 из 26<br><div class="bar"><span style="width:0%"></span></div> |
 | [[FE Этап 7 · Middle+ — под капотом, производительность, безопасность\|Этап 7 · Middle+: под капотом, производительность, безопасность]] | <span class="badge should">Желательно</span> | 1 ч 40 мин | 0 из 5<br><div class="bar"><span style="width:0%"></span></div> |
 | [[FE Этап 8 · Senior — архитектура, паттерны, алгоритмы, System Design\|Этап 8 · Senior: архитектура, паттерны, алгоритмы, System Design]] | <span class="badge should">Желательно</span> | 1 ч 20 мин | 0 из 4<br><div class="bar"><span style="width:0%"></span></div> |
 | [[FE Этап 9 · Лидерство и финальная подготовка к собесу\|Этап 9 · Лидерство и финальная подготовка к собесу]] | <span class="badge must">Обязательно</span> | 40 мин | 0 из 2<br><div class="bar"><span style="width:0%"></span></div> |
