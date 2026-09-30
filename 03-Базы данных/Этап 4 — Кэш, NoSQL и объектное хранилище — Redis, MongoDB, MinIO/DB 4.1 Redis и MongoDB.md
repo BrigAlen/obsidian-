@@ -1,54 +1,37 @@
 ---
-type: topic
+type: section
 domain: db
 stage: 4
+section: "4.1"
 order: 1
 status: todo
 level: middle
-tags: [domain/db, stage/4, level/middle, priority/should, flag/todo]
-reviewed: 
-next_review: 
-priority: should
-time: 20
+notion_id: 3ea331048679811ba6c3d99563d757a5
+tags: [domain/db, stage/4, kind/section]
 ---
 
-# Redis и MongoDB
+# 4.1 Redis и MongoDB
 
-↑ [[DB Этап 4 · Кэш, NoSQL и объектное хранилище — Redis, MongoDB, MinIO|Этап 4 · Кэш, NoSQL и объектное хранилище: Redis, MongoDB, MinIO]]
+↑ [[DB Этап 4 · Кэш, NoSQL и объектное хранилище — Redis, MongoDB, MinIO|Этап 4]]
 
-<!-- meta:start -->
-<div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">≈20 мин по плану</span><span class="chip">Уровень: middle</span><span class="chip">тема не наполнена</span></div>
-<!-- meta:end -->
+Redis: структуры данных, кэширование, pub/sub, streams, блокировки, персистентность и кластер; MongoDB обзорно; выбор SQL или NoSQL.
 
-> [!info] Зачем это на собесе
-> _Что именно проверяют этой темой и на каком уровне (junior / middle / senior)._
+## Темы
+<!-- toc:start -->
+**Итого:** 6 тем · ~22 мин · готово 0 из 6
 
-## Подтемы
-- [ ]
-- [ ]
-- [ ]
+<div class="bar"><span style="width:0%"></span></div>
 
-## Объяснение
-_Суть своими словами, минимум воды._
+| # | Тема | Приоритет | Чтение | Статус |
+|---|---|---|---|---|
+| 1 | [[DB 4.1.1 Redis — структуры данных и команды\|Redis: структуры данных и команды]] | <span class="badge should">Желательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
+| 2 | [[DB 4.1.2 Redis как кэш — TTL, eviction, стратегии cache-aside, write-through\|Redis как кэш: TTL, eviction, стратегии cache-aside, write-through]] | <span class="badge should">Желательно</span> | 4 мин | <span class="badge todo">Не начато</span> |
+| 3 | [[DB 4.1.3 Redis — pub-sub, streams, распределённые блокировки, rate limiting\|Redis: pub∕sub, streams, распределённые блокировки, rate limiting]] | <span class="badge should">Желательно</span> | 4 мин | <span class="badge todo">Не начато</span> |
+| 4 | [[DB 4.1.4 Redis — persistence, репликация, Sentinel, Cluster\|Redis: persistence, репликация, Sentinel, Cluster]] | <span class="badge should">Желательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
+| 5 | [[DB 4.1.5 MongoDB — документная модель, индексы, агрегации (обзорно)\|MongoDB: документная модель, индексы, агрегации (обзорно)]] | <span class="badge should">Желательно</span> | 5 мин | <span class="badge todo">Не начато</span> |
+| 6 | [[DB 4.1.6 SQL или NoSQL — как выбрать\|SQL или NoSQL: как выбрать]] | <span class="badge should">Желательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
+<!-- toc:end -->
 
-## Примеры
-```sql
-
-```
-
-## Нюансы и подводные камни
--
-
-## Практика
-_Задачи для закрепления._
-- [ ]
-
-## Вопросы с ответами
-> [!question]- Вопрос 1
-> Ответ.
-
-## Тестирование
--
-
-## Связанные темы
--
+## Чек-лист раздела
+- [ ] Прочитал все темы
+- [ ] Могу объяснить каждую тему за 2 минуты вслух
