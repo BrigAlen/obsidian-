@@ -1,83 +1,36 @@
 ---
-type: topic
+type: section
 domain: backend
 stage: 6
+section: "6.2"
 order: 2
 status: todo
-level: middle
-tags: [domain/backend, stage/6, level/middle, priority/nice, flag/todo]
-reviewed: 
-next_review: 
-priority: nice
-time: 20
+level: junior
+notion_id: 3ea33104867981949068f4962318c134
+tags: [domain/backend, stage/6, kind/section]
 ---
 
-# NestJS
+# 6.2 NestJS
 
-↑ [[BE Этап 6 · Опционально — второй стек — Node.js и NestJS|Этап 6 · Опционально: второй стек — Node.js и NestJS]]
+↑ [[BE Этап 6 · Опционально — второй стек — Node.js и NestJS|Этап 6]]
 
-<!-- meta:start -->
-<div class="meta-strip"><span class="badge nice">По желанию</span><span class="chip">≈20 мин по плану</span><span class="chip">Уровень: middle</span><span class="chip">тема не наполнена</span></div>
-<!-- meta:end -->
+NestJS как второй стек: модули и DI, контроллеры и валидация, guards/interceptors, авторизация и сравнение с ASP.NET Core.
 
+## Темы
+<!-- toc:start -->
+**Итого:** 5 тем · ~16 мин · готово 0 из 5
 
+<div class="bar"><span style="width:0%"></span></div>
 
+| # | Тема | Приоритет | Чтение | Статус |
+|---|---|---|---|---|
+| 1 | [[BE 6.2.1 Архитектура NestJS — модули, провайдеры, DI\|Архитектура NestJS: модули, провайдеры, DI]] | <span class="badge nice">По желанию</span> | 3 мин | <span class="badge todo">Не начато</span> |
+| 2 | [[BE 6.2.2 Контроллеры, DTO, ValidationPipe\|Контроллеры, DTO, ValidationPipe]] | <span class="badge nice">По желанию</span> | 3 мин | <span class="badge todo">Не начато</span> |
+| 3 | [[BE 6.2.3 Guards, interceptors, pipes, exception filters\|Guards, interceptors, pipes, exception filters]] | <span class="badge nice">По желанию</span> | 4 мин | <span class="badge todo">Не начато</span> |
+| 4 | [[BE 6.2.4 Конфигурация, аутентификация (Passport, JWT), Swagger\|Конфигурация, аутентификация (Passport, JWT), Swagger]] | <span class="badge nice">По желанию</span> | 3 мин | <span class="badge todo">Не начато</span> |
+| 5 | [[BE 6.2.5 NestJS и ASP.NET Core — сравнение концепций\|NestJS и ASP.NET Core: сравнение концепций]] | <span class="badge nice">По желанию</span> | 3 мин | <span class="badge todo">Не начато</span> |
+<!-- toc:end -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-> [!info] Зачем это на собесе
-> _Что именно проверяют этой темой и на каком уровне (junior / middle / senior)._
-
-## Подтемы
-- [ ]
-- [ ]
-- [ ]
-
-## Объяснение
-_Суть своими словами, минимум воды._
-
-## Примеры
-```csharp
-
-```
-
-## Нюансы и подводные камни
--
-
-## Практика
-_Задачи для закрепления._
-- [ ]
-
-## Вопросы с ответами
-> [!question]- Вопрос 1
-> Ответ.
-
-## Тестирование
--
-
-## Связанные темы
--
+## Чек-лист раздела
+- [ ] Прочитал все темы
+- [ ] Могу объяснить каждую тему за 2 минуты вслух

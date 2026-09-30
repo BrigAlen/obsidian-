@@ -16,7 +16,7 @@ C#, .NET 9, ASP.NET Core, EF Core, gRPC, GraphQL, Kafka, микросервис�
 
 ## Этапы
 <!-- toc:start -->
-**Итого:** 180 тем · ~16 ч 15 мин · готово 0 из 180
+**Итого:** 184 тем · ~16 ч 11 мин · готово 0 из 184
 
 <div class="bar"><span style="width:0%"></span></div>
 
@@ -27,7 +27,7 @@ C#, .NET 9, ASP.NET Core, EF Core, gRPC, GraphQL, Kafka, микросервис�
 | [[BE Этап 3 · ASP.NET Core\|Этап 3 · ASP.NET Core]] | <span class="badge must">Обязательно</span> | 1 ч 47 мин | 0 из 35<br><div class="bar"><span style="width:0%"></span></div> |
 | [[BE Этап 4 · Данные в .NET — ADO.NET, Dapper, EF Core\|Этап 4 · Данные в .NET: ADO.NET, Dapper, EF Core]] | <span class="badge must">Обязательно</span> | 54 мин | 0 из 18<br><div class="bar"><span style="width:0%"></span></div> |
 | [[BE Этап 5 · Интеграции — REST, gRPC, GraphQL, Kafka и очереди, внешние API\|Этап 5 · Интеграции: REST, gRPC, GraphQL, Kafka и очереди, внешние API]] | <span class="badge must">Обязательно</span> | 2 ч 7 мин | 0 из 42<br><div class="bar"><span style="width:0%"></span></div> |
-| [[BE Этап 6 · Опционально — второй стек — Node.js и NestJS\|Этап 6 · Опционально: второй стек — Node.js и NestJS]] | <span class="badge nice">По желанию</span> | 1 ч 12 мин | 0 из 7<br><div class="bar"><span style="width:0%"></span></div> |
+| [[BE Этап 6 · Опционально — второй стек — Node.js и NestJS\|Этап 6 · Опционально: второй стек — Node.js и NestJS]] | <span class="badge nice">По желанию</span> | 1 ч 8 мин | 0 из 11<br><div class="bar"><span style="width:0%"></span></div> |
 | [[BE Этап 7 · Middle+ — производительность, observability, надёжность, безопасность\|Этап 7 · Middle+: производительность, observability, надёжность, безопасность]] | <span class="badge should">Желательно</span> | 2 ч | 0 из 6<br><div class="bar"><span style="width:0%"></span></div> |
 | [[BE Этап 8 · Senior — архитектура, DDD, микросервисы, System Design\|Этап 8 · Senior: архитектура, DDD, микросервисы, System Design]] | <span class="badge must">Обязательно</span> | 1 ч 40 мин | 0 из 5<br><div class="bar"><span style="width:0%"></span></div> |
 | [[BE Этап 9 · Техлидство и финальная подготовка\|Этап 9 · Техлидство и финальная подготовка]] | <span class="badge must">Обязательно</span> | 40 мин | 0 из 2<br><div class="bar"><span style="width:0%"></span></div> |
