@@ -12,12 +12,12 @@ tags: [domain/db, kind/stage]
 
 ## Темы
 <!-- toc:start -->
-**Итого:** 1 тем · ~20 мин · готово 0 из 1
+**Итого:** 11 тем · ~39 мин · готово 0 из 11
 
 <div class="bar"><span style="width:0%"></span></div>
 
 | # | Раздел или тема | Приоритет | Чтение | Прогресс |
 |---|---|---|---|---|
-| 1 | [[DB 2.1 PostgreSQL — индексы, транзакции, оптимизация\|PostgreSQL: индексы, транзакции, оптимизация]] | <span class="badge must">Обязательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
+| 1 | [[DB 2.1 PostgreSQL — индексы, транзакции, оптимизация\|2.1 PostgreSQL: индексы, транзакции, оптимизация]] | <span class="badge must">Обязательно</span> | 39 мин | 0 из 11<br><div class="bar"><span style="width:0%"></span></div> |
 <!-- toc:end -->
 
