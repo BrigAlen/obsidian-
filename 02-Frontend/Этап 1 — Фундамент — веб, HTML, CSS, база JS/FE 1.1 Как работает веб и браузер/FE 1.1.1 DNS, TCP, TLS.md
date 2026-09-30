@@ -22,6 +22,7 @@ time: 3
 <div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">~3 мин чтения</span><span class="chip">Уровень: junior</span></div>
 <!-- meta:end -->
 
+
 > [!info] Зачем это на собесе
 > Базовый вопрос «что происходит, когда вы открываете сайт» начинается с DNS, TCP и TLS. Нужно уметь объяснить каждый шаг и его стоимость.
 
