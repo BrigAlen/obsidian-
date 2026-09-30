@@ -16,7 +16,7 @@ Vue 3 + Quasar + TypeScript, middle+/senior.
 
 ## Этапы
 <!-- toc:start -->
-**Итого:** 272 тем · ~15 ч 9 мин · готово 0 из 272
+**Итого:** 285 тем · ~15 ч 31 мин · готово 0 из 285
 
 <div class="bar"><span style="width:0%"></span></div>
 
@@ -30,7 +30,7 @@ Vue 3 + Quasar + TypeScript, middle+/senior.
 | [[FE Этап 6 · Инженерные практики — Git, сборка, качество, тесты\|Этап 6 · Инженерные практики: Git, сборка, качество, тесты]] | <span class="badge should">Желательно</span> | 1 ч 38 мин | 0 из 26<br><div class="bar"><span style="width:0%"></span></div> |
 | [[FE Этап 7 · Middle+ — под капотом, производительность, безопасность\|Этап 7 · Middle+: под капотом, производительность, безопасность]] | <span class="badge should">Желательно</span> | 2 ч 7 мин | 0 из 41<br><div class="bar"><span style="width:0%"></span></div> |
 | [[FE Этап 8 · Senior — архитектура, паттерны, алгоритмы, System Design\|Этап 8 · Senior: архитектура, паттерны, алгоритмы, System Design]] | <span class="badge should">Желательно</span> | 2 ч 11 мин | 0 из 41<br><div class="bar"><span style="width:0%"></span></div> |
-| [[FE Этап 9 · Лидерство и финальная подготовка к собесу\|Этап 9 · Лидерство и финальная подготовка к собесу]] | <span class="badge must">Обязательно</span> | 40 мин | 0 из 2<br><div class="bar"><span style="width:0%"></span></div> |
+| [[FE Этап 9 · Лидерство и финальная подготовка к собесу\|Этап 9 · Лидерство и финальная подготовка к собесу]] | <span class="badge must">Обязательно</span> | 1 ч 2 мин | 0 из 15<br><div class="bar"><span style="width:0%"></span></div> |
 <!-- toc:end -->
 
 ## Прогресс
