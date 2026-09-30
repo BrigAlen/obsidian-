@@ -191,13 +191,15 @@ article {
 }
 
 // Мобильные: заголовки и отступы компактнее
+// (префикс .page нужен: у Quartz правило `.page article > h1` специфичнее обычного `article h1`)
 @media (max-width: 800px) {
-  article {
-    h1 { font-size: 1.5rem; }
+  .page article {
+    line-height: 1.6;
+
+    h1, > h1 { font-size: 1.5rem; }
     h2 { font-size: 1.25rem; margin-top: 1.6rem; }
     h3 { font-size: 1.1rem; margin-top: 1.2rem; }
     h4 { font-size: 1rem; }
-    line-height: 1.6;
   }
 
   .page-title { font-size: 1.4rem; }
