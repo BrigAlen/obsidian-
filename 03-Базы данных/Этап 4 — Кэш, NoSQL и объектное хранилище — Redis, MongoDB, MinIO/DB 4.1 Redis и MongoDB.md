@@ -18,7 +18,7 @@ Redis: структуры данных, кэширование, pub/sub, streams
 
 ## Темы
 <!-- toc:start -->
-**Итого:** 6 тем · ~22 мин · готово 0 из 6
+**Итого:** 7 тем · ~29 мин · готово 0 из 7
 
 <div class="bar"><span style="width:0%"></span></div>
 
@@ -30,6 +30,7 @@ Redis: структуры данных, кэширование, pub/sub, streams
 | 4 | [[DB 4.1.4 Redis — persistence, репликация, Sentinel, Cluster\|Redis: persistence, репликация, Sentinel, Cluster]] | <span class="badge should">Желательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
 | 5 | [[DB 4.1.5 MongoDB — документная модель, индексы, агрегации (обзорно)\|MongoDB: документная модель, индексы, агрегации (обзорно)]] | <span class="badge should">Желательно</span> | 5 мин | <span class="badge todo">Не начато</span> |
 | 6 | [[DB 4.1.6 SQL или NoSQL — как выбрать\|SQL или NoSQL: как выбрать]] | <span class="badge should">Желательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
+| 7 | [[DB 4.1.7 Аналоги Redis — Valkey, Dragonfly, KeyDB, Garnet и Memcached\|Аналоги Redis: Valkey, Dragonfly, KeyDB, Garnet и Memcached]] | <span class="badge should">Желательно</span> | 7 мин | <span class="badge todo">Не начато</span> |
 <!-- toc:end -->
 
 ## Чек-лист раздела

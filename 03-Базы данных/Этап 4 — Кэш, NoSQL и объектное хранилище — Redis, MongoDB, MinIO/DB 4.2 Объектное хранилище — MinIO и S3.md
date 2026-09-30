@@ -18,7 +18,7 @@ S3 API, MinIO, работа из .NET, presigned URL и прямая загру�
 
 ## Темы
 <!-- toc:start -->
-**Итого:** 6 тем · ~29 мин · готово 0 из 6
+**Итого:** 8 тем · ~52 мин · готово 0 из 8
 
 <div class="bar"><span style="width:0%"></span></div>
 
@@ -30,6 +30,8 @@ S3 API, MinIO, работа из .NET, presigned URL и прямая загру�
 | 4 | [[DB 4.2.4 Presigned URL и прямая загрузка с фронта\|Presigned URL и прямая загрузка с фронта]] | <span class="badge should">Желательно</span> | 6 мин | <span class="badge todo">Не начато</span> |
 | 5 | [[DB 4.2.5 Multipart upload, версионирование, lifecycle, репликация\|Multipart upload, версионирование, lifecycle, репликация]] | <span class="badge should">Желательно</span> | 4 мин | <span class="badge todo">Не начато</span> |
 | 6 | [[DB 4.2.6 Файлы в БД или в объектном хранилище — связь метаданных и объектов\|Файлы в БД или в объектном хранилище: связь метаданных и объектов]] | <span class="badge should">Желательно</span> | 4 мин | <span class="badge todo">Не начато</span> |
+| 7 | [[DB 4.2.7 Аналоги MinIO — SeaweedFS, Garage, Ceph RGW и облачные S3\|Аналоги MinIO: SeaweedFS, Garage, Ceph RGW и облачные S3]] | <span class="badge should">Желательно</span> | 11 мин | <span class="badge todo">Не начато</span> |
+| 8 | [[DB 4.2.8 Переносимость S3 и миграция между хранилищами — rclone, mc mirror\|Переносимость S3 и миграция между хранилищами: rclone, mc mirror]] | <span class="badge should">Желательно</span> | 12 мин | <span class="badge todo">Не начато</span> |
 <!-- toc:end -->
 
 ## Чек-лист раздела

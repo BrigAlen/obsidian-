@@ -16,7 +16,7 @@ time: 3
 
 # SQL или NoSQL: как выбрать
 
-↑ [[DB 4.1 Redis и MongoDB|4.1 Redis и MongoDB]] · ← [[DB 4.1.5 MongoDB — документная модель, индексы, агрегации (обзорно)|Предыдущая]]
+↑ [[DB 4.1 Redis и MongoDB|4.1 Redis и MongoDB]] · ← [[DB 4.1.5 MongoDB — документная модель, индексы, агрегации (обзорно)|Предыдущая]] · → [[DB 4.1.7 Аналоги Redis — Valkey, Dragonfly, KeyDB, Garnet и Memcached|Следующая]]
 
 <!-- meta:start -->
 <div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">~3 мин чтения</span><span class="chip">Уровень: middle</span></div>

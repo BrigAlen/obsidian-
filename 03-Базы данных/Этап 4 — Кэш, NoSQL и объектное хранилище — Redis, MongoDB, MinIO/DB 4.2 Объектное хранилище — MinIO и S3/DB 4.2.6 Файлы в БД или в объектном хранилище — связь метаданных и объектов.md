@@ -16,7 +16,7 @@ time: 4
 
 # Файлы в БД или в объектном хранилище: связь метаданных и объектов
 
-↑ [[DB 4.2 Объектное хранилище — MinIO и S3|4.2 Объектное хранилище: MinIO и S3]] · ← [[DB 4.2.5 Multipart upload, версионирование, lifecycle, репликация|Предыдущая]]
+↑ [[DB 4.2 Объектное хранилище — MinIO и S3|4.2 Объектное хранилище: MinIO и S3]] · ← [[DB 4.2.5 Multipart upload, версионирование, lifecycle, репликация|Предыдущая]] · → [[DB 4.2.7 Аналоги MinIO — SeaweedFS, Garage, Ceph RGW и облачные S3|Следующая]]
 
 <!-- meta:start -->
 <div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">~4 мин чтения</span><span class="chip">Уровень: middle</span></div>
