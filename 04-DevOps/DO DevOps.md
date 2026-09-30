@@ -16,7 +16,7 @@ Linux, Docker, CI/CD, Nginx, Kubernetes, Ansible, Terraform, observability, бе
 
 ## Этапы
 <!-- toc:start -->
-**Итого:** 105 тем · ~22 ч 31 мин · готово 0 из 105
+**Итого:** 105 тем · ~18 ч 51 мин · готово 0 из 105
 
 <div class="bar"><span style="width:0%"></span></div>
 
@@ -26,7 +26,7 @@ Linux, Docker, CI/CD, Nginx, Kubernetes, Ansible, Terraform, observability, бе
 | [[DO Этап 2 · Контейнеры — Docker, docker-compose, Makefile\|Этап 2 · Контейнеры: Docker, docker-compose, Makefile]] | <span class="badge must">Обязательно</span> | 1 ч 19 мин | 0 из 14<br><div class="bar"><span style="width:0%"></span></div> |
 | [[DO Этап 3 · CI-CD\|Этап 3 · CI-CD]] | <span class="badge must">Обязательно</span> | 1 ч 14 мин | 0 из 12<br><div class="bar"><span style="width:0%"></span></div> |
 | [[DO Этап 4 · Веб-серверы и сеть в проде — Nginx, TLS\|Этап 4 · Веб-серверы и сеть в проде: Nginx, TLS]] | <span class="badge should">Желательно</span> | 1 ч 11 мин | 0 из 10<br><div class="bar"><span style="width:0%"></span></div> |
-| [[DO Этап 5 · Kubernetes\|Этап 5 · Kubernetes]] | <span class="badge should">Желательно</span> | 5 ч 40 мин | 0 из 17<br><div class="bar"><span style="width:0%"></span></div> |
+| [[DO Этап 5 · Kubernetes\|Этап 5 · Kubernetes]] | <span class="badge should">Желательно</span> | 2 ч | 0 из 17<br><div class="bar"><span style="width:0%"></span></div> |
 | [[DO Этап 6 · Infrastructure as Code — Ansible, Terraform\|Этап 6 · Infrastructure as Code: Ansible, Terraform]] | <span class="badge nice">По желанию</span> | 2 ч 20 мин | 0 из 7<br><div class="bar"><span style="width:0%"></span></div> |
 | [[DO Этап 7 · Observability и эксплуатация\|Этап 7 · Observability и эксплуатация]] | <span class="badge should">Желательно</span> | 2 ч 40 мин | 0 из 8<br><div class="bar"><span style="width:0%"></span></div> |
 | [[DO Этап 8 · Senior — надёжность, безопасность, платформа\|Этап 8 · Senior: надёжность, безопасность, платформа]] | <span class="badge nice">По желанию</span> | 3 ч | 0 из 9<br><div class="bar"><span style="width:0%"></span></div> |
