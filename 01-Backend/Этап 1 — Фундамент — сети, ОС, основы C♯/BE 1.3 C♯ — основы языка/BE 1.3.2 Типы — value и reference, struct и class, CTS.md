@@ -16,11 +16,14 @@ time: 5
 
 # Типы: value и reference, struct и class, CTS
 
-↑ [[BE 1.3 C♯ — основы языка|1.3 C♯: основы языка]] · ← [[BE 1.3.1 Платформа .NET — SDK, runtime, версии, сборки, NuGet, solution и csproj|Предыдущая]]
+↑ [[BE 1.3 C♯ — основы языка|1.3 C♯: основы языка]] · ← [[BE 1.3.1 Платформа .NET — SDK, runtime, версии, сборки, NuGet, solution и csproj|Предыдущая]] · → [[BE 1.3.3 Переменные, var, const и readonly, преобразования типов|Следующая]]
 
 <!-- meta:start -->
 <div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~5 мин чтения</span><span class="chip">Уровень: junior</span></div>
 <!-- meta:end -->
+
+
+
 
 > [!info] Зачем это на собесе
 > вопрос №1 на C#-собесе: «чем value type отличается от reference type, struct от class». Отсюда растут boxing, копирование, `Equals`, производительность и баги с изменением копии.

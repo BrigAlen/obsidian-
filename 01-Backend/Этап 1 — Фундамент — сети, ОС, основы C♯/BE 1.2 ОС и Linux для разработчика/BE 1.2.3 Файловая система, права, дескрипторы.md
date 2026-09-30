@@ -11,7 +11,7 @@ tags: [domain/backend, stage/1, topic/os, topic/linux, level/junior, priority/sh
 reviewed:
 next_review:
 priority: should
-time: 5
+time: 4
 ---
 
 # Файловая система, права, дескрипторы
@@ -19,8 +19,11 @@ time: 5
 ↑ [[BE 1.2 ОС и Linux для разработчика|1.2 ОС и Linux для разработчика]] · ← [[BE 1.2.2 Память — стек, куча, виртуальная память|Предыдущая]] · → [[BE 1.2.4 Linux и shell для бэкендера — логи, сигналы, переменные окружения|Следующая]]
 
 <!-- meta:start -->
-<div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">~5 мин чтения</span><span class="chip">Уровень: junior</span></div>
+<div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">~4 мин чтения</span><span class="chip">Уровень: junior</span></div>
 <!-- meta:end -->
+
+
+
 
 
 
@@ -46,14 +49,15 @@ time: 5
 - Жёсткая ссылка — ещё одно имя того же inode. Символическая (`ln -s`) — файл-указатель на путь.
 
 ### Права доступа
-```text
--rwxr-x---  1 app  app  4096  appsettings.json
- │└┬┘└┬┘└┬┘      │    │
- │ │  │  └ другие (other): ---
- │ │  └ группа (group): r-x
- │ └ владелец (user): rwx
- └ тип: - файл, d каталог, l симлинк
-```
+Пример вывода `ls -l`: `-rwxr-x--- 1 app app 4096 appsettings.json`
+
+| Символы | Кому | Что значит |
+|---|---|---|
+| `-` | тип | обычный файл (`d` каталог, `l` символическая ссылка) |
+| `rwx` | владелец (user) | чтение, запись, выполнение |
+| `r-x` | группа (group) | чтение и выполнение |
+| `---` | остальные (other) | нет прав |
+
 - `r` (4) чтение, `w` (2) запись, `x` (1) выполнение. Для каталога `x` — право войти.
 - `chmod 640 file` → rw-r-----. `chown app:app file` — сменить владельца.
 - `umask` — маска прав по умолчанию для новых файлов.
