@@ -103,7 +103,15 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     explorer,
   ],
-  right: [graph, Component.DesktopOnly(Component.TableOfContents()), Component.Backlinks()],
+  right: [
+    // личный кабинет: граф, оглавление и обратные ссылки не нужны
+    Component.ConditionalRender({ component: graph, condition: (page) => page.fileData.slug !== "cabinet" }),
+    Component.ConditionalRender({
+      component: Component.DesktopOnly(Component.TableOfContents()),
+      condition: (page) => page.fileData.slug !== "cabinet",
+    }),
+    Component.ConditionalRender({ component: Component.Backlinks(), condition: (page) => page.fileData.slug !== "cabinet" }),
+  ],
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
