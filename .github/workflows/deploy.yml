@@ -45,6 +45,10 @@ jobs:
           find quartz/content -name '*.md' -exec perl -0pi -e 's/```dataview.*?```\n//gs' {} +
           python3 vault/site/meta.py quartz/content
           python3 vault/site/resolve_links.py quartz/content
+          python3 vault/site/slugify.py quartz/content
+          python3 vault/site/make_index.py quartz/content
+          # страницы папок (index.md) должны публиковаться
+          sed -i 's|slug.endsWith("/index") \|\| ||' quartz/quartz/plugins/emitters/contentPage.tsx
           if [ -f vault/site/quartz.layout.ts ]; then cp vault/site/quartz.layout.ts quartz/quartz.layout.ts; fi
           cat vault/site/custom.scss vault/.obsidian/snippets/*.css > quartz/quartz/styles/custom.scss
           if [ -d vault/site/static ]; then cp -r vault/site/static/. quartz/quartz/static/; fi
