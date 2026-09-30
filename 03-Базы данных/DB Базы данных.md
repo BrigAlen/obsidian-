@@ -1,4 +1,5 @@
 ---
+cssclasses: [i-db]
 type: domain
 domain: db
 tags: [domain/db, kind/moc]

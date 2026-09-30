@@ -1,4 +1,5 @@
 ---
+cssclasses: [i-fullstack]
 type: domain
 domain: fullstack
 tags: [domain/fullstack, kind/moc]

@@ -1,4 +1,5 @@
 ---
+cssclasses: [i-backend]
 type: domain
 domain: backend
 tags: [domain/backend, kind/moc]

@@ -1,4 +1,5 @@
 ---
+cssclasses: [i-devops]
 type: stage
 domain: devops
 stage: 5

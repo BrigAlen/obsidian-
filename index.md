@@ -1,6 +1,9 @@
 ---
 title: develop
+cssclasses: [i-home]
 ---
+
+# develop
 
 Route map для подготовки к собеседованиям Fullstack-разработчика: от фундамента до проектирования и production-эксплуатации.
 

@@ -1,4 +1,5 @@
 ---
+cssclasses: [i-frontend]
 type: domain
 domain: frontend
 tags: [domain/frontend, kind/moc]

@@ -1,4 +1,5 @@
 ---
+cssclasses: [i-backend]
 type: stage
 domain: backend
 stage: 8
