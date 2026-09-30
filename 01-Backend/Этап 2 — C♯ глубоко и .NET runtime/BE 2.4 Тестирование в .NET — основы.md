@@ -1,62 +1,37 @@
 ---
-type: topic
+type: section
 domain: backend
 stage: 2
+section: "2.4"
 order: 4
 status: todo
-level: junior
-tags: [domain/backend, stage/2, level/junior, priority/must, flag/todo]
-reviewed: 
-next_review: 
-priority: must
-time: 20
+level: middle
+notion_id: 3ea33104867981949ce3d506cbd130b4
+tags: [domain/backend, stage/2, kind/section]
 ---
 
-# Тестирование в .NET: основы
+# 2.4 Тестирование в .NET — основы
 
-↑ [[BE Этап 2 · C♯ глубоко и .NET runtime|Этап 2 · C♯ глубоко и .NET runtime]]
+↑ [[BE Этап 2 · C♯ глубоко и .NET runtime|Этап 2]]
 
-<!-- meta:start -->
-<div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">≈20 мин по плану</span><span class="chip">Уровень: junior</span><span class="chip">тема не наполнена</span></div>
-<!-- meta:end -->
+Пирамида тестов, xUnit, тестовые двойники, читаемые проверки, тестируемый код и покрытие.
 
+## Темы
+<!-- toc:start -->
+**Итого:** 6 тем · ~21 мин · готово 0 из 6
 
+<div class="bar"><span style="width:0%"></span></div>
 
+| # | Тема | Приоритет | Чтение | Статус |
+|---|---|---|---|---|
+| 1 | [[BE 2.4.1 Виды тестов и пирамида в .NET\|Виды тестов и пирамида в .NET]] | <span class="badge must">Обязательно</span> | 4 мин | <span class="badge todo">Не начато</span> |
+| 2 | [[BE 2.4.2 xUnit — Fact, Theory, fixtures, параллелизм\|xUnit: Fact, Theory, fixtures, параллелизм]] | <span class="badge must">Обязательно</span> | 4 мин | <span class="badge todo">Не начато</span> |
+| 3 | [[BE 2.4.3 Тестовые двойники — Moq и NSubstitute\|Тестовые двойники: Moq и NSubstitute]] | <span class="badge must">Обязательно</span> | 4 мин | <span class="badge todo">Не начато</span> |
+| 4 | [[BE 2.4.4 FluentAssertions и AutoFixture\|FluentAssertions и AutoFixture]] | <span class="badge must">Обязательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
+| 5 | [[BE 2.4.5 Тестируемый код — DI, TimeProvider, границы\|Тестируемый код: DI, TimeProvider, границы]] | <span class="badge must">Обязательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
+| 6 | [[BE 2.4.6 Coverage (coverlet) и CI\|Coverage (coverlet) и CI]] | <span class="badge must">Обязательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
+<!-- toc:end -->
 
-
-
-
-
-
-> [!info] Зачем это на собесе
-> _Что именно проверяют этой темой и на каком уровне (junior / middle / senior)._
-
-## Подтемы
-- [ ]
-- [ ]
-- [ ]
-
-## Объяснение
-_Суть своими словами, минимум воды._
-
-## Примеры
-```csharp
-
-```
-
-## Нюансы и подводные камни
--
-
-## Практика
-_Задачи для закрепления._
-- [ ]
-
-## Вопросы с ответами
-> [!question]- Вопрос 1
-> Ответ.
-
-## Тестирование
--
-
-## Связанные темы
--
+## Чек-лист раздела
+- [ ] Прочитал все темы
+- [ ] Могу объяснить каждую тему за 2 минуты вслух
