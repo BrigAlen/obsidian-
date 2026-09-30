@@ -22,6 +22,7 @@ time: 20
 <div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">≈20 мин по плану</span><span class="chip">Уровень: middle</span><span class="chip">тема не наполнена</span></div>
 <!-- meta:end -->
 
+
 > [!info] Зачем это на собесе
 > Тема средняя по приоритету: показывает, что вы заботитесь о CSS так же, как о TypeScript.
 

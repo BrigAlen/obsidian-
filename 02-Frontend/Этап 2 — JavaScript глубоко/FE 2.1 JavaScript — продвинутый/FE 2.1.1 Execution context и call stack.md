@@ -35,6 +35,7 @@ time: 3
 
 
 
+
 > [!info] Зачем это на собесе
 > Основа для понимания hoisting, замыканий, `this` и ошибок «Maximum call stack size exceeded».
 
