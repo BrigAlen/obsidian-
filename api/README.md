@@ -15,14 +15,7 @@
 
 ## Локальный запуск
 
-```bash
-docker run -d --name pg -e POSTGRES_PASSWORD=vault -e POSTGRES_USER=vault -e POSTGRES_DB=vault -p 5432:5432 postgres:16
-export DATABASE_URL="Host=localhost;Database=vault;Username=vault;Password=vault"
-export ADMIN_LOGIN=admin ADMIN_PASSWORD=change-me-please
-dotnet run --project api/src/VaultApi
-```
-
-Сайт кладётся в `wwwroot` сборкой `site/build.sh` (в Docker это делает `Dockerfile`).
+Пошаговая инструкция (всё в Docker или только API через `dotnet run`) — в корневом `README.md`, раздел «Локальный запуск».
 
 ## Тесты
 
