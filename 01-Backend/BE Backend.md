@@ -16,7 +16,7 @@ C#, .NET 9, ASP.NET Core, EF Core, gRPC, GraphQL, Kafka, микросервис�
 
 ## Этапы
 <!-- toc:start -->
-**Итого:** 174 тем · ~16 ч 31 мин · готово 0 из 174
+**Итого:** 177 тем · ~16 ч 23 мин · готово 0 из 177
 
 <div class="bar"><span style="width:0%"></span></div>
 
@@ -26,7 +26,7 @@ C#, .NET 9, ASP.NET Core, EF Core, gRPC, GraphQL, Kafka, микросервис�
 | [[BE Этап 2 · C♯ глубоко и .NET runtime\|Этап 2 · C♯ глубоко и .NET runtime]] | <span class="badge must">Обязательно</span> | 3 ч 1 мин | 0 из 34<br><div class="bar"><span style="width:0%"></span></div> |
 | [[BE Этап 3 · ASP.NET Core\|Этап 3 · ASP.NET Core]] | <span class="badge must">Обязательно</span> | 1 ч 47 мин | 0 из 35<br><div class="bar"><span style="width:0%"></span></div> |
 | [[BE Этап 4 · Данные в .NET — ADO.NET, Dapper, EF Core\|Этап 4 · Данные в .NET: ADO.NET, Dapper, EF Core]] | <span class="badge must">Обязательно</span> | 54 мин | 0 из 18<br><div class="bar"><span style="width:0%"></span></div> |
-| [[BE Этап 5 · Интеграции — REST, gRPC, GraphQL, Kafka и очереди, внешние API\|Этап 5 · Интеграции: REST, gRPC, GraphQL, Kafka и очереди, внешние API]] | <span class="badge must">Обязательно</span> | 2 ч 15 мин | 0 из 39<br><div class="bar"><span style="width:0%"></span></div> |
+| [[BE Этап 5 · Интеграции — REST, gRPC, GraphQL, Kafka и очереди, внешние API\|Этап 5 · Интеграции: REST, gRPC, GraphQL, Kafka и очереди, внешние API]] | <span class="badge must">Обязательно</span> | 2 ч 7 мин | 0 из 42<br><div class="bar"><span style="width:0%"></span></div> |
 | [[BE Этап 6 · Опционально — второй стек — Node.js и NestJS\|Этап 6 · Опционально: второй стек — Node.js и NestJS]] | <span class="badge nice">По желанию</span> | 1 ч 20 мин | 0 из 4<br><div class="bar"><span style="width:0%"></span></div> |
 | [[BE Этап 7 · Middle+ — производительность, observability, надёжность, безопасность\|Этап 7 · Middle+: производительность, observability, надёжность, безопасность]] | <span class="badge should">Желательно</span> | 2 ч | 0 из 6<br><div class="bar"><span style="width:0%"></span></div> |
 | [[BE Этап 8 · Senior — архитектура, DDD, микросервисы, System Design\|Этап 8 · Senior: архитектура, DDD, микросервисы, System Design]] | <span class="badge must">Обязательно</span> | 1 ч 40 мин | 0 из 5<br><div class="bar"><span style="width:0%"></span></div> |
