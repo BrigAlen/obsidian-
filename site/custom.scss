@@ -118,3 +118,74 @@
     border-left: 1px solid var(--lightgray);
   }
 }
+
+// ---- Читаемость и аккуратность ----
+// Ссылки в тексте: без тяжёлых плашек, тонкое подчёркивание
+article a.internal,
+.page-listing a.internal,
+.backlinks a.internal {
+  background: none;
+  padding: 0;
+  border-radius: 0;
+}
+
+article a.internal:not(.tag-link):not(.card) {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  text-decoration-color: color-mix(in srgb, var(--secondary) 40%, transparent);
+
+  &:hover {
+    text-decoration-color: currentColor;
+    background: none;
+  }
+}
+
+// Заголовки: легче, с воздухом; h2 отделены тонкой линией
+article {
+  line-height: 1.7;
+
+  h1, h2, h3, h4 {
+    font-weight: 600;
+    letter-spacing: -0.005em;
+  }
+
+  h1 { font-size: 2rem; }
+
+  h2 {
+    margin-top: 2.2rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid var(--lightgray);
+  }
+
+  h3 { margin-top: 1.6rem; }
+
+  table { font-size: 0.92rem; }
+  th { font-weight: 600; }
+}
+
+// Теги вверху страницы: компактнее
+.tags .tag-link {
+  font-size: 0.75rem;
+  padding: 0.05rem 0.5rem;
+  opacity: 0.85;
+}
+
+// Списки страниц (теги, «Недавно обновлено»)
+.page-listing {
+  .section .meta { display: none; }
+
+  li.section-li .section {
+    grid-template-columns: 1fr auto;
+    padding: 0.35rem 0;
+    border-bottom: 1px solid var(--lightgray);
+  }
+
+  .desc h3 {
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .tags { gap: 0.25rem; }
+}

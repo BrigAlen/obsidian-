@@ -17,8 +17,9 @@ time: 20
 ↑ [[DB Этап 1 · Фундамент — реляционная модель и SQL|Этап 1 · Фундамент: реляционная модель и SQL]]
 
 <!-- meta:start -->
-> [!abstract] Приоритет: **обязательно** · Чтение: **≈20 мин (по плану, тема не наполнена)** · Уровень: **junior**
+<div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">≈20 мин по плану</span><span class="chip">Уровень: junior</span><span class="chip">тема не наполнена</span></div>
 <!-- meta:end -->
+
 
 
 

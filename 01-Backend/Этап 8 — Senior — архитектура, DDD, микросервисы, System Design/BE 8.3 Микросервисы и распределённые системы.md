@@ -17,8 +17,9 @@ time: 20
 ↑ [[BE Этап 8 · Senior — архитектура, DDD, микросервисы, System Design|Этап 8 · Senior: архитектура, DDD, микросервисы, System Design]]
 
 <!-- meta:start -->
-> [!abstract] Приоритет: **желательно** · Чтение: **≈20 мин (по плану, тема не наполнена)** · Уровень: **senior**
+<div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">≈20 мин по плану</span><span class="chip">Уровень: senior</span><span class="chip">тема не наполнена</span></div>
 <!-- meta:end -->
+
 
 
 

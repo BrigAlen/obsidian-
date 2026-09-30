@@ -19,8 +19,9 @@ time: 5
 ↑ [[BE 1.2 ОС и Linux для разработчика|1.2 ОС и Linux для разработчика]] · ← [[BE 1.2.2 Память — стек, куча, виртуальная память|Предыдущая]] · → [[BE 1.2.4 Linux и shell для бэкендера — логи, сигналы, переменные окружения|Следующая]]
 
 <!-- meta:start -->
-> [!abstract] Приоритет: **желательно** · Чтение: **~5 мин** · Уровень: **junior**
+<div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">~5 мин чтения</span><span class="chip">Уровень: junior</span></div>
 <!-- meta:end -->
+
 
 
 

@@ -17,8 +17,9 @@ time: 20
 ↑ [[DO Этап 9 · Собес Middle DevOps — вопросы, практика, деплой систем|Этап 9 · Собес Middle DevOps: вопросы, практика, деплой систем]]
 
 <!-- meta:start -->
-> [!abstract] Приоритет: **обязательно** · Чтение: **≈20 мин (по плану, тема не наполнена)** · Уровень: **final**
+<div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">≈20 мин по плану</span><span class="chip">Уровень: final</span><span class="chip">тема не наполнена</span></div>
 <!-- meta:end -->
+
 
 
 

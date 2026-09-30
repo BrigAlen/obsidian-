@@ -17,8 +17,9 @@ time: 20
 ↑ [[DB Этап 4 · Кэш, NoSQL и объектное хранилище — Redis, MongoDB, MinIO|Этап 4 · Кэш, NoSQL и объектное хранилище: Redis, MongoDB, MinIO]]
 
 <!-- meta:start -->
-> [!abstract] Приоритет: **желательно** · Чтение: **≈20 мин (по плану, тема не наполнена)** · Уровень: **middle**
+<div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">≈20 мин по плану</span><span class="chip">Уровень: middle</span><span class="chip">тема не наполнена</span></div>
 <!-- meta:end -->
+
 
 
 

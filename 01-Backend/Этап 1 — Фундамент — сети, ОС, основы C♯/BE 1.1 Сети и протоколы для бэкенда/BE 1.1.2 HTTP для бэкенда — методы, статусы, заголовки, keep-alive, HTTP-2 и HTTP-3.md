@@ -19,8 +19,9 @@ time: 6
 ↑ [[BE 1.1 Сети и протоколы для бэкенда|1.1 Сети и протоколы для бэкенда]] · ← [[BE 1.1.1 Модель OSI и TCP-IP, TCP и UDP|Предыдущая]] · → [[BE 1.1.3 TLS, сертификаты, mTLS|Следующая]]
 
 <!-- meta:start -->
-> [!abstract] Приоритет: **желательно** · Чтение: **~6 мин** · Уровень: **junior**
+<div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">~6 мин чтения</span><span class="chip">Уровень: junior</span></div>
 <!-- meta:end -->
+
 
 
 

@@ -17,8 +17,9 @@ time: 20
 ↑ [[BE Этап 7 · Middle+ — производительность, observability, надёжность, безопасность|Этап 7 · Middle+: производительность, observability, надёжность, безопасность]]
 
 <!-- meta:start -->
-> [!abstract] Приоритет: **по желанию** · Чтение: **≈20 мин (по плану, тема не наполнена)** · Уровень: **middle+**
+<div class="meta-strip"><span class="badge nice">По желанию</span><span class="chip">≈20 мин по плану</span><span class="chip">Уровень: middle+</span><span class="chip">тема не наполнена</span></div>
 <!-- meta:end -->
+
 
 
 
