@@ -23,6 +23,8 @@ time: 3
 <!-- meta:end -->
 
 
+
+
 > [!info] Зачем это на собесе
 > Выбор между WebSocket, SignalR, SSE и polling по требованиям и масштабированию.
 
