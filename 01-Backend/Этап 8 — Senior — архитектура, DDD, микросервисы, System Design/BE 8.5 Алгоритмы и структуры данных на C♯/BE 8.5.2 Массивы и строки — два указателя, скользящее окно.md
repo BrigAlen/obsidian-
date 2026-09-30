@@ -22,6 +22,7 @@ time: 5
 <div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">~5 мин чтения</span><span class="chip">Уровень: senior</span></div>
 <!-- meta:end -->
 
+
 > [!info] Зачем это на собесе
 > Самые частые задачи live coding: массивы и строки решаются двумя указателями и окном.
 
