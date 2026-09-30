@@ -16,7 +16,7 @@ time: 3
 
 # Вёрстка на время
 
-↑ [[FE 1.3 CSS и SASS|1.3 CSS и SASS]] · ← [[FE 1.3.11 SASS-SCSS — переменные, миксины, функции, @use и @forward|Предыдущая]]
+↑ [[FE 1.3 CSS и SASS|1.3 CSS и SASS]] · ← [[FE 1.3.11 SASS-SCSS — переменные, миксины, функции, @use и @forward|Предыдущая]] · → [[FE 1.3.13 Современный CSS — nesting, :has(), @layer, subgrid, color-mix и View Transitions|Следующая]]
 
 <!-- meta:start -->
 <div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">~3 мин чтения</span><span class="chip">Уровень: junior</span></div>

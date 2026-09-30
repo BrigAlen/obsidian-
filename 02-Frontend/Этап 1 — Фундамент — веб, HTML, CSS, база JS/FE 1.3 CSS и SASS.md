@@ -18,7 +18,7 @@ Box model, селекторы и каскад, позиционирование,
 
 ## Темы
 <!-- toc:start -->
-**Итого:** 12 тем · ~36 мин · готово 0 из 12
+**Итого:** 13 тем · ~46 мин · готово 0 из 13
 
 <div class="bar"><span style="width:0%"></span></div>
 
@@ -36,6 +36,7 @@ Box model, селекторы и каскад, позиционирование,
 | 10 | [[FE 1.3.10 Методологии — БЭМ, scoped styles, CSS Modules\|Методологии: БЭМ, scoped styles, CSS Modules]] | <span class="badge should">Желательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
 | 11 | [[FE 1.3.11 SASS-SCSS — переменные, миксины, функции, @use и @forward\|SASS∕SCSS: переменные, миксины, функции, @use и @forward]] | <span class="badge should">Желательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
 | 12 | [[FE 1.3.12 Вёрстка на время\|Вёрстка на время]] | <span class="badge should">Желательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
+| 13 | [[FE 1.3.13 Современный CSS — nesting, :has(), @layer, subgrid, color-mix и View Transitions\|Современный CSS: nesting, :has(), @layer, subgrid, color-mix и View Transitions]] | <span class="badge should">Желательно</span> | 10 мин | <span class="badge todo">Не начато</span> |
 <!-- toc:end -->
 
 ## Чек-лист раздела
