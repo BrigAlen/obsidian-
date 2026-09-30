@@ -12,7 +12,7 @@ tags: [domain/backend, kind/stage]
 
 ## Темы
 <!-- toc:start -->
-**Итого:** 17 тем · ~2 ч · готово 0 из 17
+**Итого:** 21 тем · ~1 ч 55 мин · готово 0 из 21
 
 <div class="bar"><span style="width:0%"></span></div>
 
@@ -20,7 +20,7 @@ tags: [domain/backend, kind/stage]
 |---|---|---|---|---|
 | 1 | [[BE 8.3 Микросервисы и распределённые системы\|7.1 Производительность .NET и кэширование]] | <span class="badge should">Желательно</span> | 18 мин | 0 из 6<br><div class="bar"><span style="width:0%"></span></div> |
 | 2 | [[BE 8.3 Микросервисы и распределённые системы\|7.2 Observability: логи, метрики, трейсинг, OpenTelemetry]] | <span class="badge should">Желательно</span> | 22 мин | 0 из 7<br><div class="bar"><span style="width:0%"></span></div> |
-| 3 | [[BE 7.3 Надёжность и отказоустойчивость\|Надёжность и отказоустойчивость]] | <span class="badge should">Желательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
+| 3 | [[BE 8.3 Микросервисы и распределённые системы\|7.3 Надёжность и отказоустойчивость]] | <span class="badge should">Желательно</span> | 15 мин | 0 из 5<br><div class="bar"><span style="width:0%"></span></div> |
 | 4 | [[BE 7.4 Безопасность бэкенда\|Безопасность бэкенда]] | <span class="badge should">Желательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
 | 5 | [[BE 7.5 Нагрузочное и продвинутое тестирование\|Нагрузочное и продвинутое тестирование]] | <span class="badge should">Желательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
 | 6 | [[BE 7.6 DevOps для бэкенд-разработчика — деплой и CI-CD\|DevOps для бэкенд-разработчика: деплой и CI∕CD]] | <span class="badge nice">По желанию</span> | 20 мин | <span class="badge todo">Не начато</span> |

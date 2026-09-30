@@ -22,6 +22,7 @@ time: 4
 <div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">~4 мин чтения</span><span class="chip">Уровень: senior</span></div>
 <!-- meta:end -->
 
+
 > [!info] Зачем это на собесе
 > Как устроен конвейер сбора телеметрии и почему сервисы не шлют данные напрямую в хранилище.
 
