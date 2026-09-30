@@ -18,7 +18,7 @@ tags: [domain/backend, stage/3, kind/section]
 
 ## Темы
 <!-- toc:start -->
-**Итого:** 6 тем · ~18 мин · готово 0 из 6
+**Итого:** 7 тем · ~29 мин · готово 0 из 7
 
 <div class="bar"><span style="width:0%"></span></div>
 
@@ -30,6 +30,7 @@ tags: [domain/backend, stage/3, kind/section]
 | 4 | [[BE 3.4.4 Политики, роли, claims-based и resource-based авторизация\|Политики, роли, claims-based и resource-based авторизация]] | <span class="badge must">Обязательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
 | 5 | [[BE 3.4.5 Контекст пользователя в сервисах (UserContext) и проброс токена между сервисами\|Контекст пользователя в сервисах (UserContext) и проброс токена между сервисами]] | <span class="badge must">Обязательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
 | 6 | [[BE 3.4.6 Хранение паролей, ASP.NET Core Identity, API-ключи\|Хранение паролей, ASP.NET Core Identity, API-ключи]] | <span class="badge must">Обязательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
+| 7 | [[BE 3.4.7 Свой OIDC-провайдер — OpenIddict, Duende IdentityServer и когда Keycloak\|Свой OIDC-провайдер: OpenIddict, Duende IdentityServer и когда Keycloak]] | <span class="badge must">Обязательно</span> | 11 мин | <span class="badge todo">Не начато</span> |
 <!-- toc:end -->
 
 ## Чек-лист раздела
