@@ -12,14 +12,14 @@ tags: [domain/frontend, kind/stage]
 
 ## Темы
 <!-- toc:start -->
-**Итого:** 11 тем · ~1 ч 42 мин · готово 0 из 11
+**Итого:** 21 тем · ~1 ч 55 мин · готово 0 из 21
 
 <div class="bar"><span style="width:0%"></span></div>
 
 | # | Раздел или тема | Приоритет | Чтение | Прогресс |
 |---|---|---|---|---|
 | 1 | [[BE 8.1.4 Структурные паттерны — Adapter, Decorator, Facade, Proxy, Composite\|7.1 Vue под капотом]] | <span class="badge should">Желательно</span> | 22 мин | 0 из 7<br><div class="bar"><span style="width:0%"></span></div> |
-| 2 | [[FE 7.2 Рендеринг и производительность\|Рендеринг и производительность]] | <span class="badge should">Желательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
+| 2 | [[BE 8.1.4 Структурные паттерны — Adapter, Decorator, Facade, Proxy, Composite\|7.2 Рендеринг и производительность]] | <span class="badge should">Желательно</span> | 33 мин | 0 из 11<br><div class="bar"><span style="width:0%"></span></div> |
 | 3 | [[FE 7.3 Безопасность фронтенда\|Безопасность фронтенда]] | <span class="badge should">Желательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
 | 4 | [[FE 7.4 Browser API\|Browser API]] | <span class="badge should">Желательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
 | 5 | [[FE 7.5 SSR и Nuxt\|SSR и Nuxt]] | <span class="badge should">Желательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
