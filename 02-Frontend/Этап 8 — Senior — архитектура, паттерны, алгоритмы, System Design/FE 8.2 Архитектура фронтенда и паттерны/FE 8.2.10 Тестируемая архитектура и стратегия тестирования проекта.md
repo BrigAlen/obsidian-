@@ -22,6 +22,7 @@ time: 3
 <div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">~3 мин чтения</span><span class="chip">Уровень: senior</span></div>
 <!-- meta:end -->
 
+
 > [!info] Зачем это на собесе
 > Senior отвечает за то, чтобы проект можно было тестировать дёшево: границы, порты и здравая пирамида тестов.
 
