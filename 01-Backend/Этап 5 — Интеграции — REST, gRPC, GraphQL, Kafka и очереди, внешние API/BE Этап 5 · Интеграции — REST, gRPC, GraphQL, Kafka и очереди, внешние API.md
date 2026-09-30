@@ -12,7 +12,7 @@ tags: [domain/backend, kind/stage]
 
 ## Темы
 <!-- toc:start -->
-**Итого:** 30 тем · ~2 ч 22 мин · готово 0 из 30
+**Итого:** 36 тем · ~2 ч 23 мин · готово 0 из 36
 
 <div class="bar"><span style="width:0%"></span></div>
 
@@ -22,7 +22,7 @@ tags: [domain/backend, kind/stage]
 | 2 | [[BE 8.3 Микросервисы и распределённые системы\|5.2 gRPC]] | <span class="badge must">Обязательно</span> | 18 мин | 0 из 6<br><div class="bar"><span style="width:0%"></span></div> |
 | 3 | [[BE 8.3 Микросервисы и распределённые системы\|5.3 GraphQL на бэкенде и Federation]] | <span class="badge must">Обязательно</span> | 15 мин | 0 из 5<br><div class="bar"><span style="width:0%"></span></div> |
 | 4 | [[BE 8.3 Микросервисы и распределённые системы\|5.4 Очереди и брокеры: Kafka, RabbitMQ]] | <span class="badge must">Обязательно</span> | 31 мин | 0 из 10<br><div class="bar"><span style="width:0%"></span></div> |
-| 5 | [[BE 5.5 Интеграции со сторонними API — 1С, Битрикс24, FHIR\|Интеграции со сторонними API: 1С, Битрикс24, FHIR]] | <span class="badge nice">По желанию</span> | 20 мин | <span class="badge todo">Не начато</span> |
+| 5 | [[BE 8.3 Микросервисы и распределённые системы\|5.5 Интеграции со сторонними API: 1С, Битрикс24, FHIR]] | <span class="badge nice">По желанию</span> | 21 мин | 0 из 7<br><div class="bar"><span style="width:0%"></span></div> |
 | 6 | [[BE 5.6 Генерация документов и отчётов\|Генерация документов и отчётов]] | <span class="badge should">Желательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
 | 7 | [[BE 5.7 Тестирование интеграций\|Тестирование интеграций]] | <span class="badge must">Обязательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
 <!-- toc:end -->
