@@ -67,6 +67,7 @@ time: 6
 
 
 
+
 > [!info] Зачем это на собесе
 > extension-методы — основа LINQ и всей конфигурации ASP.NET Core (`services.AddXxx()`, `app.UseXxx()`). В проекте общие пакеты (`core/extensions`, `http_shared/DI`) подключаются именно так.
 
