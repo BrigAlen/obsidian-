@@ -12,7 +12,7 @@ tags: [domain/backend, kind/stage]
 
 ## Темы
 <!-- toc:start -->
-**Итого:** 36 тем · ~2 ч 9 мин · готово 0 из 36
+**Итого:** 35 тем · ~1 ч 49 мин · готово 0 из 35
 
 <div class="bar"><span style="width:0%"></span></div>
 
@@ -23,7 +23,6 @@ tags: [domain/backend, kind/stage]
 | 3 | [[BE 8.1.4 Структурные паттерны — Adapter, Decorator, Facade, Proxy, Composite\|7.3 Надёжность и отказоустойчивость]] | <span class="badge should">Желательно</span> | 15 мин | 0 из 5<br><div class="bar"><span style="width:0%"></span></div> |
 | 4 | [[BE 8.1.4 Структурные паттерны — Adapter, Decorator, Facade, Proxy, Composite\|7.4 Безопасность бэкенда]] | <span class="badge should">Желательно</span> | 15 мин | 0 из 5<br><div class="bar"><span style="width:0%"></span></div> |
 | 5 | [[BE 8.1.4 Структурные паттерны — Adapter, Decorator, Facade, Proxy, Composite\|7.5 Нагрузочное и продвинутое тестирование]] | <span class="badge should">Желательно</span> | 12 мин | 0 из 4<br><div class="bar"><span style="width:0%"></span></div> |
-| 6 | [[BE 7.6 DevOps для бэкенд-разработчика — деплой и CI-CD\|DevOps для бэкенд-разработчика: деплой и CI∕CD]] | <span class="badge nice">По желанию</span> | 20 мин | <span class="badge todo">Не начато</span> |
 | 6 | [[BE 8.1.4 Структурные паттерны — Adapter, Decorator, Facade, Proxy, Composite\|7.6 DevOps для бэкенд-разработчика: деплой наших систем и CI∕CD]] | <span class="badge nice">По желанию</span> | 27 мин | 0 из 8<br><div class="bar"><span style="width:0%"></span></div> |
 <!-- toc:end -->
 
