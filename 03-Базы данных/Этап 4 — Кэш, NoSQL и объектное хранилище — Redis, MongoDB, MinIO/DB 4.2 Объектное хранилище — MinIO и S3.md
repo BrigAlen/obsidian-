@@ -1,54 +1,37 @@
 ---
-type: topic
+type: section
 domain: db
 stage: 4
+section: "4.2"
 order: 2
 status: todo
 level: middle
-tags: [domain/db, stage/4, level/middle, priority/should, flag/todo]
-reviewed: 
-next_review: 
-priority: should
-time: 20
+notion_id: 3ea331048679812cb7ded30f5b1eeaf5
+tags: [domain/db, stage/4, kind/section]
 ---
 
-# Объектное хранилище: MinIO и S3
+# 4.2 Объектное хранилище: MinIO и S3
 
-↑ [[DB Этап 4 · Кэш, NoSQL и объектное хранилище — Redis, MongoDB, MinIO|Этап 4 · Кэш, NoSQL и объектное хранилище: Redis, MongoDB, MinIO]]
+↑ [[DB Этап 4 · Кэш, NoSQL и объектное хранилище — Redis, MongoDB, MinIO|Этап 4]]
 
-<!-- meta:start -->
-<div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">≈20 мин по плану</span><span class="chip">Уровень: middle</span><span class="chip">тема не наполнена</span></div>
-<!-- meta:end -->
+S3 API, MinIO, работа из .NET, presigned URL и прямая загрузка с фронта, multipart, версионирование, lifecycle, репликация, связь метаданных с объектами.
 
-> [!info] Зачем это на собесе
-> _Что именно проверяют этой темой и на каком уровне (junior / middle / senior)._
+## Темы
+<!-- toc:start -->
+**Итого:** 6 тем · ~29 мин · готово 0 из 6
 
-## Подтемы
-- [ ]
-- [ ]
-- [ ]
+<div class="bar"><span style="width:0%"></span></div>
 
-## Объяснение
-_Суть своими словами, минимум воды._
+| # | Тема | Приоритет | Чтение | Статус |
+|---|---|---|---|---|
+| 1 | [[DB 4.2.1 Объектное хранилище и S3 API — buckets, objects, keys, метаданные\|Объектное хранилище и S3 API: buckets, objects, keys, метаданные]] | <span class="badge should">Желательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
+| 2 | [[DB 4.2.2 MinIO — развёртывание, mc, политики доступа\|MinIO: развёртывание, mc, политики доступа]] | <span class="badge should">Желательно</span> | 6 мин | <span class="badge todo">Не начато</span> |
+| 3 | [[DB 4.2.3 Работа с MinIO из .NET — загрузка, скачивание, стриминг\|Работа с MinIO из .NET: загрузка, скачивание, стриминг]] | <span class="badge should">Желательно</span> | 6 мин | <span class="badge todo">Не начато</span> |
+| 4 | [[DB 4.2.4 Presigned URL и прямая загрузка с фронта\|Presigned URL и прямая загрузка с фронта]] | <span class="badge should">Желательно</span> | 6 мин | <span class="badge todo">Не начато</span> |
+| 5 | [[DB 4.2.5 Multipart upload, версионирование, lifecycle, репликация\|Multipart upload, версионирование, lifecycle, репликация]] | <span class="badge should">Желательно</span> | 4 мин | <span class="badge todo">Не начато</span> |
+| 6 | [[DB 4.2.6 Файлы в БД или в объектном хранилище — связь метаданных и объектов\|Файлы в БД или в объектном хранилище: связь метаданных и объектов]] | <span class="badge should">Желательно</span> | 4 мин | <span class="badge todo">Не начато</span> |
+<!-- toc:end -->
 
-## Примеры
-```sql
-
-```
-
-## Нюансы и подводные камни
--
-
-## Практика
-_Задачи для закрепления._
-- [ ]
-
-## Вопросы с ответами
-> [!question]- Вопрос 1
-> Ответ.
-
-## Тестирование
--
-
-## Связанные темы
--
+## Чек-лист раздела
+- [ ] Прочитал все темы
+- [ ] Могу объяснить каждую тему за 2 минуты вслух
