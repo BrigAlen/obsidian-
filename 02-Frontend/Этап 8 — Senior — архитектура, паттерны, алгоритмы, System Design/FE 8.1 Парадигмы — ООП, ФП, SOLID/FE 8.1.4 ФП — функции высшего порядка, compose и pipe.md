@@ -24,6 +24,7 @@ time: 3
 
 
 
+
 > [!info] Зачем это на собесе
 > ФП-подход лежит в основе Vue composition API, Redux, RxJS; просят реализовать compose/pipe/curry.
 
