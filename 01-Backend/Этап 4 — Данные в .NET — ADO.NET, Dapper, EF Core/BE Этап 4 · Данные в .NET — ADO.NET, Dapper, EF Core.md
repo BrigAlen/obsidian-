@@ -11,6 +11,15 @@ tags: [domain/backend, kind/stage]
 ↑ [[BE Backend|Backend]]
 
 ## Темы
-- [[BE 4.1 ADO.NET, Npgsql и Dapper|1. ADO.NET, Npgsql и Dapper]]
-- [[BE 4.2 Entity Framework Core|2. Entity Framework Core]]
-- [[BE 4.3 Тестирование слоя данных|3. Тестирование слоя данных]]
+<!-- toc:start -->
+**Итого:** 3 тем · ~1 ч · готово 0 из 3
+
+<div class="bar"><span style="width:0%"></span></div>
+
+| # | Раздел или тема | Приоритет | Чтение | Прогресс |
+|---|---|---|---|---|
+| 1 | [[BE 4.1 ADO.NET, Npgsql и Dapper\|ADO.NET, Npgsql и Dapper]] | <span class="badge must">Обязательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
+| 2 | [[BE 4.2 Entity Framework Core\|Entity Framework Core]] | <span class="badge must">Обязательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
+| 3 | [[BE 4.3 Тестирование слоя данных\|Тестирование слоя данных]] | <span class="badge must">Обязательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
+<!-- toc:end -->
+

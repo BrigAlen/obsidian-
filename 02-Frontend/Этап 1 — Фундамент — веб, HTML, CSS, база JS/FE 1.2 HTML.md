@@ -5,14 +5,24 @@ stage: 1
 order: 2
 status: todo
 level: junior
-tags: [domain/frontend, stage/1, level/junior]
+tags: [domain/frontend, stage/1, level/junior, priority/should, flag/todo]
 reviewed: 
 next_review: 
+priority: should
+time: 20
 ---
 
 # HTML
 
 ↑ [[FE Этап 1 · Фундамент — веб, HTML, CSS, база JS|Этап 1 · Фундамент: веб, HTML, CSS, база JS]]
+
+<!-- meta:start -->
+> [!abstract] Приоритет: **желательно** · Чтение: **≈20 мин (по плану, тема не наполнена)** · Уровень: **junior**
+<!-- meta:end -->
+
+
+
+
 
 > [!info] Зачем это на собесе
 > _Что именно проверяют этой темой и на каком уровне (junior / middle / senior)._

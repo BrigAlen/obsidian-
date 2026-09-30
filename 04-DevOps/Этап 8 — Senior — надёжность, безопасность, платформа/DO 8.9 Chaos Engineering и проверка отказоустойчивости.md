@@ -5,14 +5,24 @@ stage: 8
 order: 9
 status: todo
 level: senior
-tags: [domain/devops, stage/8, level/senior]
+tags: [domain/devops, stage/8, level/senior, priority/nice, flag/todo]
 reviewed: 
 next_review: 
+priority: nice
+time: 20
 ---
 
 # Chaos Engineering и проверка отказоустойчивости
 
 ↑ [[DO Этап 8 · Senior — надёжность, безопасность, платформа|Этап 8 · Senior: надёжность, безопасность, платформа]]
+
+<!-- meta:start -->
+> [!abstract] Приоритет: **по желанию** · Чтение: **≈20 мин (по плану, тема не наполнена)** · Уровень: **senior**
+<!-- meta:end -->
+
+
+
+
 
 > [!info] Зачем это на собесе
 > _Что именно проверяют этой темой и на каком уровне (junior / middle / senior)._

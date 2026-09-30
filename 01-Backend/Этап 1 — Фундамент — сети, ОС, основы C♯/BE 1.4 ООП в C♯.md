@@ -1,18 +1,28 @@
 ---
 type: topic
 domain: backend
-stage: 8
-order: 1
+stage: 1
+order: 4
 status: todo
-level: senior
-tags: [domain/backend, stage/8, level/senior]
+level: junior
+tags: [domain/backend, stage/1, level/junior, priority/must, flag/todo]
 reviewed: 
 next_review: 
+priority: must
+time: 20
 ---
 
-# Принципы и паттерны проектирования в C#
+# ООП в C#
 
-↑ [[BE Этап 8 · Senior — архитектура, DDD, микросервисы, System Design|Этап 8 · Senior: архитектура, DDD, микросервисы, System Design]]
+↑ [[BE Этап 1 · Фундамент — сети, ОС, основы C♯|Этап 1 · Фундамент: сети, ОС, основы C♯]]
+
+<!-- meta:start -->
+> [!abstract] Приоритет: **обязательно** · Чтение: **≈20 мин (по плану, тема не наполнена)** · Уровень: **junior**
+<!-- meta:end -->
+
+
+
+
 
 > [!info] Зачем это на собесе
 > _Что именно проверяют этой темой и на каком уровне (junior / middle / senior)._

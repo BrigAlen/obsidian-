@@ -7,14 +7,24 @@ order: 4
 status: todo
 level: junior
 notion_id: 3ea331048679818c8019d4ec5550c756
-tags: [domain/backend, stage/1, topic/os, topic/linux, level/junior]
+tags: [domain/backend, stage/1, topic/os, topic/linux, level/junior, priority/should]
 reviewed:
 next_review:
+priority: should
+time: 5
 ---
 
 # Linux и shell для бэкендера: логи, сигналы, переменные окружения
 
 ↑ [[BE 1.2 ОС и Linux для разработчика|1.2 ОС и Linux для разработчика]] · ← [[BE 1.2.3 Файловая система, права, дескрипторы|Предыдущая]] · → [[BE 1.2.5 Кодировки, часовые пояса, время на сервере|Следующая]]
+
+<!-- meta:start -->
+> [!abstract] Приоритет: **желательно** · Чтение: **~5 мин** · Уровень: **junior**
+<!-- meta:end -->
+
+
+
+
 
 > [!info] Зачем это на собесе
 > Сервисы живут в Linux-контейнерах. Бэкендер должен уметь зайти в контейнер, посмотреть логи и процессы, понять, почему сервис не стартует или не останавливается корректно.

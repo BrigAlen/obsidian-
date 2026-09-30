@@ -5,14 +5,24 @@ stage: 4
 order: 8
 status: todo
 level: middle
-tags: [domain/devops, stage/4, level/middle]
+tags: [domain/devops, stage/4, level/middle, priority/should, flag/todo]
 reviewed: 
 next_review: 
+priority: should
+time: 20
 ---
 
 # Безопасность edge: security headers, rate limiting, allowlists, WAF
 
 ↑ [[DO Этап 4 · Веб-серверы и сеть в проде — Nginx, TLS|Этап 4 · Веб-серверы и сеть в проде: Nginx, TLS]]
+
+<!-- meta:start -->
+> [!abstract] Приоритет: **желательно** · Чтение: **≈20 мин (по плану, тема не наполнена)** · Уровень: **middle**
+<!-- meta:end -->
+
+
+
+
 
 > [!info] Зачем это на собесе
 > _Что именно проверяют этой темой и на каком уровне (junior / middle / senior)._

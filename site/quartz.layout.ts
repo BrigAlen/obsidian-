@@ -50,9 +50,18 @@ const explorer = Component.Explorer({
     if (/^(BE-Backend|FE-Frontend|DB-Базы-данных|DO-DevOps|FS-Fullstack-практика|Мои-заметки)$/.test(s)) return false
     return true
   },
+  // разделы верхнего уровня — по номерам в именах папок (01-, 02-, ...), остальное — как по умолчанию
+  sortFn: (a, b) => {
+    const na = /^\d{2}-/.test(a.slugSegment)
+    const nb = /^\d{2}-/.test(b.slugSegment)
+    if (na && nb) return a.slugSegment.localeCompare(b.slugSegment)
+    if (a.isFolder !== b.isFolder) return a.isFolder ? -1 : 1
+    return a.displayName.localeCompare(b.displayName, undefined, { numeric: true, sensitivity: "base" })
+  },
   mapFn: (node) => {
     let n = node.displayName
     n = n.replace(/^\d{2}-/, "") // 01-Backend -> Backend
+    n = n.replace(/^Мои-заметки$/, "Мои заметки").replace(/^00 /, "")
     n = n.replace(/^(BE|FE|DB|DO|FS) (?=\d)/, "") // BE 1.1 -> 1.1
     const m = n.match(/^Этап (\d+)\s*[—·:-]\s*(.*)$/)
     if (m) n = `${m[1]}. ${m[2].split(/\s+[—:]\s+|:\s+/)[0]}`
@@ -62,8 +71,20 @@ const explorer = Component.Explorer({
 
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
+  afterBody: [
+    // на главной: недавно обновлённые темы
+    Component.ConditionalRender({
+      component: Component.RecentNotes({
+        title: "Недавно обновлено",
+        limit: 8,
+        showTags: false,
+        filter: (f) => f.frontmatter?.type === "topic",
+      }),
+      condition: (page) => page.fileData.slug === "index",
+    }),
+  ],
   beforeBody: [
-    Component.ContentMeta(),
+    Component.ContentMeta({ showReadingTime: false }),
     Component.TagList(),
   ],
   left: [

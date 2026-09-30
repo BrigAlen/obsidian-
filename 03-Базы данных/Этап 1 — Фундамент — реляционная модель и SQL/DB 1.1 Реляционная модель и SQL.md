@@ -5,14 +5,24 @@ stage: 1
 order: 1
 status: todo
 level: junior
-tags: [domain/db, stage/1, level/junior]
+tags: [domain/db, stage/1, level/junior, priority/must, flag/todo]
 reviewed: 
 next_review: 
+priority: must
+time: 20
 ---
 
 # Реляционная модель и SQL
 
 ↑ [[DB Этап 1 · Фундамент — реляционная модель и SQL|Этап 1 · Фундамент: реляционная модель и SQL]]
+
+<!-- meta:start -->
+> [!abstract] Приоритет: **обязательно** · Чтение: **≈20 мин (по плану, тема не наполнена)** · Уровень: **junior**
+<!-- meta:end -->
+
+
+
+
 
 > [!info] Зачем это на собесе
 > _Что именно проверяют этой темой и на каком уровне (junior / middle / senior)._

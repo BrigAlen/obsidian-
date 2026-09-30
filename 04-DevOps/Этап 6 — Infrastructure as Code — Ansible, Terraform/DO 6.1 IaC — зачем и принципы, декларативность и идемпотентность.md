@@ -5,14 +5,24 @@ stage: 6
 order: 1
 status: todo
 level: middle
-tags: [domain/devops, stage/6, level/middle]
+tags: [domain/devops, stage/6, level/middle, priority/nice, flag/todo]
 reviewed: 
 next_review: 
+priority: nice
+time: 20
 ---
 
 # IaC: зачем и принципы, декларативность и идемпотентность
 
 ↑ [[DO Этап 6 · Infrastructure as Code — Ansible, Terraform|Этап 6 · Infrastructure as Code: Ansible, Terraform]]
+
+<!-- meta:start -->
+> [!abstract] Приоритет: **по желанию** · Чтение: **≈20 мин (по плану, тема не наполнена)** · Уровень: **middle**
+<!-- meta:end -->
+
+
+
+
 
 > [!info] Зачем это на собесе
 > _Что именно проверяют этой темой и на каком уровне (junior / middle / senior)._

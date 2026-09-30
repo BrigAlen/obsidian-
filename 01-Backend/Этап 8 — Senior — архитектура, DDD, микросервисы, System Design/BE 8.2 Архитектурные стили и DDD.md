@@ -5,14 +5,24 @@ stage: 8
 order: 2
 status: todo
 level: senior
-tags: [domain/backend, stage/8, level/senior]
+tags: [domain/backend, stage/8, level/senior, priority/must, flag/todo]
 reviewed: 
 next_review: 
+priority: must
+time: 20
 ---
 
 # Архитектурные стили и DDD
 
 ↑ [[BE Этап 8 · Senior — архитектура, DDD, микросервисы, System Design|Этап 8 · Senior: архитектура, DDD, микросервисы, System Design]]
+
+<!-- meta:start -->
+> [!abstract] Приоритет: **обязательно** · Чтение: **≈20 мин (по плану, тема не наполнена)** · Уровень: **senior**
+<!-- meta:end -->
+
+
+
+
 
 > [!info] Зачем это на собесе
 > _Что именно проверяют этой темой и на каком уровне (junior / middle / senior)._

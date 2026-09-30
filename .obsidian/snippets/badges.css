@@ -1,0 +1,53 @@
+/* Плашки приоритета/статуса, прогресс-бары и показатели (Obsidian + сайт) */
+.badge {
+  display: inline-block;
+  padding: 0.05rem 0.55rem;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  white-space: nowrap;
+  background: transparent;
+}
+.badge.must { color: #e5484d; }
+.badge.should { color: #c9902a; }
+.badge.nice { color: #7a8b99; }
+.badge.done { color: #3fa66b; }
+.badge.wip { color: #3b82f6; }
+.badge.todo { color: #8a8f98; }
+
+.bar {
+  height: 0.45rem;
+  min-width: 90px;
+  background: rgba(128, 128, 128, 0.25);
+  border-radius: 999px;
+  overflow: hidden;
+  margin-top: 0.3rem;
+}
+.bar > span {
+  display: block;
+  height: 100%;
+  background: #3fa66b;
+  border-radius: 999px;
+}
+
+.kpis {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 0.7rem;
+  margin: 1rem 0 1.4rem;
+}
+.kpi {
+  border: 1px solid rgba(128, 128, 128, 0.35);
+  border-radius: 8px;
+  padding: 0.7rem 0.9rem;
+}
+.kpi b {
+  display: block;
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+.kpi span {
+  font-size: 0.8rem;
+  opacity: 0.75;
+}

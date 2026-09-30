@@ -5,15 +5,25 @@ stage: 1
 order: 8
 status: todo
 level: junior
-tags: [domain/devops, stage/1, level/junior]
+tags: [domain/devops, stage/1, level/junior, priority/should, flag/todo]
 group: Скрипты и автоматизация
 reviewed: 
 next_review: 
+priority: should
+time: 20
 ---
 
 # Утилиты: grep, sed, awk, find, curl, jq, htop, ss, lsof
 
 ↑ [[DO Этап 1 · Фундамент — Linux, Bash, сети|Этап 1 · Фундамент: Linux, Bash, сети]]
+
+<!-- meta:start -->
+> [!abstract] Приоритет: **желательно** · Чтение: **≈20 мин (по плану, тема не наполнена)** · Уровень: **junior**
+<!-- meta:end -->
+
+
+
+
 
 > [!info] Зачем это на собесе
 > _Что именно проверяют этой темой и на каком уровне (junior / middle / senior)._

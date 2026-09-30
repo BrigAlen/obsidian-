@@ -7,14 +7,24 @@ order: 3
 status: todo
 level: junior
 notion_id: 3ea33104867981e388abd527913e239a
-tags: [domain/backend, stage/1, topic/networks, topic/security, level/junior]
+tags: [domain/backend, stage/1, topic/networks, topic/security, level/junior, priority/should]
 reviewed:
 next_review:
+priority: should
+time: 5
 ---
 
 # TLS, сертификаты, mTLS
 
 ↑ [[BE 1.1 Сети и протоколы для бэкенда|1.1 Сети и протоколы для бэкенда]] · ← [[BE 1.1.2 HTTP для бэкенда — методы, статусы, заголовки, keep-alive, HTTP-2 и HTTP-3|Предыдущая]] · → [[BE 1.1.4 DNS, балансировка, reverse proxy|Следующая]]
+
+<!-- meta:start -->
+> [!abstract] Приоритет: **желательно** · Чтение: **~5 мин** · Уровень: **junior**
+<!-- meta:end -->
+
+
+
+
 
 > [!info] Зачем это на собесе
 > Бэкендер настраивает HTTPS в Kestrel и nginx, доверие к внутренним сертификатам между сервисами, mTLS для межсервисного общения. Ошибки вида «The SSL connection could not be established» надо уметь диагностировать.

@@ -1,18 +1,28 @@
 ---
 type: topic
 domain: backend
-stage: 1
-order: 1
+stage: 8
+order: 5
 status: todo
-level: junior
-tags: [domain/backend, stage/1, level/junior]
+level: senior
+tags: [domain/backend, stage/8, level/senior, priority/should, flag/todo]
 reviewed: 
 next_review: 
+priority: should
+time: 20
 ---
 
-# Сети и протоколы для бэкенда
+# Алгоритмы и структуры данных на C#
 
-↑ [[BE Этап 1 · Фундамент — сети, ОС, основы C|Этап 1 · Фундамент: сети, ОС, основы C#]]
+↑ [[BE Этап 8 · Senior — архитектура, DDD, микросервисы, System Design|Этап 8 · Senior: архитектура, DDD, микросервисы, System Design]]
+
+<!-- meta:start -->
+> [!abstract] Приоритет: **желательно** · Чтение: **≈20 мин (по плану, тема не наполнена)** · Уровень: **senior**
+<!-- meta:end -->
+
+
+
+
 
 > [!info] Зачем это на собесе
 > _Что именно проверяют этой темой и на каком уровне (junior / middle / senior)._

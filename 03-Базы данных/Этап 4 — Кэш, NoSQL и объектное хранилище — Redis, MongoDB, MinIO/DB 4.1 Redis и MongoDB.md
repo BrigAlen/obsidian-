@@ -5,14 +5,24 @@ stage: 4
 order: 1
 status: todo
 level: middle
-tags: [domain/db, stage/4, level/middle]
+tags: [domain/db, stage/4, level/middle, priority/should, flag/todo]
 reviewed: 
 next_review: 
+priority: should
+time: 20
 ---
 
 # Redis и MongoDB
 
 ↑ [[DB Этап 4 · Кэш, NoSQL и объектное хранилище — Redis, MongoDB, MinIO|Этап 4 · Кэш, NoSQL и объектное хранилище: Redis, MongoDB, MinIO]]
+
+<!-- meta:start -->
+> [!abstract] Приоритет: **желательно** · Чтение: **≈20 мин (по плану, тема не наполнена)** · Уровень: **middle**
+<!-- meta:end -->
+
+
+
+
 
 > [!info] Зачем это на собесе
 > _Что именно проверяют этой темой и на каком уровне (junior / middle / senior)._

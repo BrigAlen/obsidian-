@@ -5,14 +5,24 @@ stage: 8
 order: 2
 status: todo
 level: senior
-tags: [domain/frontend, stage/8, level/senior]
+tags: [domain/frontend, stage/8, level/senior, priority/should, flag/todo]
 reviewed: 
 next_review: 
+priority: should
+time: 20
 ---
 
 # Архитектура фронтенда и паттерны
 
 ↑ [[FE Этап 8 · Senior — архитектура, паттерны, алгоритмы, System Design|Этап 8 · Senior: архитектура, паттерны, алгоритмы, System Design]]
+
+<!-- meta:start -->
+> [!abstract] Приоритет: **желательно** · Чтение: **≈20 мин (по плану, тема не наполнена)** · Уровень: **senior**
+<!-- meta:end -->
+
+
+
+
 
 > [!info] Зачем это на собесе
 > _Что именно проверяют этой темой и на каком уровне (junior / middle / senior)._

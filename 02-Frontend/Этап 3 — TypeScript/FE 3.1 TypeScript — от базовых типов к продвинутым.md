@@ -5,14 +5,24 @@ stage: 3
 order: 1
 status: todo
 level: middle
-tags: [domain/frontend, stage/3, level/middle]
+tags: [domain/frontend, stage/3, level/middle, priority/must, flag/todo]
 reviewed: 
 next_review: 
+priority: must
+time: 20
 ---
 
 # TypeScript: от базовых типов к продвинутым
 
 ↑ [[FE Этап 3 · TypeScript|Этап 3 · TypeScript]]
+
+<!-- meta:start -->
+> [!abstract] Приоритет: **обязательно** · Чтение: **≈20 мин (по плану, тема не наполнена)** · Уровень: **middle**
+<!-- meta:end -->
+
+
+
+
 
 > [!info] Зачем это на собесе
 > _Что именно проверяют этой темой и на каком уровне (junior / middle / senior)._

@@ -5,14 +5,24 @@ stage: 9
 order: 2
 status: todo
 level: final
-tags: [domain/frontend, stage/9, level/final]
+tags: [domain/frontend, stage/9, level/final, priority/must, flag/todo]
 reviewed: 
 next_review: 
+priority: must
+time: 20
 ---
 
 # Финальная подготовка: live coding и вопросы
 
 ↑ [[FE Этап 9 · Лидерство и финальная подготовка к собесу|Этап 9 · Лидерство и финальная подготовка к собесу]]
+
+<!-- meta:start -->
+> [!abstract] Приоритет: **обязательно** · Чтение: **≈20 мин (по плану, тема не наполнена)** · Уровень: **final**
+<!-- meta:end -->
+
+
+
+
 
 > [!info] Зачем это на собесе
 > _Что именно проверяют этой темой и на каком уровне (junior / middle / senior)._

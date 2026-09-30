@@ -1,18 +1,28 @@
 ---
 type: topic
 domain: backend
-stage: 2
+stage: 1
 order: 3
 status: todo
 level: junior
-tags: [domain/backend, stage/2, level/junior]
+tags: [domain/backend, stage/1, level/junior, priority/must, flag/todo]
 reviewed: 
 next_review: 
+priority: must
+time: 20
 ---
 
-# Асинхронность и многопоточность
+# C#: основы языка
 
-↑ [[BE Этап 2 · C глубоко и .NET runtime|Этап 2 · C# глубоко и .NET runtime]]
+↑ [[BE Этап 1 · Фундамент — сети, ОС, основы C♯|Этап 1 · Фундамент: сети, ОС, основы C♯]]
+
+<!-- meta:start -->
+> [!abstract] Приоритет: **обязательно** · Чтение: **≈20 мин (по плану, тема не наполнена)** · Уровень: **junior**
+<!-- meta:end -->
+
+
+
+
 
 > [!info] Зачем это на собесе
 > _Что именно проверяют этой темой и на каком уровне (junior / middle / senior)._

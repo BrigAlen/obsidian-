@@ -5,14 +5,24 @@ stage: 3
 order: 8
 status: todo
 level: middle
-tags: [domain/devops, stage/3, level/middle]
+tags: [domain/devops, stage/3, level/middle, priority/must, flag/todo]
 reviewed: 
 next_review: 
+priority: must
+time: 20
 ---
 
 # Секреты и окружения: dev, staging, prod
 
 ↑ [[DO Этап 3 · CI-CD|Этап 3 · CI-CD]]
+
+<!-- meta:start -->
+> [!abstract] Приоритет: **обязательно** · Чтение: **≈20 мин (по плану, тема не наполнена)** · Уровень: **middle**
+<!-- meta:end -->
+
+
+
+
 
 > [!info] Зачем это на собесе
 > _Что именно проверяют этой темой и на каком уровне (junior / middle / senior)._

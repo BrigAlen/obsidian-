@@ -7,15 +7,25 @@ order: 5
 status: todo
 level: junior
 notion_id: 3ea3310486798180a101f27fb02bd5ef
-tags: [domain/backend, stage/1, topic/os, topic/datetime, topic/encoding, level/junior, flag/rewritten]
+tags: [domain/backend, stage/1, topic/os, topic/datetime, topic/encoding, level/junior, flag/rewritten, priority/should]
 rewritten: true
 reviewed:
 next_review:
+priority: should
+time: 6
 ---
 
 # Кодировки, часовые пояса, время на сервере
 
 ↑ [[BE 1.2 ОС и Linux для разработчика|1.2 ОС и Linux для разработчика]] · ← [[BE 1.2.4 Linux и shell для бэкендера — логи, сигналы, переменные окружения|Предыдущая]]
+
+<!-- meta:start -->
+> [!abstract] Приоритет: **желательно** · Чтение: **~6 мин** · Уровень: **junior**
+<!-- meta:end -->
+
+
+
+
 
 > [!note] Переписано
 > В Notion эта страница содержала шаблонный текст без отношения к теме. Здесь — содержательная версия.

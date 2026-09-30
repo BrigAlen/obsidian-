@@ -5,14 +5,24 @@ stage: 7
 order: 6
 status: todo
 level: middle+
-tags: [domain/backend, stage/7, level/middle+]
+tags: [domain/backend, stage/7, level/middle+, priority/nice, flag/todo]
 reviewed: 
 next_review: 
+priority: nice
+time: 20
 ---
 
 # DevOps для бэкенд-разработчика: деплой и CI/CD
 
 ↑ [[BE Этап 7 · Middle+ — производительность, observability, надёжность, безопасность|Этап 7 · Middle+: производительность, observability, надёжность, безопасность]]
+
+<!-- meta:start -->
+> [!abstract] Приоритет: **по желанию** · Чтение: **≈20 мин (по плану, тема не наполнена)** · Уровень: **middle+**
+<!-- meta:end -->
+
+
+
+
 
 > [!info] Зачем это на собесе
 > _Что именно проверяют этой темой и на каком уровне (junior / middle / senior)._

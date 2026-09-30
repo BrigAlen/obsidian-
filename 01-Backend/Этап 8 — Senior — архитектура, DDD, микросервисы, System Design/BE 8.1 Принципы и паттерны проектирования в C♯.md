@@ -1,18 +1,28 @@
 ---
 type: topic
 domain: backend
-stage: 2
-order: 4
+stage: 8
+order: 1
 status: todo
-level: junior
-tags: [domain/backend, stage/2, level/junior]
+level: senior
+tags: [domain/backend, stage/8, level/senior, priority/must, flag/todo]
 reviewed: 
 next_review: 
+priority: must
+time: 20
 ---
 
-# Тестирование в .NET: основы
+# Принципы и паттерны проектирования в C#
 
-↑ [[BE Этап 2 · C глубоко и .NET runtime|Этап 2 · C# глубоко и .NET runtime]]
+↑ [[BE Этап 8 · Senior — архитектура, DDD, микросервисы, System Design|Этап 8 · Senior: архитектура, DDD, микросервисы, System Design]]
+
+<!-- meta:start -->
+> [!abstract] Приоритет: **обязательно** · Чтение: **≈20 мин (по плану, тема не наполнена)** · Уровень: **senior**
+<!-- meta:end -->
+
+
+
+
 
 > [!info] Зачем это на собесе
 > _Что именно проверяют этой темой и на каком уровне (junior / middle / senior)._

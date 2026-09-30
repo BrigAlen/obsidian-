@@ -5,14 +5,24 @@ stage: 4
 order: 1
 status: todo
 level: middle
-tags: [domain/backend, stage/4, level/middle]
+tags: [domain/backend, stage/4, level/middle, priority/must, flag/todo]
 reviewed: 
 next_review: 
+priority: must
+time: 20
 ---
 
 # ADO.NET, Npgsql и Dapper
 
 ↑ [[BE Этап 4 · Данные в .NET — ADO.NET, Dapper, EF Core|Этап 4 · Данные в .NET: ADO.NET, Dapper, EF Core]]
+
+<!-- meta:start -->
+> [!abstract] Приоритет: **обязательно** · Чтение: **≈20 мин (по плану, тема не наполнена)** · Уровень: **middle**
+<!-- meta:end -->
+
+
+
+
 
 > [!info] Зачем это на собесе
 > _Что именно проверяют этой темой и на каком уровне (junior / middle / senior)._

@@ -11,6 +11,15 @@ tags: [domain/frontend, kind/stage]
 ↑ [[FE Frontend|Frontend]]
 
 ## Темы
-- [[FE 6.1 Git|1. Git]]
-- [[FE 6.2 Сборка и инфраструктура — Vite, monorepo, CI-CD|2. Сборка и инфраструктура: Vite, monorepo, CI/CD]]
-- [[FE 6.3 Качество кода и тестирование — продвинутый уровень|3. Качество кода и тестирование: продвинутый уровень]]
+<!-- toc:start -->
+**Итого:** 3 тем · ~1 ч · готово 0 из 3
+
+<div class="bar"><span style="width:0%"></span></div>
+
+| # | Раздел или тема | Приоритет | Чтение | Прогресс |
+|---|---|---|---|---|
+| 1 | [[FE 6.1 Git\|Git]] | <span class="badge should">Желательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
+| 2 | [[FE 6.2 Сборка и инфраструктура — Vite, monorepo, CI-CD\|Сборка и инфраструктура: Vite, monorepo, CI∕CD]] | <span class="badge should">Желательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
+| 3 | [[FE 6.3 Качество кода и тестирование — продвинутый уровень\|Качество кода и тестирование: продвинутый уровень]] | <span class="badge should">Желательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
+<!-- toc:end -->
+

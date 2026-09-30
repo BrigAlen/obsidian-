@@ -7,14 +7,24 @@ order: 3
 status: todo
 level: junior
 notion_id: 3ea3310486798130af0ae91c7852a262
-tags: [domain/backend, stage/1, topic/os, topic/linux, level/junior]
+tags: [domain/backend, stage/1, topic/os, topic/linux, level/junior, priority/should]
 reviewed:
 next_review:
+priority: should
+time: 5
 ---
 
 # Файловая система, права, дескрипторы
 
 ↑ [[BE 1.2 ОС и Linux для разработчика|1.2 ОС и Linux для разработчика]] · ← [[BE 1.2.2 Память — стек, куча, виртуальная память|Предыдущая]] · → [[BE 1.2.4 Linux и shell для бэкендера — логи, сигналы, переменные окружения|Следующая]]
+
+<!-- meta:start -->
+> [!abstract] Приоритет: **желательно** · Чтение: **~5 мин** · Уровень: **junior**
+<!-- meta:end -->
+
+
+
+
 
 > [!info] Зачем это на собесе
 > Сервис пишет логи, временные файлы, читает конфиги и сертификаты, монтирует volumes в Docker. Ошибки «Permission denied» и «Too many open files» — классика продакшена.

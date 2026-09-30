@@ -5,14 +5,24 @@ stage: 7
 order: 5
 status: todo
 level: middle+
-tags: [domain/db, stage/7, level/middle+]
+tags: [domain/db, stage/7, level/middle+, priority/nice, flag/todo]
 reviewed: 
 next_review: 
+priority: nice
+time: 20
 ---
 
 # Capacity planning: CPU, RAM, IOPS, соединения и рост данных
 
 ↑ [[DB Этап 7 · Эксплуатация и безопасность БД|Этап 7 · Эксплуатация и безопасность БД]]
+
+<!-- meta:start -->
+> [!abstract] Приоритет: **по желанию** · Чтение: **≈20 мин (по плану, тема не наполнена)** · Уровень: **middle+**
+<!-- meta:end -->
+
+
+
+
 
 > [!info] Зачем это на собесе
 > _Что именно проверяют этой темой и на каком уровне (junior / middle / senior)._

@@ -5,12 +5,22 @@ stage: 0
 order: 3
 status: todo
 level: middle+
-tags: [domain/fullstack, kind/project, level/middle+]
+tags: [domain/fullstack, kind/project, level/middle+, priority/should, flag/todo]
+priority: should
+time: 20
 ---
 
 # Реализация вертикального среза Vue 3 + ASP.NET Core + PostgreSQL
 
 ↑ [[FS Fullstack-практика]]
+
+<!-- meta:start -->
+> [!abstract] Приоритет: **желательно** · Чтение: **≈20 мин (по плану, тема не наполнена)** · Уровень: **middle+**
+<!-- meta:end -->
+
+
+
+
 
 ## Цель
 

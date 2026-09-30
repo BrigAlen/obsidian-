@@ -7,14 +7,24 @@ order: 2
 status: todo
 level: junior
 notion_id: 3ea331048679812882d9f5e746fcd550
-tags: [domain/backend, stage/1, topic/networks, topic/http, level/junior]
+tags: [domain/backend, stage/1, topic/networks, topic/http, level/junior, priority/should]
 reviewed:
 next_review:
+priority: should
+time: 6
 ---
 
 # HTTP для бэкенда: методы, статусы, заголовки, keep-alive, HTTP/2 и HTTP/3
 
 ↑ [[BE 1.1 Сети и протоколы для бэкенда|1.1 Сети и протоколы для бэкенда]] · ← [[BE 1.1.1 Модель OSI и TCP-IP, TCP и UDP|Предыдущая]] · → [[BE 1.1.3 TLS, сертификаты, mTLS|Следующая]]
+
+<!-- meta:start -->
+> [!abstract] Приоритет: **желательно** · Чтение: **~6 мин** · Уровень: **junior**
+<!-- meta:end -->
+
+
+
+
 
 > [!info] Зачем это на собесе
 > API на ASP.NET Core — это HTTP. Интервьюер ждёт точного понимания семантики методов, статус-кодов, заголовков кэширования и разницы версий протокола. Базовая часть есть во фронтенд-теме, здесь — взгляд со стороны сервера.

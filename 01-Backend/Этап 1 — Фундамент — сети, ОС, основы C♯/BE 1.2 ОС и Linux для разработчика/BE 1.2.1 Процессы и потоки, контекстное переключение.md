@@ -7,14 +7,24 @@ order: 1
 status: todo
 level: junior
 notion_id: 3ea33104867981c1a47fd0cb9c69ea71
-tags: [domain/backend, stage/1, topic/os, level/junior]
+tags: [domain/backend, stage/1, topic/os, level/junior, priority/should]
 reviewed:
 next_review:
+priority: should
+time: 4
 ---
 
 # Процессы и потоки, контекстное переключение
 
 ↑ [[BE 1.2 ОС и Linux для разработчика|1.2 ОС и Linux для разработчика]] · → [[BE 1.2.2 Память — стек, куча, виртуальная память|Следующая]]
+
+<!-- meta:start -->
+> [!abstract] Приоритет: **желательно** · Чтение: **~4 мин** · Уровень: **junior**
+<!-- meta:end -->
+
+
+
+
 
 > [!info] Зачем это на собесе
 > Основа для понимания многопоточности в .NET, ThreadPool, async/await и контейнеров. Вопрос «чем процесс отличается от потока» задают почти всегда.

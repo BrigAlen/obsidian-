@@ -15,6 +15,7 @@ Route map для подготовки к собеседованиям Fullstack-
 <a class="card" href="./05-Fullstack-практика/FS-Fullstack-практика"><strong><svg class="ic" viewBox="0 0 24 24"><path d="M10 2v7.527a2 2 0 0 1-.211.896L4.72 20.55a1 1 0 0 0 .9 1.45h12.76a1 1 0 0 0 .9-1.45l-5.069-10.127A2 2 0 0 1 14 9.527V2"/><path d="M8.5 2h7"/><path d="M7 16h10"/></svg>Fullstack-практика</strong><span>Сквозной production-проект</span></a>
 <a class="card" href="./07-Мои-заметки/Мои-заметки"><strong><svg class="ic" viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.376 3.622a1 1 0 0 1 3.002 3.002L7.368 18.635a2 2 0 0 1-.855.506l-2.872.838a.5.5 0 0 1-.62-.62l.838-2.872a2 2 0 0 1 .506-.854z"/></svg>Мои заметки</strong><span>Личные заметки, журнал собеседований, разборы, теги и флаги</span></a>
 <a class="card" href="./Руководство"><strong><svg class="ic" viewBox="0 0 24 24"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20"/></svg>Руководство</strong><span>Как устроен vault, система тегов и флагов, как добавлять свои заметки</span></a>
+<a class="card" href="./Прогресс"><strong><svg class="ic" viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M18 17V9"/><path d="M13 17V5"/><path d="M8 17v-3"/></svg>Прогресс</strong><span>Что изучено, сколько осталось читать, что читать дальше</span></a>
 </div>
 
 ## Рекомендуемый порядок

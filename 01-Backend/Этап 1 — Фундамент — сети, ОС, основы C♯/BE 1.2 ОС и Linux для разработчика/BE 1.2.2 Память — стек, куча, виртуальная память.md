@@ -7,14 +7,24 @@ order: 2
 status: todo
 level: junior
 notion_id: 3ea33104867981129550de5de3011878
-tags: [domain/backend, stage/1, topic/os, topic/memory, level/junior]
+tags: [domain/backend, stage/1, topic/os, topic/memory, level/junior, priority/should]
 reviewed:
 next_review:
+priority: should
+time: 4
 ---
 
 # Память: стек, куча, виртуальная память
 
 ↑ [[BE 1.2 ОС и Linux для разработчика|1.2 ОС и Linux для разработчика]] · ← [[BE 1.2.1 Процессы и потоки, контекстное переключение|Предыдущая]] · → [[BE 1.2.3 Файловая система, права, дескрипторы|Следующая]]
+
+<!-- meta:start -->
+> [!abstract] Приоритет: **желательно** · Чтение: **~4 мин** · Уровень: **junior**
+<!-- meta:end -->
+
+
+
+
 
 > [!info] Зачем это на собесе
 > Без понимания стека, кучи и виртуальной памяти не объяснить value и reference типы, boxing, GC, `Span<T>` и OOM-kill контейнера. Это фундамент для всего раздела .NET runtime.

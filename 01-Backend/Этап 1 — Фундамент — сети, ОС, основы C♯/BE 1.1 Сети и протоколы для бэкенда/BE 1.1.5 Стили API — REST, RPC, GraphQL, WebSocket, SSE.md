@@ -7,15 +7,25 @@ order: 5
 status: todo
 level: junior
 notion_id: 3ea33104867981bb8a3cd70eff7d424c
-tags: [domain/backend, stage/1, topic/networks, topic/api, level/junior, flag/rewritten]
+tags: [domain/backend, stage/1, topic/networks, topic/api, level/junior, flag/rewritten, priority/should]
 rewritten: true
 reviewed:
 next_review:
+priority: should
+time: 6
 ---
 
 # Стили API: REST, RPC, GraphQL, WebSocket, SSE
 
 ↑ [[BE 1.1 Сети и протоколы для бэкенда|1.1 Сети и протоколы для бэкенда]] · ← [[BE 1.1.4 DNS, балансировка, reverse proxy|Предыдущая]]
+
+<!-- meta:start -->
+> [!abstract] Приоритет: **желательно** · Чтение: **~6 мин** · Уровень: **junior**
+<!-- meta:end -->
+
+
+
+
 
 > [!note] Переписано
 > В Notion эта страница содержала шаблонный текст без отношения к теме. Здесь — содержательная версия.

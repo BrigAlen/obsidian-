@@ -7,14 +7,24 @@ order: 1
 status: todo
 level: junior
 notion_id: 3ea33104867981b0ad32dbddff14402f
-tags: [domain/backend, stage/1, topic/networks, level/junior]
+tags: [domain/backend, stage/1, topic/networks, level/junior, priority/should]
 reviewed:
 next_review:
+priority: should
+time: 5
 ---
 
 # Модель OSI и TCP/IP, TCP и UDP
 
 ↑ [[BE 1.1 Сети и протоколы для бэкенда|1.1 Сети и протоколы для бэкенда]] · → [[BE 1.1.2 HTTP для бэкенда — методы, статусы, заголовки, keep-alive, HTTP-2 и HTTP-3|Следующая: HTTP для бэкенда]]
+
+<!-- meta:start -->
+> [!abstract] Приоритет: **желательно** · Чтение: **~5 мин** · Уровень: **junior**
+<!-- meta:end -->
+
+
+
+
 
 > [!info] Зачем это на собесе
 > Бэкендер должен понимать, что происходит с запросом ниже HTTP: откуда таймауты, почему «connection reset», зачем keep-alive и пулы соединений, почему gRPC требует HTTP/2. Вопросы про OSI и TCP vs UDP задают на любом бэкенд-собесе.

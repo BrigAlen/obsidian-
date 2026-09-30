@@ -7,14 +7,24 @@ order: 4
 status: todo
 level: junior
 notion_id: 3ea331048679817aa584c01ff29564d5
-tags: [domain/backend, stage/1, topic/networks, topic/infra, level/junior]
+tags: [domain/backend, stage/1, topic/networks, topic/infra, level/junior, priority/should]
 reviewed:
 next_review:
+priority: should
+time: 5
 ---
 
 # DNS, балансировка, reverse proxy
 
 ↑ [[BE 1.1 Сети и протоколы для бэкенда|1.1 Сети и протоколы для бэкенда]] · ← [[BE 1.1.3 TLS, сертификаты, mTLS|Предыдущая]] · → [[BE 1.1.5 Стили API — REST, RPC, GraphQL, WebSocket, SSE|Следующая]]
+
+<!-- meta:start -->
+> [!abstract] Приоритет: **желательно** · Чтение: **~5 мин** · Уровень: **junior**
+<!-- meta:end -->
+
+
+
+
 
 > [!info] Зачем это на собесе
 > В микросервисной архитектуре запрос проходит DNS, балансировщик и reverse proxy (в проекте — nginx-gateway перед GraphQL-шлюзом и public API). Нужно понимать, как запрос находит сервис и где могут теряться заголовки, IP и таймауты.

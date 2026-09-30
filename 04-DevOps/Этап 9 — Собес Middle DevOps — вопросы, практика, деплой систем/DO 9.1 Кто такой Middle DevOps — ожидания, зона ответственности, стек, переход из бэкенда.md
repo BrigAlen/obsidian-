@@ -5,14 +5,24 @@ stage: 9
 order: 1
 status: todo
 level: final
-tags: [domain/devops, stage/9, level/final]
+tags: [domain/devops, stage/9, level/final, priority/must, flag/todo]
 reviewed: 
 next_review: 
+priority: must
+time: 20
 ---
 
 # Кто такой Middle DevOps: ожидания, зона ответственности, стек, переход из бэкенда
 
 ↑ [[DO Этап 9 · Собес Middle DevOps — вопросы, практика, деплой систем|Этап 9 · Собес Middle DevOps: вопросы, практика, деплой систем]]
+
+<!-- meta:start -->
+> [!abstract] Приоритет: **обязательно** · Чтение: **≈20 мин (по плану, тема не наполнена)** · Уровень: **final**
+<!-- meta:end -->
+
+
+
+
 
 > [!info] Зачем это на собесе
 > _Что именно проверяют этой темой и на каком уровне (junior / middle / senior)._

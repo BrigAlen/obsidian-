@@ -43,9 +43,10 @@ jobs:
           cp vault/site/quartz.config.ts quartz/quartz.config.ts
           # Dataview на сайте не работает: убираем блоки; плейсхолдеры ссылок -> wiki-ссылки
           find quartz/content -name '*.md' -exec perl -0pi -e 's/```dataview.*?```\n//gs' {} +
+          python3 vault/site/meta.py quartz/content
           python3 vault/site/resolve_links.py quartz/content
           if [ -f vault/site/quartz.layout.ts ]; then cp vault/site/quartz.layout.ts quartz/quartz.layout.ts; fi
-          cat vault/site/custom.scss vault/.obsidian/snippets/icons.css > quartz/quartz/styles/custom.scss
+          cat vault/site/custom.scss vault/.obsidian/snippets/*.css > quartz/quartz/styles/custom.scss
           if [ -d vault/site/static ]; then cp -r vault/site/static/. quartz/quartz/static/; fi
 
       - name: Install

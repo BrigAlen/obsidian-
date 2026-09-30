@@ -5,14 +5,24 @@ stage: 7
 order: 5
 status: todo
 level: middle+
-tags: [domain/devops, stage/7, level/middle+]
+tags: [domain/devops, stage/7, level/middle+, priority/should, flag/todo]
 reviewed: 
 next_review: 
+priority: should
+time: 20
 ---
 
 # OpenTelemetry Collector в инфраструктуре: пайплайны, экспорт в ClickHouse и Kafka
 
 ↑ [[DO Этап 7 · Observability и эксплуатация|Этап 7 · Observability и эксплуатация]]
+
+<!-- meta:start -->
+> [!abstract] Приоритет: **желательно** · Чтение: **≈20 мин (по плану, тема не наполнена)** · Уровень: **middle+**
+<!-- meta:end -->
+
+
+
+
 
 > [!info] Зачем это на собесе
 > _Что именно проверяют этой темой и на каком уровне (junior / middle / senior)._

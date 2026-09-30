@@ -5,14 +5,24 @@ stage: 5
 order: 2
 status: todo
 level: middle
-tags: [domain/devops, stage/5, level/middle]
+tags: [domain/devops, stage/5, level/middle, priority/should, flag/todo]
 reviewed: 
 next_review: 
+priority: should
+time: 20
 ---
 
 # kubectl, kubeconfig, контексты, локальный кластер (kind, minikube, k3s)
 
 ↑ [[DO Этап 5 · Kubernetes|Этап 5 · Kubernetes]]
+
+<!-- meta:start -->
+> [!abstract] Приоритет: **желательно** · Чтение: **≈20 мин (по плану, тема не наполнена)** · Уровень: **middle**
+<!-- meta:end -->
+
+
+
+
 
 > [!info] Зачем это на собесе
 > _Что именно проверяют этой темой и на каком уровне (junior / middle / senior)._
