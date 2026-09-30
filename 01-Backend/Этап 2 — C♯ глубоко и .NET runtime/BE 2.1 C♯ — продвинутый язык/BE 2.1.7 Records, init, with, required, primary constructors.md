@@ -22,6 +22,7 @@ time: 5
 <div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~5 мин чтения</span><span class="chip">Уровень: middle</span></div>
 <!-- meta:end -->
 
+
 > [!info] Зачем это на собесе
 > Records, `init`, `required` и primary constructors — «современный C#» в одном вопросе. Спросят, чем record отличается от class, как устроено равенство, что делает `with`, зачем `init` и `required`, чем primary constructor у record отличается от primary constructor у класса.
 

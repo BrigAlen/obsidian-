@@ -16,14 +16,14 @@ C#, .NET 9, ASP.NET Core, EF Core, gRPC, GraphQL, Kafka, микросервис�
 
 ## Этапы
 <!-- toc:start -->
-**Итого:** 79 тем · ~16 ч 8 мин · готово 0 из 79
+**Итого:** 93 тем · ~16 ч 54 мин · готово 0 из 93
 
 <div class="bar"><span style="width:0%"></span></div>
 
 | Этап | Приоритет | Чтение | Прогресс |
 |---|---|---|---|
 | [[BE Этап 1 · Фундамент — сети, ОС, основы C♯\|Этап 1 · Фундамент: сети, ОС, основы C♯]] | <span class="badge must">Обязательно</span> | 2 ч 54 мин | 0 из 31<br><div class="bar"><span style="width:0%"></span></div> |
-| [[BE Этап 2 · C♯ глубоко и .NET runtime\|Этап 2 · C♯ глубоко и .NET runtime]] | <span class="badge must">Обязательно</span> | 2 ч 14 мин | 0 из 15<br><div class="bar"><span style="width:0%"></span></div> |
+| [[BE Этап 2 · C♯ глубоко и .NET runtime\|Этап 2 · C♯ глубоко и .NET runtime]] | <span class="badge must">Обязательно</span> | 3 ч | 0 из 29<br><div class="bar"><span style="width:0%"></span></div> |
 | [[BE Этап 3 · ASP.NET Core\|Этап 3 · ASP.NET Core]] | <span class="badge must">Обязательно</span> | 2 ч | 0 из 6<br><div class="bar"><span style="width:0%"></span></div> |
 | [[BE Этап 4 · Данные в .NET — ADO.NET, Dapper, EF Core\|Этап 4 · Данные в .NET: ADO.NET, Dapper, EF Core]] | <span class="badge must">Обязательно</span> | 1 ч | 0 из 3<br><div class="bar"><span style="width:0%"></span></div> |
 | [[BE Этап 5 · Интеграции — REST, gRPC, GraphQL, Kafka и очереди, внешние API\|Этап 5 · Интеграции: REST, gRPC, GraphQL, Kafka и очереди, внешние API]] | <span class="badge must">Обязательно</span> | 2 ч 20 мин | 0 из 7<br><div class="bar"><span style="width:0%"></span></div> |

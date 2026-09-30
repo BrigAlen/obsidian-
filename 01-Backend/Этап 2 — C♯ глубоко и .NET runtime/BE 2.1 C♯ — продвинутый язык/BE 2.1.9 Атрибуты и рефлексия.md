@@ -22,6 +22,7 @@ time: 6
 <div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~6 мин чтения</span><span class="chip">Уровень: middle</span></div>
 <!-- meta:end -->
 
+
 > [!info] Зачем это на собесе
 > Рефлексия стоит за DI, ORM, сериализацией и тестовыми фреймворками. Спросят, что такое атрибут и как его прочитать, чем рефлексия плоха для производительности и AOT, чем её можно заменить (expression trees, source generators) и как написать собственный атрибут.
 

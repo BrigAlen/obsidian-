@@ -22,6 +22,7 @@ time: 6
 <div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~6 мин чтения</span><span class="chip">Уровень: middle</span></div>
 <!-- meta:end -->
 
+
 > [!info] Зачем это на собесе
 > `yield` объясняет, как работает LINQ и отложенное выполнение. `IAsyncEnumerable` позволяет стримить большие выборки из БД и ClickHouse, читать постраничные внешние API и отдавать данные клиенту без загрузки всего в память.
 

@@ -22,6 +22,7 @@ time: 6
 <div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~6 мин чтения</span><span class="chip">Уровень: middle</span></div>
 <!-- meta:end -->
 
+
 > [!info] Зачем это на собесе
 > Senior-вопросы про generics: чем ковариантность отличается от контравариантности, почему `List<Dog>` нельзя присвоить `List<Animal>`, что такое `static abstract` в интерфейсах и generic math, как CLR разделяет код для значимых и ссылочных типов.
 

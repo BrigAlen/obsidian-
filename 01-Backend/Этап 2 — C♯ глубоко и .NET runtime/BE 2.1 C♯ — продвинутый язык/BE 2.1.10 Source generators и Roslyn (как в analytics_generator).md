@@ -22,6 +22,7 @@ time: 8
 <div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~8 мин чтения</span><span class="chip">Уровень: middle</span></div>
 <!-- meta:end -->
 
+
 > [!info] Зачем это на собесе
 > source generators заменяют рефлексию генерацией кода при компиляции: быстрее, AOT-совместимо, ошибки видны сразу. В проекте есть свой генератор (`analytics_generator`), который по атрибутам профилей создаёт маппинг ресурсов в строки ClickHouse, реестр и диспетчер. Это сильная тема для рассказа на собесе.
 
