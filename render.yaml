@@ -1,0 +1,16 @@
+# Render Blueprint: один веб-сервис из Dockerfile. База — внешняя (Neon), строку подключения
+# задаём в панели Render (переменная DATABASE_URL), в git её нет.
+services:
+  - type: web
+    name: vault
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /healthz
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: ADMIN_LOGIN
+        sync: false
+      - key: ADMIN_PASSWORD
+        sync: false

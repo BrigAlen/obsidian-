@@ -1,0 +1,7 @@
+.git
+.github
+.obsidian/workspace*.json
+.obsidian/cache
+api/**/bin
+api/**/obj
+node_modules

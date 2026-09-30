@@ -1,0 +1,41 @@
+.acct { position: fixed; top: 0.6rem; right: 0.8rem; z-index: 50; }
+.acct-btn { font: inherit; font-size: 0.85rem; padding: 0.3rem 0.8rem; border: 1px solid var(--lightgray); border-radius: 6px; background: var(--light); color: var(--dark); cursor: pointer; }
+.acct-btn:hover { border-color: var(--secondary); }
+.acct-menu { position: absolute; right: 0; margin-top: 0.3rem; min-width: 12rem; background: var(--light); border: 1px solid var(--lightgray); border-radius: 8px; padding: 0.3rem; display: flex; flex-direction: column; }
+.acct-menu[hidden] { display: none; }
+.acct-menu a, .acct-menu button { font: inherit; font-size: 0.875rem; text-align: left; padding: 0.4rem 0.6rem; border: 0; background: none; color: var(--dark); border-radius: 5px; cursor: pointer; text-decoration: none; }
+.acct-menu a:hover, .acct-menu button:hover { background: var(--highlight); }
+
+.vmodal { position: fixed; inset: 0; background: rgba(0, 0, 0, 0.45); display: flex; align-items: center; justify-content: center; z-index: 100; padding: 1rem; }
+.vmodal-body { background: var(--light); border: 1px solid var(--lightgray); border-radius: 10px; padding: 1.2rem 1.4rem; width: min(24rem, 100%); }
+.vmodal-body h3 { margin-top: 0; }
+.vform { display: flex; flex-direction: column; gap: 0.7rem; }
+.vf { display: flex; flex-direction: column; gap: 0.25rem; font-size: 0.85rem; color: var(--darkgray); }
+.vf input, .tpanel textarea, .vsearch { font: inherit; padding: 0.45rem 0.6rem; border: 1px solid var(--lightgray); border-radius: 6px; background: var(--light); color: var(--dark); }
+.tpanel textarea { width: 100%; box-sizing: border-box; margin: 0.4rem 0; resize: vertical; }
+.vsearch { width: 100%; box-sizing: border-box; margin-bottom: 0.8rem; }
+.verr { color: #b3261e; font-size: 0.85rem; min-height: 1em; margin: 0; }
+.vbtn { font: inherit; font-size: 0.875rem; padding: 0.4rem 0.9rem; border-radius: 6px; border: 1px solid var(--lightgray); background: var(--light); color: var(--dark); cursor: pointer; }
+.vbtn.primary { background: var(--secondary); border-color: var(--secondary); color: #fff; }
+.vbtn.link { border: 0; background: none; color: var(--secondary); padding: 0.1rem 0.3rem; }
+
+.tpanel { margin-top: 2.5rem; padding-top: 0.5rem; border-top: 1px solid var(--lightgray); }
+.tpanel h2 { font-size: 1.15rem; margin-top: 1.4rem; border: 0; }
+.seg { display: inline-flex; border: 1px solid var(--lightgray); border-radius: 8px; overflow: hidden; }
+.seg-btn { font: inherit; font-size: 0.875rem; padding: 0.4rem 0.9rem; border: 0; border-right: 1px solid var(--lightgray); background: var(--light); color: var(--darkgray); cursor: pointer; }
+.seg-btn:last-child { border-right: 0; }
+.seg-btn.on { background: var(--secondary); color: #fff; }
+.muted { color: var(--gray); font-size: 0.875rem; }
+.notes { display: flex; flex-direction: column; gap: 0.6rem; margin: 0.6rem 0; }
+.note { border: 1px solid var(--lightgray); border-radius: 8px; padding: 0.6rem 0.8rem; }
+.note-head { display: flex; gap: 0.8rem; justify-content: space-between; align-items: baseline; font-size: 0.85rem; }
+.note-body { white-space: pre-wrap; margin-top: 0.3rem; overflow-wrap: anywhere; }
+
+/* отметки в боковом дереве */
+.explorer a.p-done::after { content: "✓"; margin-left: 0.4rem; color: var(--secondary); }
+.explorer a.p-wip::after { content: "…"; margin-left: 0.4rem; color: var(--gray); }
+
+#cabinet-root .bar { height: 8px; background: var(--lightgray); border-radius: 4px; overflow: hidden; }
+#cabinet-root .bar span { display: block; height: 100%; background: var(--secondary); }
+
+@media (max-width: 800px) { .acct { top: 0.45rem; right: 0.5rem; } }
