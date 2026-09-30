@@ -38,13 +38,31 @@ const graph = Component.Graph({
   },
 })
 
+// Дерево слева: короткие названия, клик по папке только раскрывает её, служебные страницы скрыты
+const explorer = Component.Explorer({
+  folderClickBehavior: "collapse",
+  folderDefaultState: "collapsed",
+  filterFn: (node) => {
+    const s = node.slugSegment
+    if (s === "tags") return false
+    // страницы-оглавления (доступны по ссылкам): домены, этапы, «Мои заметки»
+    if (/^(BE|FE|DB|DO)-Этап-\d/.test(s)) return false
+    if (/^(BE-Backend|FE-Frontend|DB-Базы-данных|DO-DevOps|FS-Fullstack-практика|Мои-заметки)$/.test(s)) return false
+    return true
+  },
+  mapFn: (node) => {
+    let n = node.displayName
+    n = n.replace(/^\d{2}-/, "") // 01-Backend -> Backend
+    n = n.replace(/^(BE|FE|DB|DO|FS) (?=\d)/, "") // BE 1.1 -> 1.1
+    const m = n.match(/^Этап (\d+)\s*[—·:-]\s*(.*)$/)
+    if (m) n = `${m[1]}. ${m[2].split(/\s+[—:]\s+|:\s+/)[0]}`
+    node.displayName = n
+  },
+})
+
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    Component.ConditionalRender({
-      component: Component.Breadcrumbs(),
-      condition: (page) => page.fileData.slug !== "index",
-    }),
     Component.ContentMeta(),
     Component.TagList(),
   ],
@@ -61,7 +79,7 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    explorer,
   ],
   right: [graph, Component.DesktopOnly(Component.TableOfContents()), Component.Backlinks()],
 }
