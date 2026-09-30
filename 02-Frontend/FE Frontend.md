@@ -16,13 +16,13 @@ Vue 3 + Quasar + TypeScript, middle+/senior.
 
 ## Этапы
 <!-- toc:start -->
-**Итого:** 49 тем · ~9 ч 50 мин · готово 0 из 49
+**Итого:** 61 тем · ~10 ч 9 мин · готово 0 из 61
 
 <div class="bar"><span style="width:0%"></span></div>
 
 | Этап | Приоритет | Чтение | Прогресс |
 |---|---|---|---|
-| [[FE Этап 1 · Фундамент — веб, HTML, CSS, база JS\|Этап 1 · Фундамент: веб, HTML, CSS, база JS]] | <span class="badge should">Желательно</span> | 1 ч 30 мин | 0 из 24<br><div class="bar"><span style="width:0%"></span></div> |
+| [[FE Этап 1 · Фундамент — веб, HTML, CSS, база JS\|Этап 1 · Фундамент: веб, HTML, CSS, база JS]] | <span class="badge should">Желательно</span> | 1 ч 49 мин | 0 из 36<br><div class="bar"><span style="width:0%"></span></div> |
 | [[FE Этап 2 · JavaScript глубоко\|Этап 2 · JavaScript глубоко]] | <span class="badge must">Обязательно</span> | 40 мин | 0 из 2<br><div class="bar"><span style="width:0%"></span></div> |
 | [[FE Этап 3 · TypeScript\|Этап 3 · TypeScript]] | <span class="badge must">Обязательно</span> | 20 мин | 0 из 1<br><div class="bar"><span style="width:0%"></span></div> |
 | [[FE Этап 4 · Vue 3 — основы и компоненты\|Этап 4 · Vue 3: основы и компоненты]] | <span class="badge must">Обязательно</span> | 20 мин | 0 из 1<br><div class="bar"><span style="width:0%"></span></div> |
