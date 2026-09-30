@@ -16,7 +16,7 @@ C#, .NET 9, ASP.NET Core, EF Core, gRPC, GraphQL, Kafka, микросервис�
 
 ## Этапы
 <!-- toc:start -->
-**Итого:** 257 тем · ~16 ч 23 мин · готово 0 из 257
+**Итого:** 263 тем · ~16 ч 27 мин · готово 0 из 263
 
 <div class="bar"><span style="width:0%"></span></div>
 
@@ -30,7 +30,7 @@ C#, .NET 9, ASP.NET Core, EF Core, gRPC, GraphQL, Kafka, микросервис�
 | [[BE Этап 6 · Опционально — второй стек — Node.js и NestJS\|Этап 6 · Опционально: второй стек — Node.js и NestJS]] | <span class="badge nice">По желанию</span> | 43 мин | 0 из 14<br><div class="bar"><span style="width:0%"></span></div> |
 | [[BE Этап 7 · Middle+ — производительность, observability, надёжность, безопасность\|Этап 7 · Middle+: производительность, observability, надёжность, безопасность]] | <span class="badge should">Желательно</span> | 2 ч 9 мин | 0 из 36<br><div class="bar"><span style="width:0%"></span></div> |
 | [[BE Этап 8 · Senior — архитектура, DDD, микросервисы, System Design\|Этап 8 · Senior: архитектура, DDD, микросервисы, System Design]] | <span class="badge must">Обязательно</span> | 2 ч 16 мин | 0 из 42<br><div class="bar"><span style="width:0%"></span></div> |
-| [[BE Этап 9 · Техлидство и финальная подготовка\|Этап 9 · Техлидство и финальная подготовка]] | <span class="badge must">Обязательно</span> | 32 мин | 0 из 5<br><div class="bar"><span style="width:0%"></span></div> |
+| [[BE Этап 9 · Техлидство и финальная подготовка\|Этап 9 · Техлидство и финальная подготовка]] | <span class="badge must">Обязательно</span> | 36 мин | 0 из 11<br><div class="bar"><span style="width:0%"></span></div> |
 <!-- toc:end -->
 
 ## Прогресс
