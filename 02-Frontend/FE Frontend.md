@@ -15,15 +15,23 @@ Vue 3 + Quasar + TypeScript, middle+/senior.
 > Этапы по порядку → внутри этапа разделы по порядку. После каждой темы: карточки → квиз → перенос в статус `done`.
 
 ## Этапы
-- [[FE Этап 1 · Фундамент — веб, HTML, CSS, база JS|Этап 1 · Фундамент: веб, HTML, CSS, база JS]]
-- [[FE Этап 2 · JavaScript глубоко|Этап 2 · JavaScript глубоко]]
-- [[FE Этап 3 · TypeScript|Этап 3 · TypeScript]]
-- [[FE Этап 4 · Vue 3 — основы и компоненты|Этап 4 · Vue 3: основы и компоненты]]
-- [[FE Этап 5 · Экосистема — Router, Pinia, Quasar, API, Auth|Этап 5 · Экосистема: Router, Pinia, Quasar, API, Auth]]
-- [[FE Этап 6 · Инженерные практики — Git, сборка, качество, тесты|Этап 6 · Инженерные практики: Git, сборка, качество, тесты]]
-- [[FE Этап 7 · Middle+ — под капотом, производительность, безопасность|Этап 7 · Middle+: под капотом, производительность, безопасность]]
-- [[FE Этап 8 · Senior — архитектура, паттерны, алгоритмы, System Design|Этап 8 · Senior: архитектура, паттерны, алгоритмы, System Design]]
-- [[FE Этап 9 · Лидерство и финальная подготовка к собесу|Этап 9 · Лидерство и финальная подготовка к собесу]]
+<!-- toc:start -->
+**Итого:** 29 тем · ~9 ч 40 мин · готово 0 из 29
+
+<div class="bar"><span style="width:0%"></span></div>
+
+| Этап | Приоритет | Чтение | Прогресс |
+|---|---|---|---|
+| [[FE Этап 1 · Фундамент — веб, HTML, CSS, база JS\|Этап 1 · Фундамент: веб, HTML, CSS, база JS]] | <span class="badge should">Желательно</span> | 1 ч 20 мин | 0 из 4<br><div class="bar"><span style="width:0%"></span></div> |
+| [[FE Этап 2 · JavaScript глубоко\|Этап 2 · JavaScript глубоко]] | <span class="badge must">Обязательно</span> | 40 мин | 0 из 2<br><div class="bar"><span style="width:0%"></span></div> |
+| [[FE Этап 3 · TypeScript\|Этап 3 · TypeScript]] | <span class="badge must">Обязательно</span> | 20 мин | 0 из 1<br><div class="bar"><span style="width:0%"></span></div> |
+| [[FE Этап 4 · Vue 3 — основы и компоненты\|Этап 4 · Vue 3: основы и компоненты]] | <span class="badge must">Обязательно</span> | 20 мин | 0 из 1<br><div class="bar"><span style="width:0%"></span></div> |
+| [[FE Этап 5 · Экосистема — Router, Pinia, Quasar, API, Auth\|Этап 5 · Экосистема: Router, Pinia, Quasar, API, Auth]] | <span class="badge must">Обязательно</span> | 2 ч 20 мин | 0 из 7<br><div class="bar"><span style="width:0%"></span></div> |
+| [[FE Этап 6 · Инженерные практики — Git, сборка, качество, тесты\|Этап 6 · Инженерные практики: Git, сборка, качество, тесты]] | <span class="badge should">Желательно</span> | 1 ч | 0 из 3<br><div class="bar"><span style="width:0%"></span></div> |
+| [[FE Этап 7 · Middle+ — под капотом, производительность, безопасность\|Этап 7 · Middle+: под капотом, производительность, безопасность]] | <span class="badge should">Желательно</span> | 1 ч 40 мин | 0 из 5<br><div class="bar"><span style="width:0%"></span></div> |
+| [[FE Этап 8 · Senior — архитектура, паттерны, алгоритмы, System Design\|Этап 8 · Senior: архитектура, паттерны, алгоритмы, System Design]] | <span class="badge should">Желательно</span> | 1 ч 20 мин | 0 из 4<br><div class="bar"><span style="width:0%"></span></div> |
+| [[FE Этап 9 · Лидерство и финальная подготовка к собесу\|Этап 9 · Лидерство и финальная подготовка к собесу]] | <span class="badge must">Обязательно</span> | 40 мин | 0 из 2<br><div class="bar"><span style="width:0%"></span></div> |
+<!-- toc:end -->
 
 ## Прогресс
 ```dataview

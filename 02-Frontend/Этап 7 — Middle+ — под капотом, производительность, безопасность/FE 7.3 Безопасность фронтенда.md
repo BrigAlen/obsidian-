@@ -5,14 +5,24 @@ stage: 7
 order: 3
 status: todo
 level: middle+
-tags: [domain/frontend, stage/7, level/middle+]
+tags: [domain/frontend, stage/7, level/middle+, priority/should, flag/todo]
 reviewed: 
 next_review: 
+priority: should
+time: 20
 ---
 
 # Безопасность фронтенда
 
 ↑ [[FE Этап 7 · Middle+ — под капотом, производительность, безопасность|Этап 7 · Middle+: под капотом, производительность, безопасность]]
+
+<!-- meta:start -->
+> [!abstract] Приоритет: **желательно** · Чтение: **≈20 мин (по плану, тема не наполнена)** · Уровень: **middle+**
+<!-- meta:end -->
+
+
+
+
 
 > [!info] Зачем это на собесе
 > _Что именно проверяют этой темой и на каком уровне (junior / middle / senior)._
@@ -34,7 +44,7 @@ _Суть своими словами, минимум воды._
 -
 
 ## Практика
-_Задачи для закрепления (задачи для live coding — в разделе «Скилы»)._
+_Задачи для закрепления._
 - [ ]
 
 ## Вопросы с ответами

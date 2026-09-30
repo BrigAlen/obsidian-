@@ -45,3 +45,76 @@
     }
   }
 }
+
+// ---- Боковое дерево (Explorer) ----
+.explorer-content {
+  font-size: 0.875rem;
+  margin-top: 0.75rem;
+  padding-right: 0.4rem;
+
+  ul li > a {
+    display: block;
+    padding: 0.2rem 0.45rem;
+    border-radius: 5px;
+    font-weight: 400;
+    line-height: 1.35;
+    opacity: 0.85;
+    transition: background-color 0.12s ease, opacity 0.12s ease;
+
+    &:hover {
+      opacity: 1;
+      background: var(--highlight);
+    }
+
+    &.active {
+      opacity: 1;
+      font-weight: 500;
+      background: var(--highlight);
+    }
+  }
+
+  .folder-container {
+    padding: 0.05rem 0;
+    align-items: flex-start;
+
+    .folder-icon {
+      margin-top: 0.45rem;
+      width: 12px;
+      height: 12px;
+    }
+
+    & div > a,
+    & div > button,
+    & div > button span {
+      font-size: 0.9rem;
+      font-weight: 500;
+      line-height: 1.35;
+      text-align: left;
+    }
+
+    & div > button {
+      padding: 0.2rem 0;
+    }
+
+    & div > button span {
+      color: var(--darkgray);
+    }
+  }
+
+  // верхний уровень — разделы: чуть крупнее и с отступом
+  .explorer-ul > li > .folder-container {
+    margin-top: 0.35rem;
+
+    & div > button span {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--dark);
+    }
+  }
+
+  .folder-outer > ul {
+    margin-left: 0.4rem;
+    padding-left: 0.6rem;
+    border-left: 1px solid var(--lightgray);
+  }
+}

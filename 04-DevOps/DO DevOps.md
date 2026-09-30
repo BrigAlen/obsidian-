@@ -15,15 +15,23 @@ Linux, Docker, CI/CD, Nginx, Kubernetes, Ansible, Terraform, observability, бе
 > Этапы по порядку → внутри этапа разделы по порядку. После каждой темы: карточки → квиз → перенос в статус `done`.
 
 ## Этапы
-- [[DO Этап 1 · Фундамент — Linux, Bash, сети|Этап 1 · Фундамент: Linux, Bash, сети]]
-- [[DO Этап 2 · Контейнеры — Docker, docker-compose, Makefile|Этап 2 · Контейнеры: Docker, docker-compose, Makefile]]
-- [[DO Этап 3 · CI-CD|Этап 3 · CI-CD]]
-- [[DO Этап 4 · Веб-серверы и сеть в проде — Nginx, TLS|Этап 4 · Веб-серверы и сеть в проде: Nginx, TLS]]
-- [[DO Этап 5 · Kubernetes|Этап 5 · Kubernetes]]
-- [[DO Этап 6 · Infrastructure as Code — Ansible, Terraform|Этап 6 · Infrastructure as Code: Ansible, Terraform]]
-- [[DO Этап 7 · Observability и эксплуатация|Этап 7 · Observability и эксплуатация]]
-- [[DO Этап 8 · Senior — надёжность, безопасность, платформа|Этап 8 · Senior: надёжность, безопасность, платформа]]
-- [[DO Этап 9 · Собес Middle DevOps — вопросы, практика, деплой систем|Этап 9 · Собес Middle DevOps: вопросы, практика, деплой систем]]
+<!-- toc:start -->
+**Итого:** 105 тем · ~35 ч · готово 0 из 105
+
+<div class="bar"><span style="width:0%"></span></div>
+
+| Этап | Приоритет | Чтение | Прогресс |
+|---|---|---|---|
+| [[DO Этап 1 · Фундамент — Linux, Bash, сети\|Этап 1 · Фундамент: Linux, Bash, сети]] | <span class="badge should">Желательно</span> | 6 ч | 0 из 18<br><div class="bar"><span style="width:0%"></span></div> |
+| [[DO Этап 2 · Контейнеры — Docker, docker-compose, Makefile\|Этап 2 · Контейнеры: Docker, docker-compose, Makefile]] | <span class="badge must">Обязательно</span> | 4 ч 40 мин | 0 из 14<br><div class="bar"><span style="width:0%"></span></div> |
+| [[DO Этап 3 · CI-CD\|Этап 3 · CI-CD]] | <span class="badge must">Обязательно</span> | 4 ч | 0 из 12<br><div class="bar"><span style="width:0%"></span></div> |
+| [[DO Этап 4 · Веб-серверы и сеть в проде — Nginx, TLS\|Этап 4 · Веб-серверы и сеть в проде: Nginx, TLS]] | <span class="badge should">Желательно</span> | 3 ч 20 мин | 0 из 10<br><div class="bar"><span style="width:0%"></span></div> |
+| [[DO Этап 5 · Kubernetes\|Этап 5 · Kubernetes]] | <span class="badge should">Желательно</span> | 5 ч 40 мин | 0 из 17<br><div class="bar"><span style="width:0%"></span></div> |
+| [[DO Этап 6 · Infrastructure as Code — Ansible, Terraform\|Этап 6 · Infrastructure as Code: Ansible, Terraform]] | <span class="badge nice">По желанию</span> | 2 ч 20 мин | 0 из 7<br><div class="bar"><span style="width:0%"></span></div> |
+| [[DO Этап 7 · Observability и эксплуатация\|Этап 7 · Observability и эксплуатация]] | <span class="badge should">Желательно</span> | 2 ч 40 мин | 0 из 8<br><div class="bar"><span style="width:0%"></span></div> |
+| [[DO Этап 8 · Senior — надёжность, безопасность, платформа\|Этап 8 · Senior: надёжность, безопасность, платформа]] | <span class="badge nice">По желанию</span> | 3 ч | 0 из 9<br><div class="bar"><span style="width:0%"></span></div> |
+| [[DO Этап 9 · Собес Middle DevOps — вопросы, практика, деплой систем\|Этап 9 · Собес Middle DevOps: вопросы, практика, деплой систем]] | <span class="badge must">Обязательно</span> | 3 ч 20 мин | 0 из 10<br><div class="bar"><span style="width:0%"></span></div> |
+<!-- toc:end -->
 
 ## Прогресс
 ```dataview

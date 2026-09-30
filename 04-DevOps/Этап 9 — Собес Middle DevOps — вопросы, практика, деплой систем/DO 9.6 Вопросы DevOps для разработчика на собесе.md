@@ -5,14 +5,24 @@ stage: 9
 order: 6
 status: todo
 level: final
-tags: [domain/devops, stage/9, level/final]
+tags: [domain/devops, stage/9, level/final, priority/must, flag/todo]
 reviewed: 
 next_review: 
+priority: must
+time: 20
 ---
 
 # Вопросы DevOps для разработчика на собесе
 
 ↑ [[DO Этап 9 · Собес Middle DevOps — вопросы, практика, деплой систем|Этап 9 · Собес Middle DevOps: вопросы, практика, деплой систем]]
+
+<!-- meta:start -->
+> [!abstract] Приоритет: **обязательно** · Чтение: **≈20 мин (по плану, тема не наполнена)** · Уровень: **final**
+<!-- meta:end -->
+
+
+
+
 
 > [!info] Зачем это на собесе
 > _Что именно проверяют этой темой и на каком уровне (junior / middle / senior)._
@@ -34,7 +44,7 @@ _Суть своими словами, минимум воды._
 -
 
 ## Практика
-_Задачи для закрепления (задачи для live coding — в разделе «Скилы»)._
+_Задачи для закрепления._
 - [ ]
 
 ## Вопросы с ответами

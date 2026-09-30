@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "-path:_templates -path:06-Скилы -file:Дашборд",
+  "search": "-path:_templates -file:Дашборд",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
