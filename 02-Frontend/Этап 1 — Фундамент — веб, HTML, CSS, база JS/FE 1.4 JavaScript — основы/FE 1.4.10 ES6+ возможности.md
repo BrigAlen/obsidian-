@@ -41,7 +41,7 @@ time: 3
 | Итераторы, генераторы, `for...of` | обход коллекций |
 | `Map`, `Set`, `WeakMap`, `Symbol`, `BigInt` | новые структуры |
 | Optional chaining, nullish | `a?.b?.[0]?.()`, `x ?? "default"` |
-| Логические присваивания | `a ||= 1`, `a ??= 1`, `a &&= 1` |
+| Логические присваивания | `a \|\|= 1`, `a ??= 1`, `a &&= 1` |
 | `Array.at`, `Object.hasOwn`, `structuredClone`, `Array.toSorted` | новые методы |
 | Top-level await | в модулях |
 | `Intl`, `Temporal` (в разработке) | локали и даты |

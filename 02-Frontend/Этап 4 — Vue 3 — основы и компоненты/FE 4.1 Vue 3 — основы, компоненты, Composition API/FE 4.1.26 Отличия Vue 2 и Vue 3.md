@@ -37,7 +37,7 @@ time: 3
 | Производительность | — | быстрее (компилятор с patch flags, hoisting, tree-shaking), меньше бандл |
 | `v-model` | `value`/`input`, `.sync` | `modelValue`/`update:modelValue`, несколько `v-model`, `defineModel` |
 | Глобальный API | `Vue.use`, `Vue.component` | `createApp()`, изоляция экземпляров |
-| Фильтры (`|`) | есть | удалены (методы/computed) |
+| Фильтры (`\|`) | есть | удалены (методы/computed) |
 | `$listeners`, `$children` | есть | удалены (`$attrs` включает слушатели) |
 | Event bus (`$on/$off`) | есть | удалён (mitt, состояние) |
 | `v-if` vs `v-for` | `v-for` приоритетнее | `v-if` приоритетнее |
