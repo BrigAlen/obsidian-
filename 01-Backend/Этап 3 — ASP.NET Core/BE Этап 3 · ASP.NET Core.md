@@ -12,7 +12,7 @@ tags: [domain/backend, kind/stage]
 
 ## Темы
 <!-- toc:start -->
-**Итого:** 27 тем · ~1 ч 57 мин · готово 0 из 27
+**Итого:** 36 тем · ~2 ч 7 мин · готово 0 из 36
 
 <div class="bar"><span style="width:0%"></span></div>
 
@@ -23,6 +23,6 @@ tags: [domain/backend, kind/stage]
 | 3 | [[BE 8.3 Микросервисы и распределённые системы\|3.3 Web API: контроллеры, Minimal API, валидация]] | <span class="badge must">Обязательно</span> | 24 мин | 0 из 8<br><div class="bar"><span style="width:0%"></span></div> |
 | 4 | [[BE 8.3 Микросервисы и распределённые системы\|3.4 Аутентификация и авторизация]] | <span class="badge must">Обязательно</span> | 18 мин | 0 из 6<br><div class="bar"><span style="width:0%"></span></div> |
 | 5 | [[BE 3.5 Инфраструктура приложения — ошибки, health checks, фоновые задачи\|Инфраструктура приложения: ошибки, health checks, фоновые задачи]] | <span class="badge must">Обязательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
-| 6 | [[BE 3.6 Тестирование ASP.NET Core\|Тестирование ASP.NET Core]] | <span class="badge must">Обязательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
+| 6 | [[BE 8.3 Микросервисы и распределённые системы\|3.6 Тестирование ASP.NET Core]] | <span class="badge must">Обязательно</span> | 30 мин | 0 из 10<br><div class="bar"><span style="width:0%"></span></div> |
 <!-- toc:end -->
 
