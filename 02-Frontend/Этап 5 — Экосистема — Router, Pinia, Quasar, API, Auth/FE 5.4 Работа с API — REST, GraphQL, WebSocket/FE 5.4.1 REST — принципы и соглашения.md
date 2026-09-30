@@ -22,6 +22,7 @@ time: 3
 <div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~3 мин чтения</span><span class="chip">Уровень: middle</span></div>
 <!-- meta:end -->
 
+
 > [!info] Зачем это на собесе
 > Фронтендер должен понимать REST со стороны клиента: методы, коды, идемпотентность, формат ошибок.
 

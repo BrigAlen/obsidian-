@@ -16,7 +16,7 @@ Vue 3 + Quasar + TypeScript, middle+/senior.
 
 ## Этапы
 <!-- toc:start -->
-**Итого:** 161 тем · ~13 ч 11 мин · готово 0 из 161
+**Итого:** 168 тем · ~13 ч 16 мин · готово 0 из 168
 
 <div class="bar"><span style="width:0%"></span></div>
 
@@ -26,7 +26,7 @@ Vue 3 + Quasar + TypeScript, middle+/senior.
 | [[FE Этап 2 · JavaScript глубоко\|Этап 2 · JavaScript глубоко]] | <span class="badge must">Обязательно</span> | 1 ч 6 мин | 0 из 20<br><div class="bar"><span style="width:0%"></span></div> |
 | [[FE Этап 3 · TypeScript\|Этап 3 · TypeScript]] | <span class="badge must">Обязательно</span> | 58 мин | 0 из 19<br><div class="bar"><span style="width:0%"></span></div> |
 | [[FE Этап 4 · Vue 3 — основы и компоненты\|Этап 4 · Vue 3: основы и компоненты]] | <span class="badge must">Обязательно</span> | 1 ч 32 мин | 0 из 29<br><div class="bar"><span style="width:0%"></span></div> |
-| [[FE Этап 5 · Экосистема — Router, Pinia, Quasar, API, Auth\|Этап 5 · Экосистема: Router, Pinia, Quasar, API, Auth]] | <span class="badge must">Обязательно</span> | 3 ч 6 мин | 0 из 43<br><div class="bar"><span style="width:0%"></span></div> |
+| [[FE Этап 5 · Экосистема — Router, Pinia, Quasar, API, Auth\|Этап 5 · Экосистема: Router, Pinia, Quasar, API, Auth]] | <span class="badge must">Обязательно</span> | 3 ч 11 мин | 0 из 50<br><div class="bar"><span style="width:0%"></span></div> |
 | [[FE Этап 6 · Инженерные практики — Git, сборка, качество, тесты\|Этап 6 · Инженерные практики: Git, сборка, качество, тесты]] | <span class="badge should">Желательно</span> | 1 ч | 0 из 3<br><div class="bar"><span style="width:0%"></span></div> |
 | [[FE Этап 7 · Middle+ — под капотом, производительность, безопасность\|Этап 7 · Middle+: под капотом, производительность, безопасность]] | <span class="badge should">Желательно</span> | 1 ч 40 мин | 0 из 5<br><div class="bar"><span style="width:0%"></span></div> |
 | [[FE Этап 8 · Senior — архитектура, паттерны, алгоритмы, System Design\|Этап 8 · Senior: архитектура, паттерны, алгоритмы, System Design]] | <span class="badge should">Желательно</span> | 1 ч 20 мин | 0 из 4<br><div class="bar"><span style="width:0%"></span></div> |
