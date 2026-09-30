@@ -16,11 +16,12 @@ time: 3
 
 # Testcontainers: настоящие БД и брокеры в тестах
 
-↑ [[BE 3.6 Тестирование ASP.NET Core|3.6 Тестирование ASP.NET Core]] · ← [[BE 3.6.2 Интеграционные тесты — WebApplicationFactory|Предыдущая]] · → [[BE 3.6.3 Фоновые задачи — IHostedService, BackgroundService, Worker, Hangfire и Quartz|Следующая]]
+↑ [[BE 3.6 Тестирование ASP.NET Core|3.6 Тестирование ASP.NET Core]] · ← [[BE 3.6.2 Интеграционные тесты — WebApplicationFactory|Предыдущая]] · → [[BE 3.6.4 Тестирование авторизации и middleware|Следующая]]
 
 <!-- meta:start -->
 <div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~3 мин чтения</span><span class="chip">Уровень: middle</span></div>
 <!-- meta:end -->
+
 
 > [!info] Зачем это на собесе
 > Современный стандарт интеграционных тестов: реальные PostgreSQL/Kafka в Docker вместо in-memory заглушек.

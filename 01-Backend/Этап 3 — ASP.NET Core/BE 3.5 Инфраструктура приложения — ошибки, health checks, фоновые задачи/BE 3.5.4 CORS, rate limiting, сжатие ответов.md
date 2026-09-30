@@ -2,7 +2,7 @@
 type: topic
 domain: backend
 stage: 3
-section: "3.6"
+section: "3.5"
 order: 4
 status: todo
 level: middle
@@ -16,11 +16,12 @@ time: 3
 
 # CORS, rate limiting, сжатие ответов
 
-↑ [[BE 3.6 Тестирование ASP.NET Core|3.6 Тестирование ASP.NET Core]] · ← [[BE 3.6.3 Фоновые задачи — IHostedService, BackgroundService, Worker, Hangfire и Quartz|Предыдущая]] · → [[BE 3.6.4 Тестирование авторизации и middleware|Следующая]]
+↑ [[BE 3.5 Инфраструктура приложения — ошибки, health checks, фоновые задачи|3.5 Инфраструктура приложения: ошибки, health checks, фоновые задачи]] · ← [[BE 3.5.3 Фоновые задачи — IHostedService, BackgroundService, Worker, Hangfire и Quartz|Предыдущая]] · → [[BE 3.5.5 Graceful shutdown и жизненный цикл приложения|Следующая]]
 
 <!-- meta:start -->
 <div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~3 мин чтения</span><span class="chip">Уровень: middle</span></div>
 <!-- meta:end -->
+
 
 > [!info] Зачем это на собесе
 > CORS — вечная боль frontend-бэкенд интеграции; rate limiting — защита от перегрузки.

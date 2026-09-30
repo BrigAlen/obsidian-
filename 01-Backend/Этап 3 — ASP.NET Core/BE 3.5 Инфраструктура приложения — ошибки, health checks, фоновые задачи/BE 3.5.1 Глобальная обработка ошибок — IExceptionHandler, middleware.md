@@ -2,7 +2,7 @@
 type: topic
 domain: backend
 stage: 3
-section: "3.6"
+section: "3.5"
 order: 1
 status: todo
 level: middle
@@ -16,11 +16,12 @@ time: 3
 
 # Глобальная обработка ошибок: IExceptionHandler, middleware
 
-↑ [[BE 3.6 Тестирование ASP.NET Core|3.6 Тестирование ASP.NET Core]] · ← [[BE 3.6.1 Unit-тесты сервисов и контроллеров|Предыдущая]] · → [[BE 3.6.2 Health checks — liveness и readiness|Следующая]]
+↑ [[BE 3.5 Инфраструктура приложения — ошибки, health checks, фоновые задачи|3.5 Инфраструктура приложения: ошибки, health checks, фоновые задачи]] · → [[BE 3.5.2 Health checks — liveness и readiness|Следующая]]
 
 <!-- meta:start -->
 <div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~3 мин чтения</span><span class="chip">Уровень: middle</span></div>
 <!-- meta:end -->
+
 
 > [!info] Зачем это на собесе
 > «Как в вашем API обрабатываются исключения?» — ждут единое место, ProblemDetails и отсутствие утечки деталей.

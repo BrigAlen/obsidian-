@@ -16,11 +16,12 @@ time: 3
 
 # Интеграционные тесты: WebApplicationFactory
 
-↑ [[BE 3.6 Тестирование ASP.NET Core|3.6 Тестирование ASP.NET Core]] · ← [[BE 3.6.2 Health checks — liveness и readiness|Предыдущая]] · → [[BE 3.6.3 Testcontainers — настоящие БД и брокеры в тестах|Следующая]]
+↑ [[BE 3.6 Тестирование ASP.NET Core|3.6 Тестирование ASP.NET Core]] · ← [[BE 3.6.1 Unit-тесты сервисов и контроллеров|Предыдущая]] · → [[BE 3.6.3 Testcontainers — настоящие БД и брокеры в тестах|Следующая]]
 
 <!-- meta:start -->
 <div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~3 мин чтения</span><span class="chip">Уровень: middle</span></div>
 <!-- meta:end -->
+
 
 > [!info] Зачем это на собесе
 > Самый ценный вид тестов для API: весь конвейер в памяти без реального сервера.

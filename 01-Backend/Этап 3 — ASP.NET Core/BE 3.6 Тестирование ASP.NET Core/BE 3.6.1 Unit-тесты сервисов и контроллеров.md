@@ -16,11 +16,12 @@ time: 3
 
 # Unit-тесты сервисов и контроллеров
 
-↑ [[BE 3.6 Тестирование ASP.NET Core|3.6 Тестирование ASP.NET Core]] · → [[BE 3.6.1 Глобальная обработка ошибок — IExceptionHandler, middleware|Следующая]]
+↑ [[BE 3.6 Тестирование ASP.NET Core|3.6 Тестирование ASP.NET Core]] · → [[BE 3.6.2 Интеграционные тесты — WebApplicationFactory|Следующая]]
 
 <!-- meta:start -->
 <div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~3 мин чтения</span><span class="chip">Уровень: middle</span></div>
 <!-- meta:end -->
+
 
 > [!info] Зачем это на собесе
 > Что тестировать на уровне unit, а что оставить интеграционным тестам.

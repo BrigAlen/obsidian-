@@ -16,11 +16,12 @@ time: 3
 
 # Тестирование авторизации и middleware
 
-↑ [[BE 3.6 Тестирование ASP.NET Core|3.6 Тестирование ASP.NET Core]] · ← [[BE 3.6.4 CORS, rate limiting, сжатие ответов|Предыдущая]] · → [[BE 3.6.5 Graceful shutdown и жизненный цикл приложения|Следующая]]
+↑ [[BE 3.6 Тестирование ASP.NET Core|3.6 Тестирование ASP.NET Core]] · ← [[BE 3.6.3 Testcontainers — настоящие БД и брокеры в тестах|Предыдущая]]
 
 <!-- meta:start -->
 <div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~3 мин чтения</span><span class="chip">Уровень: middle</span></div>
 <!-- meta:end -->
+
 
 > [!info] Зачем это на собесе
 > Как проверить, что защищённые endpoint-ы действительно закрыты, не поднимая Keycloak.
