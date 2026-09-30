@@ -12,12 +12,12 @@ tags: [domain/db, kind/stage]
 
 ## Темы
 <!-- toc:start -->
-**Итого:** 1 тем · ~20 мин · готово 0 из 1
+**Итого:** 11 тем · ~40 мин · готово 0 из 11
 
 <div class="bar"><span style="width:0%"></span></div>
 
 | # | Раздел или тема | Приоритет | Чтение | Прогресс |
 |---|---|---|---|---|
-| 1 | [[DB 3.1 ClickHouse\|ClickHouse]] | <span class="badge should">Желательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
+| 1 | [[DB 3.1 ClickHouse\|3.1 ClickHouse]] | <span class="badge should">Желательно</span> | 40 мин | 0 из 11<br><div class="bar"><span style="width:0%"></span></div> |
 <!-- toc:end -->
 
