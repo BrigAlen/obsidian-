@@ -1,11 +1,11 @@
 ---
-title: develop
+title: Компас разработчика
 cssclasses: [i-home]
 ---
 
-# develop
+# Компас разработчика
 
-Route map для подготовки к собеседованиям Fullstack-разработчика: от фундамента до проектирования и production-эксплуатации.
+Навигатор по подготовке к собеседованиям Fullstack-разработчика: от фундамента до проектирования и production-эксплуатации. Темы с примерами, вопросами и приоритетами: что читать первым и сколько это займёт.
 
 <div class="cards">
 <a class="card" href="./01-Backend/BE-Backend"><strong><svg class="ic" viewBox="0 0 24 24"><rect width="20" height="8" x="2" y="2" rx="2" ry="2"/><rect width="20" height="8" x="2" y="14" rx="2" ry="2"/><line x1="6" x2="6.01" y1="6" y2="6"/><line x1="6" x2="6.01" y1="18" y2="18"/></svg>Backend</strong><span>C#, .NET 9, ASP.NET Core, EF Core, gRPC, GraphQL, Kafka, микросервисы</span></a>

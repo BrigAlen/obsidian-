@@ -22,6 +22,7 @@ time: 8
 <div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~8 мин чтения</span><span class="chip">Уровень: junior</span></div>
 <!-- meta:end -->
 
+
 > [!info] Зачем это на собесе
 > база ООП в C#. Спросят порядок инициализации, чем поле отличается от свойства, что такое init и required, primary constructors, статический конструктор.
 

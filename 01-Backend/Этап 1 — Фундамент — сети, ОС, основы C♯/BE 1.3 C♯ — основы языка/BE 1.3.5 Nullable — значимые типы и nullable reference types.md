@@ -23,6 +23,7 @@ time: 6
 <!-- meta:end -->
 
 
+
 > [!info] Зачем это на собесе
 > `NullReferenceException` — самая частая ошибка в .NET. Nullable reference types (NRT) переносят её обнаружение на этап компиляции. Спросят разницу `int?` и `string?` и операторы `?.`, `??`, `!`.
 

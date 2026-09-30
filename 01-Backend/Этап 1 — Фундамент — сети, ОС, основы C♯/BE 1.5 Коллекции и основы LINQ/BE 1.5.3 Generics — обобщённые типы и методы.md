@@ -22,6 +22,7 @@ time: 5
 <div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~5 мин чтения</span><span class="chip">Уровень: junior</span></div>
 <!-- meta:end -->
 
+
 > [!info] Зачем это на собесе
 > generics — основа типобезопасного переиспользуемого кода: репозитории, Result\<T\>, обобщённые хендлеры, клиенты. Здесь база, а продвинутое (вариантность, static abstract) — во 2-м этапе.
 

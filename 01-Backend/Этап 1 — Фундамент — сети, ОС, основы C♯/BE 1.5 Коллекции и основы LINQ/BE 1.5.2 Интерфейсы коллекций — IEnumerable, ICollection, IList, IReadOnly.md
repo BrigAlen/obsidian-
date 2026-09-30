@@ -22,6 +22,7 @@ time: 6
 <div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~6 мин чтения</span><span class="chip">Уровень: junior</span></div>
 <!-- meta:end -->
 
+
 > [!info] Зачем это на собесе
 > Что принимать и что возвращать из методов: `IEnumerable<T>`, `IReadOnlyList<T>`, `List<T>`? Это вопрос про дизайн API и про отложенное выполнение. Заодно проверяют, понимаете ли вы, что скрывается за `foreach` и `yield`.
 
@@ -31,15 +32,18 @@ time: 6
 ## Объяснение
 
 ### Иерархия интерфейсов
-```text
-IEnumerable<T>                 — можно перебрать (foreach)
- ├─ IReadOnlyCollection<T>     — + Count
- │   └─ IReadOnlyList<T>       — + индексатор [i]
- ├─ ICollection<T>             — + Count, Add, Remove, Clear, Contains (изменяемая)
- │   └─ IList<T>               — + индексатор, Insert, RemoveAt
- └─ ISet<T>                    — операции над множествами (HashSet<T>)
-IReadOnlyDictionary<K,V>, IDictionary<K,V>
-```
+| Интерфейс | Что добавляет | Изменяемая |
+|---|---|---|
+| `IEnumerable<T>` | перебор (`foreach`) | — |
+| `IReadOnlyCollection<T>` | `Count` | нет |
+| `IReadOnlyList<T>` | индексатор `[i]` | нет |
+| `ICollection<T>` | `Count`, `Add`, `Remove`, `Clear`, `Contains` | да |
+| `IList<T>` | индексатор, `Insert`, `RemoveAt` | да |
+| `ISet<T>` | операции над множествами (`HashSet<T>`) | да |
+| `IReadOnlyDictionary<K,V>` / `IDictionary<K,V>` | доступ по ключу | нет / да |
+
+Все они наследуют `IEnumerable<T>`: `IReadOnlyList<T>` строится на `IReadOnlyCollection<T>`, `IList<T>` на `ICollection<T>`.
+
 
 ### `IEnumerable<T>`
 Минимальный контракт «последовательность»: `GetEnumerator()` возвращает перечислитель с `MoveNext()` и `Current`. `foreach` разворачивается именно в него.

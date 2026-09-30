@@ -2,12 +2,12 @@ import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
 
 /**
- * Quartz 4 configuration for the "develop" vault.
+ * Quartz 4 configuration for the "Компас разработчика" vault.
  * CI copies this file over quartz.config.ts at build time (see .github/workflows/deploy.yml).
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "develop — interview prep",
+    pageTitle: "Компас разработчика",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
