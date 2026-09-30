@@ -2,7 +2,7 @@
 type: stage
 domain: db
 stage: 4
-tags: [db, stage]
+tags: [domain/db, kind/stage]
 ---
 
 # Этап 4 · Кэш, NoSQL и объектное хранилище: Redis, MongoDB, MinIO

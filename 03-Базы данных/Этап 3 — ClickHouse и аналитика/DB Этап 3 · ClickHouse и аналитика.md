@@ -2,7 +2,7 @@
 type: stage
 domain: db
 stage: 3
-tags: [db, stage]
+tags: [domain/db, kind/stage]
 ---
 
 # Этап 3 · ClickHouse и аналитика

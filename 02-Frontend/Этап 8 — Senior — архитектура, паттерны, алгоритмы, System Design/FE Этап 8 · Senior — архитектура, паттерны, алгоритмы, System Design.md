@@ -2,7 +2,7 @@
 type: stage
 domain: frontend
 stage: 8
-tags: [frontend, stage]
+tags: [domain/frontend, kind/stage]
 ---
 
 # Этап 8 · Senior: архитектура, паттерны, алгоритмы, System Design

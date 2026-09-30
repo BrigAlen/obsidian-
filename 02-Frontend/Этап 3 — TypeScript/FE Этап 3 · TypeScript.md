@@ -2,7 +2,7 @@
 type: stage
 domain: frontend
 stage: 3
-tags: [frontend, stage]
+tags: [domain/frontend, kind/stage]
 ---
 
 # Этап 3 · TypeScript

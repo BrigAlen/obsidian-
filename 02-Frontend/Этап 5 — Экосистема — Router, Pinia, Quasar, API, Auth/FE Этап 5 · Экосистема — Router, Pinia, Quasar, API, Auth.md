@@ -2,7 +2,7 @@
 type: stage
 domain: frontend
 stage: 5
-tags: [frontend, stage]
+tags: [domain/frontend, kind/stage]
 ---
 
 # Этап 5 · Экосистема: Router, Pinia, Quasar, API, Auth

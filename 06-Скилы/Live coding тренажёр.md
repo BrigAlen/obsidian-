@@ -1,6 +1,6 @@
 ---
 type: prompt
-tags: [prompt]
+tags: [kind/prompt]
 ---
 
 # Live coding тренажёр

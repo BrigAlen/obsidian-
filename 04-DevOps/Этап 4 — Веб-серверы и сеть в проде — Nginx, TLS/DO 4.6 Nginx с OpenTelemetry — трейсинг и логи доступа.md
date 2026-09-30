@@ -5,7 +5,7 @@ stage: 4
 order: 6
 status: todo
 level: middle
-tags: [devops, stage-4]
+tags: [domain/devops, stage/4, level/middle]
 reviewed: 
 next_review: 
 ---

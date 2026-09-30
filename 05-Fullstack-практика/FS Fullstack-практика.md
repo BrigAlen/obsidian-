@@ -1,7 +1,7 @@
 ---
 type: domain
 domain: fullstack
-tags: [fullstack, moc]
+tags: [domain/fullstack, kind/moc]
 ---
 
 # Fullstack-практика: сквозной production-проект

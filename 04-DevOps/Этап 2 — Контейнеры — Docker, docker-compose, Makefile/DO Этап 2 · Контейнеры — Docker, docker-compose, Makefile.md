@@ -2,7 +2,7 @@
 type: stage
 domain: devops
 stage: 2
-tags: [devops, stage]
+tags: [domain/devops, kind/stage]
 ---
 
 # Этап 2 · Контейнеры: Docker, docker-compose, Makefile

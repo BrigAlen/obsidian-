@@ -2,7 +2,7 @@
 type: stage
 domain: frontend
 stage: 6
-tags: [frontend, stage]
+tags: [domain/frontend, kind/stage]
 ---
 
 # Этап 6 · Инженерные практики: Git, сборка, качество, тесты

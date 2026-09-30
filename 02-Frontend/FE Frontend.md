@@ -1,7 +1,7 @@
 ---
 type: domain
 domain: frontend
-tags: [frontend, moc]
+tags: [domain/frontend, kind/moc]
 ---
 
 # Frontend

@@ -2,7 +2,7 @@
 type: stage
 domain: devops
 stage: 4
-tags: [devops, stage]
+tags: [domain/devops, kind/stage]
 ---
 
 # Этап 4 · Веб-серверы и сеть в проде: Nginx, TLS

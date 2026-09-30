@@ -1,7 +1,7 @@
 ---
 type: domain
 domain: backend
-tags: [backend, moc]
+tags: [domain/backend, kind/moc]
 ---
 
 # Backend

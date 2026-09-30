@@ -2,7 +2,7 @@
 type: stage
 domain: backend
 stage: 8
-tags: [backend, stage]
+tags: [domain/backend, kind/stage]
 ---
 
 # Этап 8 · Senior: архитектура, DDD, микросервисы, System Design

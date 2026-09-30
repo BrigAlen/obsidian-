@@ -5,7 +5,7 @@ stage: 0
 order: 1
 status: todo
 level: middle+
-tags: [fullstack, project]
+tags: [domain/fullstack, kind/project, level/middle+]
 ---
 
 # Требования, SLO и архитектурная схема проекта

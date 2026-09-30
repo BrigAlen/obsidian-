@@ -2,7 +2,7 @@
 type: stage
 domain: frontend
 stage: 9
-tags: [frontend, stage]
+tags: [domain/frontend, kind/stage]
 ---
 
 # Этап 9 · Лидерство и финальная подготовка к собесу

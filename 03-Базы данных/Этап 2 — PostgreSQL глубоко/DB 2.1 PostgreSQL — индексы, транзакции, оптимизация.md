@@ -5,7 +5,7 @@ stage: 2
 order: 1
 status: todo
 level: junior
-tags: [db, stage-2]
+tags: [domain/db, stage/2, level/junior]
 reviewed: 
 next_review: 
 ---

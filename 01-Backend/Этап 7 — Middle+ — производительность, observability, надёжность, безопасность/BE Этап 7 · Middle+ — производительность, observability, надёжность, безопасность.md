@@ -2,7 +2,7 @@
 type: stage
 domain: backend
 stage: 7
-tags: [backend, stage]
+tags: [domain/backend, kind/stage]
 ---
 
 # Этап 7 · Middle+: производительность, observability, надёжность, безопасность

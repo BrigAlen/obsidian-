@@ -5,7 +5,7 @@ stage: 0
 order: 3
 status: todo
 level: middle+
-tags: [fullstack, project]
+tags: [domain/fullstack, kind/project, level/middle+]
 ---
 
 # Реализация вертикального среза Vue 3 + ASP.NET Core + PostgreSQL

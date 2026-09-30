@@ -2,7 +2,7 @@
 type: stage
 domain: db
 stage: 7
-tags: [db, stage]
+tags: [domain/db, kind/stage]
 ---
 
 # Этап 7 · Эксплуатация и безопасность БД

@@ -2,7 +2,7 @@
 type: stage
 domain: backend
 stage: 9
-tags: [backend, stage]
+tags: [domain/backend, kind/stage]
 ---
 
 # Этап 9 · Техлидство и финальная подготовка

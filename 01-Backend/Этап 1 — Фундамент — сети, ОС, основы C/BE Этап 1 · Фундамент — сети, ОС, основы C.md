@@ -2,7 +2,7 @@
 type: stage
 domain: backend
 stage: 1
-tags: [backend, stage]
+tags: [domain/backend, kind/stage]
 ---
 
 # Этап 1 · Фундамент: сети, ОС, основы C#

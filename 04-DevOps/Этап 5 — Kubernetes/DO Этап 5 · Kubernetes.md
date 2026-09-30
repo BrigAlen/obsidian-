@@ -2,7 +2,7 @@
 type: stage
 domain: devops
 stage: 5
-tags: [devops, stage]
+tags: [domain/devops, kind/stage]
 ---
 
 # Этап 5 · Kubernetes

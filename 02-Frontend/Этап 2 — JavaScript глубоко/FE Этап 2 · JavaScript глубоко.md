@@ -2,7 +2,7 @@
 type: stage
 domain: frontend
 stage: 2
-tags: [frontend, stage]
+tags: [domain/frontend, kind/stage]
 ---
 
 # Этап 2 · JavaScript глубоко

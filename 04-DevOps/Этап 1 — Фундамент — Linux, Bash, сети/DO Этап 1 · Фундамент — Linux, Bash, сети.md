@@ -2,7 +2,7 @@
 type: stage
 domain: devops
 stage: 1
-tags: [devops, stage]
+tags: [domain/devops, kind/stage]
 ---
 
 # Этап 1 · Фундамент: Linux, Bash, сети

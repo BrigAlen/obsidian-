@@ -1,7 +1,7 @@
 ---
 type: domain
 domain: db
-tags: [db, moc]
+tags: [domain/db, kind/moc]
 ---
 
 # Базы данных

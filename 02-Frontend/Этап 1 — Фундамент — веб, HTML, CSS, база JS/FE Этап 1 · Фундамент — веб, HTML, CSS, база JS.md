@@ -2,7 +2,7 @@
 type: stage
 domain: frontend
 stage: 1
-tags: [frontend, stage]
+tags: [domain/frontend, kind/stage]
 ---
 
 # Этап 1 · Фундамент: веб, HTML, CSS, база JS

@@ -5,7 +5,7 @@ stage: 0
 order: 6
 status: todo
 level: middle+
-tags: [fullstack, project]
+tags: [domain/fullstack, kind/project, level/middle+]
 ---
 
 # Game day: отказ, диагностика, восстановление и postmortem

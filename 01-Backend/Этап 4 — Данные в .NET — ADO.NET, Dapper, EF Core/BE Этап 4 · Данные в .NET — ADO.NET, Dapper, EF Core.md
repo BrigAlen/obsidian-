@@ -2,7 +2,7 @@
 type: stage
 domain: backend
 stage: 4
-tags: [backend, stage]
+tags: [domain/backend, kind/stage]
 ---
 
 # Этап 4 · Данные в .NET: ADO.NET, Dapper, EF Core

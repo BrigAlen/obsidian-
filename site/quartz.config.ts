@@ -13,7 +13,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     locale: "ru-RU",
     baseUrl: "brigalen.github.io/obsidian-",
-    ignorePatterns: ["private", "_templates", ".obsidian", ".github", "site", "README.md", "Дашборд"],
+    ignorePatterns: ["private", "_templates", ".obsidian", ".github", "site", "README.md", "Дашборд.md"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",

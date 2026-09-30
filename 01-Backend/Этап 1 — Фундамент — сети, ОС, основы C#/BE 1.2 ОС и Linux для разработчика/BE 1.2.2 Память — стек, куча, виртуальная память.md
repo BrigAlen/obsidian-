@@ -7,7 +7,7 @@ order: 2
 status: todo
 level: junior
 notion_id: 3ea33104867981129550de5de3011878
-tags: [backend, stage-1, os, memory]
+tags: [domain/backend, stage/1, topic/os, topic/memory, level/junior]
 reviewed:
 next_review:
 ---

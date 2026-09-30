@@ -1,0 +1,12 @@
+{
+  "newFileLocation": "folder",
+  "newFileFolderPath": "07-Мои-заметки/Inbox",
+  "attachmentFolderPath": "07-Мои-заметки/Вложения",
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": false,
+  "showFrontmatter": true,
+  "propertiesInDocument": "visible",
+  "defaultViewMode": "preview",
+  "strictLineBreaks": false,
+  "userIgnoreFilters": ["_templates/", "site/", ".github/"]
+}

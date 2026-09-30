@@ -2,7 +2,7 @@
 type: stage
 domain: db
 stage: 1
-tags: [db, stage]
+tags: [domain/db, kind/stage]
 ---
 
 # Этап 1 · Фундамент: реляционная модель и SQL

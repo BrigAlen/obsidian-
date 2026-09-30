@@ -7,7 +7,7 @@ order: 2
 status: todo
 level: junior
 notion_id: 3ea33104867981d588c0dfa10b9ba4c2
-tags: [backend, stage-1, section]
+tags: [domain/backend, stage/1, kind/section]
 ---
 
 # 1.2 ОС и Linux для разработчика

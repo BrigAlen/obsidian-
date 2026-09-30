@@ -2,7 +2,7 @@
 type: stage
 domain: frontend
 stage: 4
-tags: [frontend, stage]
+tags: [domain/frontend, kind/stage]
 ---
 
 # Этап 4 · Vue 3: основы и компоненты

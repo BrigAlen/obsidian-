@@ -2,7 +2,7 @@
 type: stage
 domain: devops
 stage: 7
-tags: [devops, stage]
+tags: [domain/devops, kind/stage]
 ---
 
 # Этап 7 · Observability и эксплуатация
