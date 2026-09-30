@@ -41,6 +41,9 @@ jobs:
           mkdir quartz/content
           rsync -a --exclude '.git' --exclude '.github' --exclude 'site' --exclude '_templates' --exclude 'README.md' vault/ quartz/content/
           cp vault/site/quartz.config.ts quartz/quartz.config.ts
+          # Dataview на сайте не работает: убираем блоки; плейсхолдеры ссылок -> wiki-ссылки
+          find quartz/content -name '*.md' -exec perl -0pi -e 's/```dataview.*?```\n//gs' {} +
+          python3 vault/site/resolve_links.py quartz/content
           if [ -f vault/site/quartz.layout.ts ]; then cp vault/site/quartz.layout.ts quartz/quartz.layout.ts; fi
           if [ -d vault/site/static ]; then cp -r vault/site/static/. quartz/quartz/static/; fi
 
