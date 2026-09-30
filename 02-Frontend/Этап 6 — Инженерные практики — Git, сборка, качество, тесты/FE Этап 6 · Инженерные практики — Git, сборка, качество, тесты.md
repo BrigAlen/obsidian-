@@ -18,8 +18,8 @@ tags: [domain/frontend, kind/stage]
 
 | # | Раздел или тема | Приоритет | Чтение | Прогресс |
 |---|---|---|---|---|
-| 1 | [[BE 8.1.4 Структурные паттерны — Adapter, Decorator, Facade, Proxy, Composite\|6.1 Git]] | <span class="badge should">Желательно</span> | 15 мин | 0 из 5<br><div class="bar"><span style="width:0%"></span></div> |
-| 2 | [[BE 8.1.4 Структурные паттерны — Adapter, Decorator, Facade, Proxy, Composite\|6.2 Сборка и инфраструктура: Vite, monorepo, CI∕CD]] | <span class="badge should">Желательно</span> | 33 мин | 0 из 10<br><div class="bar"><span style="width:0%"></span></div> |
-| 3 | [[BE 8.1.4 Структурные паттерны — Adapter, Decorator, Facade, Proxy, Composite\|6.3 Качество кода и тестирование: продвинутый уровень]] | <span class="badge should">Желательно</span> | 33 мин | 0 из 11<br><div class="bar"><span style="width:0%"></span></div> |
+| 1 | [[FE 6.1 Git\|6.1 Git]] | <span class="badge should">Желательно</span> | 15 мин | 0 из 5<br><div class="bar"><span style="width:0%"></span></div> |
+| 2 | [[FE 6.2 Сборка и инфраструктура — Vite, monorepo, CI-CD\|6.2 Сборка и инфраструктура: Vite, monorepo, CI∕CD]] | <span class="badge should">Желательно</span> | 33 мин | 0 из 10<br><div class="bar"><span style="width:0%"></span></div> |
+| 3 | [[FE 6.3 Качество кода и тестирование — продвинутый уровень\|6.3 Качество кода и тестирование: продвинутый уровень]] | <span class="badge should">Желательно</span> | 33 мин | 0 из 11<br><div class="bar"><span style="width:0%"></span></div> |
 <!-- toc:end -->
 

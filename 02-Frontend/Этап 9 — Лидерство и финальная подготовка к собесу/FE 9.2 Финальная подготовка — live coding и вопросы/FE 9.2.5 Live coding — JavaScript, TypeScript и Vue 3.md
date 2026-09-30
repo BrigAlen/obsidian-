@@ -22,7 +22,6 @@ time: 6
 <div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~6 мин чтения</span><span class="chip">Уровень: senior</span></div>
 <!-- meta:end -->
 
-
 > [!info] Зачем это на собесе
 > Задачи на 30–60 минут: оценивают не только результат, но и процесс, чтение требований и общение.
 

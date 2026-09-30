@@ -22,16 +22,6 @@ time: 3
 <div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">~3 мин чтения</span><span class="chip">Уровень: senior</span></div>
 <!-- meta:end -->
 
-
-
-
-
-
-
-
-
-
-
 > [!info] Зачем это на собесе
 > Показывает, что производительность — процесс, а не разовая акция: регрессии ловятся в CI.
 

@@ -18,6 +18,6 @@ tags: [domain/frontend, kind/stage]
 
 | # | Раздел или тема | Приоритет | Чтение | Прогресс |
 |---|---|---|---|---|
-| 1 | [[BE 8.1.4 Структурные паттерны — Adapter, Decorator, Facade, Proxy, Composite\|4.1 Vue 3: основы, компоненты, Composition API]] | <span class="badge must">Обязательно</span> | 1 ч 32 мин | 0 из 29<br><div class="bar"><span style="width:0%"></span></div> |
+| 1 | [[FE 4.1 Vue 3 — основы, компоненты, Composition API\|4.1 Vue 3: основы, компоненты, Composition API]] | <span class="badge must">Обязательно</span> | 1 ч 32 мин | 0 из 29<br><div class="bar"><span style="width:0%"></span></div> |
 <!-- toc:end -->
 

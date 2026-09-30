@@ -18,7 +18,7 @@ tags: [domain/backend, kind/stage]
 
 | # | Раздел или тема | Приоритет | Чтение | Прогресс |
 |---|---|---|---|---|
-| 1 | [[BE 8.1.4 Структурные паттерны — Adapter, Decorator, Facade, Proxy, Composite\|9.1 Техлид на бэкенде]] | <span class="badge must">Обязательно</span> | 12 мин | 0 из 4<br><div class="bar"><span style="width:0%"></span></div> |
-| 2 | [[BE 8.1.4 Структурные паттерны — Adapter, Decorator, Facade, Proxy, Composite\|9.2 Финальная подготовка: проекты, live coding, вопросы]] | <span class="badge must">Обязательно</span> | 24 мин | 0 из 7<br><div class="bar"><span style="width:0%"></span></div> |
+| 1 | [[BE 9.1 Техлид на бэкенде\|9.1 Техлид на бэкенде]] | <span class="badge must">Обязательно</span> | 12 мин | 0 из 4<br><div class="bar"><span style="width:0%"></span></div> |
+| 2 | [[BE 9.2 Финальная подготовка — проекты, live coding, вопросы\|9.2 Финальная подготовка: проекты, live coding, вопросы]] | <span class="badge must">Обязательно</span> | 24 мин | 0 из 7<br><div class="bar"><span style="width:0%"></span></div> |
 <!-- toc:end -->
 

@@ -22,10 +22,6 @@ time: 4
 <div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">~4 мин чтения</span><span class="chip">Уровень: senior</span></div>
 <!-- meta:end -->
 
-
-
-
-
 > [!info] Зачем это на собесе
 > Ожидают знание базовых сортировок и особенностей `Array.prototype.sort`, а бинарный поиск — универсальный приём.
 
