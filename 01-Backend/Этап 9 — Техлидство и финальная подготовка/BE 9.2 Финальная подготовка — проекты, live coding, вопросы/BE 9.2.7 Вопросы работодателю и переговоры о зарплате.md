@@ -22,6 +22,7 @@ time: 3
 <div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~3 мин чтения</span><span class="chip">Уровень: senior</span></div>
 <!-- meta:end -->
 
+
 > [!info] Зачем это на собесе
 > Ваши вопросы показывают зрелость; договорённости об условиях нужно вести так же структурно, как техническую часть.
 
