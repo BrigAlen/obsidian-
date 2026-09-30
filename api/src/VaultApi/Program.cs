@@ -103,6 +103,7 @@ app.MapAuth();
 app.MapProgress();
 app.MapNotes();
 app.MapAdmin();
+app.MapBacklog();
 app.MapGroup("/api").MapFallback(() => Results.NotFound());
 
 // Сайт (Quartz) лежит в wwwroot: поддерживаем «чистые» адреса без .html
