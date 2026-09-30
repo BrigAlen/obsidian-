@@ -15,6 +15,9 @@ public class Factory : WebApplicationFactory<Program>
         Db = $"vault_test_{Guid.NewGuid():N}";
         Environment.SetEnvironmentVariable("DATABASE_URL",
             $"Host=localhost;Database={Db};Username=vault;Password=vault");
+        var backlog = Path.Combine(Path.GetTempPath(), $"backlog_{Guid.NewGuid():N}.md");
+        File.WriteAllText(backlog, "---\ntitle: Бэклог\ndraft: true\n---\n\n# Бэклог\n\n- [ ] Задача про [[Страница|ссылку]]\n");
+        Environment.SetEnvironmentVariable("BACKLOG_PATH", backlog);
         Environment.SetEnvironmentVariable("AUTH_RATE_LIMIT", "1000");
         Environment.SetEnvironmentVariable("ADMIN_LOGIN", "admin");
         Environment.SetEnvironmentVariable("ADMIN_PASSWORD", "admin-pass-1");
@@ -189,6 +192,22 @@ public class ApiTests : IClassFixture<Factory>
         Assert.Equal(HttpStatusCode.NoContent, (await u.GetAsync("/api/me")).StatusCode);
         var r = await f.NewClient().PostAsJsonAsync("/api/auth/login", new { login = "heidi", password = "password-1" });
         Assert.Equal(HttpStatusCode.Unauthorized, r.StatusCode);
+    }
+
+    [Fact]
+    public async Task Backlog_page_is_admin_only()
+    {
+        Assert.Equal(HttpStatusCode.NotFound, (await f.NewClient().GetAsync("/admin/backlog")).StatusCode);
+        var user = await UserAsync("ivan");
+        Assert.Equal(HttpStatusCode.NotFound, (await user.GetAsync("/admin/backlog")).StatusCode);
+
+        var admin = await AdminAsync();
+        var r = await admin.GetAsync("/admin/backlog");
+        Assert.Equal(HttpStatusCode.OK, r.StatusCode);
+        var html = await r.Content.ReadAsStringAsync();
+        Assert.Contains("<h1", html);
+        Assert.Contains("Задача про ссылку", html);   // wiki-ссылка заменена подписью
+        Assert.DoesNotContain("draft: true", html);    // frontmatter убран
     }
 
     [Fact]

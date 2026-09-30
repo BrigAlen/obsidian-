@@ -22,6 +22,8 @@ FROM mcr.microsoft.com/dotnet/aspnet:10.0
 WORKDIR /app
 COPY --from=api /out .
 COPY --from=site /src/public ./wwwroot
+# Бэклог на публичный сайт не попадает, его отдаёт только API администратору
+COPY ["Бэклог.md", "./private/backlog.md"]
 ENV ASPNETCORE_URLS=http://+:8080
 EXPOSE 8080
 USER $APP_UID

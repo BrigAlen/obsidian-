@@ -42,6 +42,28 @@ for p in files:
     new = pat.sub(sub, text)
     open(p, "w", encoding="utf-8").write(new)
 
+# Заметки с `draft: true` на сайт не попадают: убираем пункты списков, которые ведут только на них
+drafts = set()
+for p in files:
+    head = open(p, encoding="utf-8").read(600)
+    if re.match(r"^---\n(?:.*\n)*?draft:\s*true\b", head):
+        drafts.add(os.path.basename(p)[:-3])
+removed = 0
+for p in files:
+    text = open(p, encoding="utf-8").read()
+    if "[[" not in text or not drafts:
+        continue
+    def drop(m):
+        global removed
+        removed += 1
+        return ""
+    new = text
+    for name in drafts:
+        new = re.sub(r"^[-*] \[\[" + re.escape(name) + r"(?:\|[^\]]*)?\]\][^\n]*\n", drop, new, flags=re.M)
+    if new != text:
+        open(p, "w", encoding="utf-8").write(new)
+print(f"draft bullets removed: {removed}")
+
 # Quartz обрезает подпись wiki-ссылки [[цель|текст/с/слэшем]] до последнего «/»:
 # заменяем слэш в подписи на «∕» (U+2215), визуально тот же знак
 alias = re.compile(r"\[\[([^\]|\n]+)\|([^\]\n]*/[^\]\n]*)\]\]")

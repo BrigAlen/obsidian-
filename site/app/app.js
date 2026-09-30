@@ -64,6 +64,7 @@
       const menu = el("div", { class: "acct-menu", hidden: "" },
         el("a", { href: "/cabinet" }, "Личный кабинет"),
         state.me.role === "Admin" ? el("a", { href: "/cabinet#admin" }, "Администрирование") : "",
+        state.me.role === "Admin" ? el("a", { href: "/admin/backlog" }, "Бэклог") : "",
         el("button", { onclick: openPassword }, "Сменить пароль"),
         el("button", { onclick: logout }, "Выйти"));
       box.append(el("button", { class: "acct-btn", onclick: () => menu.toggleAttribute("hidden") }, state.me.login), menu);
