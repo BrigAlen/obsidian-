@@ -5,12 +5,12 @@ stage: 1
 order: 8
 status: todo
 level: junior
-tags: [domain/devops, stage/1, level/junior, priority/should, flag/todo]
+tags: [domain/devops, stage/1, level/junior, priority/should]
 group: Скрипты и автоматизация
 reviewed: 
 next_review: 
 priority: should
-time: 20
+time: 6
 ---
 
 # Утилиты: grep, sed, awk, find, curl, jq, htop, ss, lsof
@@ -18,7 +18,7 @@ time: 20
 ↑ [[DO Этап 1 · Фундамент — Linux, Bash, сети|Этап 1 · Фундамент: Linux, Bash, сети]]
 
 <!-- meta:start -->
-<div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">≈20 мин по плану</span><span class="chip">Уровень: junior</span><span class="chip">тема не наполнена</span></div>
+<div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">~6 мин чтения</span><span class="chip">Уровень: junior</span></div>
 <!-- meta:end -->
 
 > [!info] Зачем это на собесе
@@ -118,6 +118,14 @@ less +F app.log                         # follow в less (Ctrl+C — режим 
 awk -v since="$(date -d '1 hour ago' '+%d/%b/%Y:%H')" '$4 ~ since && $9 ~ /^5/ {print $1}' access.log \
   | sort | uniq -c | sort -rn | head
 ```
+
+## Как выбирать инструмент
+
+Для поиска по тексту берут `grep` (или `rg`, если нужна скорость на больших деревьях), для построчных замен — `sed`, для работы со столбцами и подсчётов — `awk`. Файлы ищут через `find`, а действия над найденным безопаснее передавать через `-print0 | xargs -0`, чтобы не ломаться на пробелах в именах. Для HTTP-проверок используют `curl` с флагами `-fsS` и таймаутами, а ответы в JSON разбирают через `jq`, не пытаясь парсить их регулярными выражениями.
+
+Диагностику сокетов и процессов начинают с `ss -tulpn` и `lsof -i :PORT`: они быстро показывают, кто слушает порт и какой процесс держит файл. На собеседовании важно не перечислять флаги, а объяснить логику: сначала сузить область поиска, затем агрегировать (`sort | uniq -c | sort -rn`), и только потом переходить к трассировке (`strace`) или перехвату пакетов.
+
+Хорошая привычка: любую разовую команду, которую пришлось набирать больше двух раз, оформить в скрипт с `set -euo pipefail` и сохранить в репозитории, а в длинных пайпах проверять промежуточный результат на небольшом образце данных.
 
 ## Вопросы с ответами
 

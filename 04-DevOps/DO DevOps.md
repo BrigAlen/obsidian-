@@ -16,13 +16,13 @@ Linux, Docker, CI/CD, Nginx, Kubernetes, Ansible, Terraform, observability, бе
 
 ## Этапы
 <!-- toc:start -->
-**Итого:** 105 тем · ~11 ч 51 мин · готово 0 из 105
+**Итого:** 105 тем · ~11 ч 37 мин · готово 0 из 105
 
 <div class="bar"><span style="width:0%"></span></div>
 
 | Этап | Приоритет | Чтение | Прогресс |
 |---|---|---|---|
-| [[DO Этап 1 · Фундамент — Linux, Bash, сети\|Этап 1 · Фундамент: Linux, Bash, сети]] | <span class="badge should">Желательно</span> | 1 ч 47 мин | 0 из 18<br><div class="bar"><span style="width:0%"></span></div> |
+| [[DO Этап 1 · Фундамент — Linux, Bash, сети\|Этап 1 · Фундамент: Linux, Bash, сети]] | <span class="badge should">Желательно</span> | 1 ч 33 мин | 0 из 18<br><div class="bar"><span style="width:0%"></span></div> |
 | [[DO Этап 2 · Контейнеры — Docker, docker-compose, Makefile\|Этап 2 · Контейнеры: Docker, docker-compose, Makefile]] | <span class="badge must">Обязательно</span> | 1 ч 19 мин | 0 из 14<br><div class="bar"><span style="width:0%"></span></div> |
 | [[DO Этап 3 · CI-CD\|Этап 3 · CI-CD]] | <span class="badge must">Обязательно</span> | 1 ч 14 мин | 0 из 12<br><div class="bar"><span style="width:0%"></span></div> |
 | [[DO Этап 4 · Веб-серверы и сеть в проде — Nginx, TLS\|Этап 4 · Веб-серверы и сеть в проде: Nginx, TLS]] | <span class="badge should">Желательно</span> | 1 ч 11 мин | 0 из 10<br><div class="bar"><span style="width:0%"></span></div> |

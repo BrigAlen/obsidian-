@@ -12,7 +12,7 @@ tags: [domain/devops, kind/stage]
 
 ## Темы
 <!-- toc:start -->
-**Итого:** 18 тем · ~1 ч 47 мин · готово 0 из 18
+**Итого:** 18 тем · ~1 ч 33 мин · готово 0 из 18
 
 <div class="bar"><span style="width:0%"></span></div>
 
@@ -25,7 +25,7 @@ tags: [domain/devops, kind/stage]
 | 5 | [[DO 1.5 Bash — переменные, пайпы, перенаправления, скрипты\|Bash: переменные, пайпы, перенаправления, скрипты]] | <span class="badge should">Желательно</span> | 7 мин | <span class="badge todo">Не начато</span> |
 | 6 | [[DO 1.6 Диски и файловые системы — разделы, LVM, монтирование, fstab, df и du, inode\|Диски и файловые системы: разделы, LVM, монтирование, fstab, df и du, inode]] | <span class="badge should">Желательно</span> | 5 мин | <span class="badge todo">Не начато</span> |
 | 7 | [[DO 1.7 Процессы, systemd, сервисы, journalctl\|Процессы, systemd, сервисы, journalctl]] | <span class="badge should">Желательно</span> | 6 мин | <span class="badge todo">Не начато</span> |
-| 8 | [[DO 1.8 Утилиты — grep, sed, awk, find, curl, jq, htop, ss, lsof\|Утилиты: grep, sed, awk, find, curl, jq, htop, ss, lsof]] | <span class="badge should">Желательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
+| 8 | [[DO 1.8 Утилиты — grep, sed, awk, find, curl, jq, htop, ss, lsof\|Утилиты: grep, sed, awk, find, curl, jq, htop, ss, lsof]] | <span class="badge should">Желательно</span> | 6 мин | <span class="badge todo">Не начато</span> |
 | 9 | [[DO 1.9 Логи и их ротация — -var-log, rsyslog, logrotate\|Логи и их ротация: ∕var∕log, rsyslog, logrotate]] | <span class="badge should">Желательно</span> | 6 мин | <span class="badge todo">Не начато</span> |
 | 10 | [[DO 1.10 Python для автоматизации DevOps-задач\|Python для автоматизации DevOps-задач]] | <span class="badge should">Желательно</span> | 7 мин | <span class="badge todo">Не начато</span> |
 | 11 | [[DO 1.11 Планирование задач — cron и systemd timers\|Планирование задач: cron и systemd timers]] | <span class="badge should">Желательно</span> | 6 мин | <span class="badge todo">Не начато</span> |
