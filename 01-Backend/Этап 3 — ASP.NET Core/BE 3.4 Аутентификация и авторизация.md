@@ -1,65 +1,37 @@
 ---
-type: topic
+type: section
 domain: backend
 stage: 3
+section: "3.4"
 order: 4
 status: todo
 level: middle
-tags: [domain/backend, stage/3, level/middle, priority/must, flag/todo]
-reviewed: 
-next_review: 
-priority: must
-time: 20
+notion_id: 3ea331048679813eb08fc62e6abf2bb5
+tags: [domain/backend, stage/3, kind/section]
 ---
 
-# Аутентификация и авторизация
+# 3.4 Аутентификация и авторизация
 
-↑ [[BE Этап 3 · ASP.NET Core|Этап 3 · ASP.NET Core]]
+↑ [[BE Этап 3 · ASP.NET Core|Этап 3]]
 
-<!-- meta:start -->
-<div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">≈20 мин по плану</span><span class="chip">Уровень: middle</span><span class="chip">тема не наполнена</span></div>
-<!-- meta:end -->
+Схемы и handlers, JWT, OAuth 2.0/OIDC, политики, контекст пользователя и хранение паролей.
 
+## Темы
+<!-- toc:start -->
+**Итого:** 6 тем · ~18 мин · готово 0 из 6
 
+<div class="bar"><span style="width:0%"></span></div>
 
+| # | Тема | Приоритет | Чтение | Статус |
+|---|---|---|---|---|
+| 1 | [[BE 3.4.1 Аутентификация и авторизация в ASP.NET Core — схемы, handlers\|Аутентификация и авторизация в ASP.NET Core: схемы, handlers]] | <span class="badge must">Обязательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
+| 2 | [[BE 3.4.2 JWT Bearer — валидация токена, claims, срок жизни\|JWT Bearer: валидация токена, claims, срок жизни]] | <span class="badge must">Обязательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
+| 3 | [[BE 3.4.3 OAuth 2.0, OpenID Connect и Keycloak на бэкенде\|OAuth 2.0, OpenID Connect и Keycloak на бэкенде]] | <span class="badge must">Обязательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
+| 4 | [[BE 3.4.4 Политики, роли, claims-based и resource-based авторизация\|Политики, роли, claims-based и resource-based авторизация]] | <span class="badge must">Обязательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
+| 5 | [[BE 3.4.5 Контекст пользователя в сервисах (UserContext) и проброс токена между сервисами\|Контекст пользователя в сервисах (UserContext) и проброс токена между сервисами]] | <span class="badge must">Обязательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
+| 6 | [[BE 3.4.6 Хранение паролей, ASP.NET Core Identity, API-ключи\|Хранение паролей, ASP.NET Core Identity, API-ключи]] | <span class="badge must">Обязательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
+<!-- toc:end -->
 
-
-
-
-
-
-
-
-
-> [!info] Зачем это на собесе
-> _Что именно проверяют этой темой и на каком уровне (junior / middle / senior)._
-
-## Подтемы
-- [ ]
-- [ ]
-- [ ]
-
-## Объяснение
-_Суть своими словами, минимум воды._
-
-## Примеры
-```csharp
-
-```
-
-## Нюансы и подводные камни
--
-
-## Практика
-_Задачи для закрепления._
-- [ ]
-
-## Вопросы с ответами
-> [!question]- Вопрос 1
-> Ответ.
-
-## Тестирование
--
-
-## Связанные темы
--
+## Чек-лист раздела
+- [ ] Прочитал все темы
+- [ ] Могу объяснить каждую тему за 2 минуты вслух

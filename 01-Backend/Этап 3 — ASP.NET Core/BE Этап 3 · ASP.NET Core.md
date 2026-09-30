@@ -12,17 +12,17 @@ tags: [domain/backend, kind/stage]
 
 ## Темы
 <!-- toc:start -->
-**Итого:** 6 тем · ~2 ч · готово 0 из 6
+**Итого:** 35 тем · ~1 ч 47 мин · готово 0 из 35
 
 <div class="bar"><span style="width:0%"></span></div>
 
 | # | Раздел или тема | Приоритет | Чтение | Прогресс |
 |---|---|---|---|---|
-| 1 | [[BE 3.1 Хост, конфигурация и middleware pipeline\|Хост, конфигурация и middleware pipeline]] | <span class="badge must">Обязательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
-| 2 | [[BE 3.2 Dependency Injection\|Dependency Injection]] | <span class="badge must">Обязательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
-| 3 | [[BE 3.3 Web API — контроллеры, Minimal API, валидация\|Web API: контроллеры, Minimal API, валидация]] | <span class="badge must">Обязательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
-| 4 | [[BE 3.4 Аутентификация и авторизация\|Аутентификация и авторизация]] | <span class="badge must">Обязательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
-| 5 | [[BE 3.5 Инфраструктура приложения — ошибки, health checks, фоновые задачи\|Инфраструктура приложения: ошибки, health checks, фоновые задачи]] | <span class="badge must">Обязательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
-| 6 | [[BE 3.6 Тестирование ASP.NET Core\|Тестирование ASP.NET Core]] | <span class="badge must">Обязательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
+| 1 | [[BE 8.3 Микросервисы и распределённые системы\|3.1 Хост, конфигурация и middleware pipeline]] | <span class="badge must">Обязательно</span> | 20 мин | 0 из 6<br><div class="bar"><span style="width:0%"></span></div> |
+| 2 | [[BE 8.3 Микросервисы и распределённые системы\|3.2 Dependency Injection]] | <span class="badge must">Обязательно</span> | 15 мин | 0 из 5<br><div class="bar"><span style="width:0%"></span></div> |
+| 3 | [[BE 8.3 Микросервисы и распределённые системы\|3.3 Web API: контроллеры, Minimal API, валидация]] | <span class="badge must">Обязательно</span> | 24 мин | 0 из 8<br><div class="bar"><span style="width:0%"></span></div> |
+| 4 | [[BE 8.3 Микросервисы и распределённые системы\|3.4 Аутентификация и авторизация]] | <span class="badge must">Обязательно</span> | 18 мин | 0 из 6<br><div class="bar"><span style="width:0%"></span></div> |
+| 5 | [[BE 8.3 Микросервисы и распределённые системы\|3.5 Инфраструктура приложения: ошибки, health checks, фоновые задачи]] | <span class="badge must">Обязательно</span> | 18 мин | 0 из 6<br><div class="bar"><span style="width:0%"></span></div> |
+| 6 | [[BE 8.3 Микросервисы и распределённые системы\|3.6 Тестирование ASP.NET Core]] | <span class="badge must">Обязательно</span> | 12 мин | 0 из 4<br><div class="bar"><span style="width:0%"></span></div> |
 <!-- toc:end -->
 

@@ -1,65 +1,36 @@
 ---
-type: topic
+type: section
 domain: backend
 stage: 4
+section: "4.1"
 order: 1
 status: todo
 level: middle
-tags: [domain/backend, stage/4, level/middle, priority/must, flag/todo]
-reviewed: 
-next_review: 
-priority: must
-time: 20
+notion_id: 3ea33104867981baa5aed2a8f76feaad
+tags: [domain/backend, stage/4, kind/section]
 ---
 
-# ADO.NET, Npgsql и Dapper
+# 4.1 ADO.NET, Npgsql и Dapper
 
-↑ [[BE Этап 4 · Данные в .NET — ADO.NET, Dapper, EF Core|Этап 4 · Данные в .NET: ADO.NET, Dapper, EF Core]]
+↑ [[BE Этап 4 · Данные в .NET — ADO.NET, Dapper, EF Core|Этап 4]]
 
-<!-- meta:start -->
-<div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">≈20 мин по плану</span><span class="chip">Уровень: middle</span><span class="chip">тема не наполнена</span></div>
-<!-- meta:end -->
+Низкоуровневый доступ к данным: соединения, параметры, Dapper, транзакции и драйверы других БД.
 
+## Темы
+<!-- toc:start -->
+**Итого:** 5 тем · ~15 мин · готово 0 из 5
 
+<div class="bar"><span style="width:0%"></span></div>
 
+| # | Тема | Приоритет | Чтение | Статус |
+|---|---|---|---|---|
+| 1 | [[BE 4.1.1 ADO.NET и Npgsql — соединения, команды, пул соединений\|ADO.NET и Npgsql: соединения, команды, пул соединений]] | <span class="badge must">Обязательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
+| 2 | [[BE 4.1.2 Параметризованные запросы и SQL-инъекции\|Параметризованные запросы и SQL-инъекции]] | <span class="badge must">Обязательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
+| 3 | [[BE 4.1.3 Dapper — микро-ORM, мультимаппинг, когда вместо EF\|Dapper: микро-ORM, мультимаппинг, когда вместо EF]] | <span class="badge must">Обязательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
+| 4 | [[BE 4.1.4 Транзакции в .NET — DbTransaction, TransactionScope\|Транзакции в .NET: DbTransaction, TransactionScope]] | <span class="badge must">Обязательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
+| 5 | [[BE 4.1.5 Драйвер ClickHouse и другие БД из .NET (Firebird, MS SQL)\|Драйвер ClickHouse и другие БД из .NET (Firebird, MS SQL)]] | <span class="badge must">Обязательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
+<!-- toc:end -->
 
-
-
-
-
-
-
-
-
-> [!info] Зачем это на собесе
-> _Что именно проверяют этой темой и на каком уровне (junior / middle / senior)._
-
-## Подтемы
-- [ ]
-- [ ]
-- [ ]
-
-## Объяснение
-_Суть своими словами, минимум воды._
-
-## Примеры
-```csharp
-
-```
-
-## Нюансы и подводные камни
--
-
-## Практика
-_Задачи для закрепления._
-- [ ]
-
-## Вопросы с ответами
-> [!question]- Вопрос 1
-> Ответ.
-
-## Тестирование
--
-
-## Связанные темы
--
+## Чек-лист раздела
+- [ ] Прочитал все темы
+- [ ] Могу объяснить каждую тему за 2 минуты вслух

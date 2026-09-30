@@ -23,6 +23,7 @@ const graph = Component.Graph({
     linkDistance: 45,
     fontSize: 0.7,
     showTags: false,
+    removeTags: ["hide"],
     focusOnHover: true,
   },
   globalGraph: {
@@ -35,19 +36,19 @@ const graph = Component.Graph({
     showTags: false,
     focusOnHover: true,
     enableRadial: false,
+    removeTags: ["hide"],
   },
 })
 
 // Дерево слева: короткие названия, клик по папке только раскрывает её, служебные страницы скрыты
 const explorer = Component.Explorer({
-  folderClickBehavior: "collapse",
+  folderClickBehavior: "link",
   folderDefaultState: "collapsed",
   filterFn: (node) => {
     const s = node.slugSegment
     if (s === "tags") return false
-    // страницы-оглавления (доступны по ссылкам): домены, этапы, «Мои заметки»
-    if (/^(BE|FE|DB|DO)-Этап-\d/.test(s)) return false
-    if (/^(BE-Backend|FE-Frontend|DB-Базы-данных|DO-DevOps|FS-Fullstack-практика|Мои-заметки)$/.test(s)) return false
+    // страницы-оглавления доступны через клик по папке (index) и ссылки
+    if (/-overview$/.test(s) || s === "moi-zametki") return false
     return true
   },
   // разделы верхнего уровня — по номерам в именах папок (01-, 02-, ...), остальное — как по умолчанию
@@ -60,9 +61,9 @@ const explorer = Component.Explorer({
   },
   mapFn: (node) => {
     let n = node.displayName
-    n = n.replace(/^\d{2}-/, "") // 01-Backend -> Backend
-    n = n.replace(/^Мои-заметки$/, "Мои заметки").replace(/^00 /, "")
-    n = n.replace(/^(BE|FE|DB|DO|FS) (?=\d)/, "") // BE 1.1 -> 1.1
+    n = n.replace(/^07-notes$/, "Мои заметки").replace(/^\d{2}-(?=[a-z])/, "")
+    n = n.replace(/^00 /, "")
+    n = n.replace(/^(BE|FE|DB|DO|FS) /, "") // BE 1.1 -> 1.1
     const m = n.match(/^Этап (\d+)\s*[—·:-]\s*(.*)$/)
     if (m) n = `${m[1]}. ${m[2].split(/\s+[—:]\s+|:\s+/)[0]}`
     node.displayName = n
