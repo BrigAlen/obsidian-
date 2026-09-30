@@ -1,4 +1,5 @@
 ---
+cssclasses: [i-db]
 type: stage
 domain: db
 stage: 6

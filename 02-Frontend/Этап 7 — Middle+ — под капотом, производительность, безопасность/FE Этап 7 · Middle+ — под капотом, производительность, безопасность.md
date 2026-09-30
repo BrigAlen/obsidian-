@@ -1,4 +1,5 @@
 ---
+cssclasses: [i-frontend]
 type: stage
 domain: frontend
 stage: 7

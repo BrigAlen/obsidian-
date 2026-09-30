@@ -1,4 +1,5 @@
 ---
+cssclasses: [i-devops]
 type: domain
 domain: devops
 tags: [domain/devops, kind/moc]

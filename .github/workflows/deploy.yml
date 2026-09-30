@@ -45,7 +45,7 @@ jobs:
           find quartz/content -name '*.md' -exec perl -0pi -e 's/```dataview.*?```\n//gs' {} +
           python3 vault/site/resolve_links.py quartz/content
           if [ -f vault/site/quartz.layout.ts ]; then cp vault/site/quartz.layout.ts quartz/quartz.layout.ts; fi
-          if [ -f vault/site/custom.scss ]; then cp vault/site/custom.scss quartz/quartz/styles/custom.scss; fi
+          cat vault/site/custom.scss vault/.obsidian/snippets/icons.css > quartz/quartz/styles/custom.scss
           if [ -d vault/site/static ]; then cp -r vault/site/static/. quartz/quartz/static/; fi
 
       - name: Install

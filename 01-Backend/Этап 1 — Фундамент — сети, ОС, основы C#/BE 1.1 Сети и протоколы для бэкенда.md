@@ -1,4 +1,5 @@
 ---
+cssclasses: [i-backend]
 type: section
 domain: backend
 stage: 1
