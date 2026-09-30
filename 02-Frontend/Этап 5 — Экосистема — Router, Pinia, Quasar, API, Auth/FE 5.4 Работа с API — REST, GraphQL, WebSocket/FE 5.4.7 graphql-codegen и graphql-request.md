@@ -29,7 +29,7 @@ time: 3
 
 **GraphQL Code Generator** читает схему (`schema.graphql` или URL/introspection) и документы (`*.graphql`, `gql` в коде) и генерирует TypeScript-типы и типизированные операции.
 
-```yaml
+```ts
 # codegen.ts
 import type { CodegenConfig } from "@graphql-codegen/cli";
 const config: CodegenConfig = {

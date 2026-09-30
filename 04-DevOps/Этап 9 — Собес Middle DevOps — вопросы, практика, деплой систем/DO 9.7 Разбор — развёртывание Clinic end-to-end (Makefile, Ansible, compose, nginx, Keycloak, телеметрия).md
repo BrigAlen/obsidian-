@@ -138,7 +138,7 @@ services:
     <<: *common
     image: quay.io/keycloak/keycloak:26.0
     command: [start, --optimized, --import-realm]
-    environment: { KC_DB: postgres, KC_DB_URL: jdbc:postgresql://postgres:5432/keycloak, KC_HOSTNAME: https://${DOMAIN}/auth, KC_PROXY_HEADERS: xforwarded, KC_HTTP_ENABLED: "true" }
+    environment: { KC_DB: postgres, KC_DB_URL: "jdbc:postgresql://postgres:5432/keycloak", KC_HOSTNAME: "https://${DOMAIN}/auth", KC_PROXY_HEADERS: xforwarded, KC_HTTP_ENABLED: "true" }
     volumes: [./keycloak/realm-clinic.json:/opt/keycloak/data/import/realm-clinic.json:ro]
   otel-collector:
     <<: *common

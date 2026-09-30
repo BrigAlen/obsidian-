@@ -50,7 +50,7 @@ const limit = 100;
 
 | Приём | Команда |
 |---|---|
-| Взять «нашу»/«их» версию целиком | `git checkout --ours|--theirs file` (при rebase роли меняются местами) |
+| Взять «нашу»/«их» версию целиком | `git checkout --ours\|--theirs file` (при rebase роли меняются местами) |
 | Трёхсторонний diff | `git config merge.conflictstyle zdiff3` (показывает базу) |
 | Визуальный merge-инструмент | IDE (VS Code, WebStorm), `git mergetool` |
 | Переиспользование решений | `git config rerere.enabled true` (запоминает разрешения) |
