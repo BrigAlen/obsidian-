@@ -1,89 +1,36 @@
 ---
-type: topic
+type: section
 domain: backend
 stage: 7
+section: "7.4"
 order: 4
 status: todo
-level: middle+
-tags: [domain/backend, stage/7, level/middle+, priority/should, flag/todo]
-reviewed: 
-next_review: 
-priority: should
-time: 20
+level: senior
+notion_id: 3ea331048679816bbdb3eea97e0cb2c5
+tags: [domain/backend, stage/7, kind/section]
 ---
 
-# Безопасность бэкенда
+# 7.4 Безопасность бэкенда
 
-↑ [[BE Этап 7 · Middle+ — производительность, observability, надёжность, безопасность|Этап 7 · Middle+: производительность, observability, надёжность, безопасность]]
+↑ [[BE Этап 7 · Middle+ — производительность, observability, надёжность, безопасность|Этап 7]]
 
-<!-- meta:start -->
-<div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">≈20 мин по плану</span><span class="chip">Уровень: middle+</span><span class="chip">тема не наполнена</span></div>
-<!-- meta:end -->
+OWASP для API, инъекции, секреты, криптография и защита персональных данных.
 
+## Темы
+<!-- toc:start -->
+**Итого:** 5 тем · ~15 мин · готово 0 из 5
 
+<div class="bar"><span style="width:0%"></span></div>
 
+| # | Тема | Приоритет | Чтение | Статус |
+|---|---|---|---|---|
+| 1 | [[BE 7.4.1 OWASP Top 10 для API\|OWASP Top 10 для API]] | <span class="badge should">Желательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
+| 2 | [[BE 7.4.2 Инъекции — SQL, командные, LDAP, десериализация\|Инъекции: SQL, командные, LDAP, десериализация]] | <span class="badge should">Желательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
+| 3 | [[BE 7.4.3 Секреты и конфигурация — user-secrets, Vault, переменные окружения\|Секреты и конфигурация: user-secrets, Vault, переменные окружения]] | <span class="badge should">Желательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
+| 4 | [[BE 7.4.4 Криптография — хэши, соль, шифрование, Data Protection API\|Криптография: хэши, соль, шифрование, Data Protection API]] | <span class="badge should">Желательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
+| 5 | [[BE 7.4.5 Защита персональных данных, аудит и логирование доступа\|Защита персональных данных, аудит и логирование доступа]] | <span class="badge should">Желательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
+<!-- toc:end -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-> [!info] Зачем это на собесе
-> _Что именно проверяют этой темой и на каком уровне (junior / middle / senior)._
-
-## Подтемы
-- [ ]
-- [ ]
-- [ ]
-
-## Объяснение
-_Суть своими словами, минимум воды._
-
-## Примеры
-```csharp
-
-```
-
-## Нюансы и подводные камни
--
-
-## Практика
-_Задачи для закрепления._
-- [ ]
-
-## Вопросы с ответами
-> [!question]- Вопрос 1
-> Ответ.
-
-## Тестирование
--
-
-## Связанные темы
--
+## Чек-лист раздела
+- [ ] Прочитал все темы
+- [ ] Могу объяснить каждую тему за 2 минуты вслух
