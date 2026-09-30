@@ -12,13 +12,13 @@ tags: [domain/backend, kind/stage]
 
 ## Темы
 <!-- toc:start -->
-**Итого:** 6 тем · ~2 ч · готово 0 из 6
+**Итого:** 11 тем · ~1 ч 58 мин · готово 0 из 11
 
 <div class="bar"><span style="width:0%"></span></div>
 
 | # | Раздел или тема | Приоритет | Чтение | Прогресс |
 |---|---|---|---|---|
-| 1 | [[BE 7.1 Производительность .NET и кэширование\|Производительность .NET и кэширование]] | <span class="badge should">Желательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
+| 1 | [[BE 8.3 Микросервисы и распределённые системы\|7.1 Производительность .NET и кэширование]] | <span class="badge should">Желательно</span> | 18 мин | 0 из 6<br><div class="bar"><span style="width:0%"></span></div> |
 | 2 | [[BE 7.2 Observability — логи, метрики, трейсинг, OpenTelemetry\|Observability: логи, метрики, трейсинг, OpenTelemetry]] | <span class="badge should">Желательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
 | 3 | [[BE 7.3 Надёжность и отказоустойчивость\|Надёжность и отказоустойчивость]] | <span class="badge should">Желательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
 | 4 | [[BE 7.4 Безопасность бэкенда\|Безопасность бэкенда]] | <span class="badge should">Желательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
