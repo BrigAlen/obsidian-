@@ -22,6 +22,7 @@ time: 3
 <div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">~3 мин чтения</span><span class="chip">Уровень: senior</span></div>
 <!-- meta:end -->
 
+
 > [!info] Зачем это на собесе
 > «В компьютерной науке две сложные вещи: инвалидация кэша и именование». Ждут знания паттернов.
 
