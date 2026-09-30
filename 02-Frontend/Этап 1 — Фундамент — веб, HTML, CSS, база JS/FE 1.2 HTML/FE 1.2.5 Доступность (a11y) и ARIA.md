@@ -22,6 +22,7 @@ time: 3
 <div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">~3 мин чтения</span><span class="chip">Уровень: junior</span></div>
 <!-- meta:end -->
 
+
 > [!info] Зачем это на собесе
 > Доступность — требование закона и признак зрелого фронтендера. Спрашивают про первое правило ARIA и управление фокусом.
 
