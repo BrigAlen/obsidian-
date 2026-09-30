@@ -22,6 +22,7 @@ time: 4
 <div class="meta-strip"><span class="badge nice">По желанию</span><span class="chip">~4 мин чтения</span><span class="chip">Уровень: junior</span></div>
 <!-- meta:end -->
 
+
 > [!info] Зачем это на собесе
 > Порядок обработки запроса в Nest и роль каждого компонента.
 
