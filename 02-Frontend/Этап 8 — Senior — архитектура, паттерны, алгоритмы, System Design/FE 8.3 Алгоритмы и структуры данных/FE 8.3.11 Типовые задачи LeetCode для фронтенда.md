@@ -22,6 +22,7 @@ time: 4
 <div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">~4 мин чтения</span><span class="chip">Уровень: senior</span></div>
 <!-- meta:end -->
 
+
 > [!info] Зачем это на собесе
 > Во фронтенд-интервью чаще встречаются практичные задачи: утилиты JS, работа с DOM, массивы и строки, а не сложные графы.
 

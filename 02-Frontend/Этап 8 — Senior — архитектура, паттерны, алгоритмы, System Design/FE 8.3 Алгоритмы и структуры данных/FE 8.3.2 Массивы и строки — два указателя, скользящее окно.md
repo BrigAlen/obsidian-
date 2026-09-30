@@ -22,6 +22,7 @@ time: 5
 <div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">~5 мин чтения</span><span class="chip">Уровень: senior</span></div>
 <!-- meta:end -->
 
+
 > [!info] Зачем это на собесе
 > Самый частый тип задач на собеседовании; знание двух приёмов закрывает большую часть.
 
