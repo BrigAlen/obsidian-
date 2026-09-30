@@ -12,7 +12,7 @@ tags: [domain/devops, kind/stage]
 
 ## Темы
 <!-- toc:start -->
-**Итого:** 8 тем · ~55 мин · готово 0 из 8
+**Итого:** 10 тем · ~1 ч 9 мин · готово 0 из 10
 
 <div class="bar"><span style="width:0%"></span></div>
 
@@ -26,5 +26,7 @@ tags: [domain/devops, kind/stage]
 | 6 | [[DO 7.6 SLI, SLO, SLA, error budget\|SLI, SLO, SLA, error budget]] | <span class="badge should">Желательно</span> | 6 мин | <span class="badge todo">Не начато</span> |
 | 7 | [[DO 7.7 Инциденты — on-call, runbooks, postmortem\|Инциденты: on-call, runbooks, postmortem]] | <span class="badge should">Желательно</span> | 5 мин | <span class="badge todo">Не начато</span> |
 | 8 | [[DO 7.8 Алертинг — Alertmanager, правила алертов, маршрутизация, борьба с шумом\|Алертинг: Alertmanager, правила алертов, маршрутизация, борьба с шумом]] | <span class="badge should">Желательно</span> | 9 мин | <span class="badge todo">Не начато</span> |
+| 9 | [[DO 7.9 Распределённый трейсинг — Tempo, Jaeger, sampling\|Распределённый трейсинг: Tempo, Jaeger, sampling]] | <span class="badge should">Желательно</span> | 9 мин | <span class="badge todo">Не начато</span> |
+| 10 | [[DO 7.10 Долгое хранение метрик — Thanos, Mimir, VictoriaMetrics\|Долгое хранение метрик: Thanos, Mimir, VictoriaMetrics]] | <span class="badge should">Желательно</span> | 5 мин | <span class="badge todo">Не начато</span> |
 <!-- toc:end -->
 
