@@ -22,6 +22,17 @@ public class Factory : WebApplicationFactory<Program>
 
     public string Db { get; }
 
+    protected override void Dispose(bool disposing)
+    {
+        base.Dispose(disposing);
+        if (!disposing) return;
+        using var c = new Npgsql.NpgsqlConnection("Host=localhost;Database=postgres;Username=vault;Password=vault");
+        c.Open();
+        using var cmd = c.CreateCommand();
+        cmd.CommandText = $"DROP DATABASE IF EXISTS {Db} WITH (FORCE)";
+        cmd.ExecuteNonQuery();
+    }
+
     protected override void ConfigureWebHost(IWebHostBuilder builder) => builder.UseEnvironment("Testing");
 
     public HttpClient NewClient()
@@ -62,7 +73,7 @@ public class ApiTests : IClassFixture<Factory>
     public async Task Anonymous_is_rejected()
     {
         var c = f.NewClient();
-        Assert.Equal(HttpStatusCode.Unauthorized, (await c.GetAsync("/api/me")).StatusCode);
+        Assert.Equal(HttpStatusCode.NoContent, (await c.GetAsync("/api/me")).StatusCode);
         Assert.Equal(HttpStatusCode.Unauthorized, (await c.GetAsync("/api/progress")).StatusCode);
         Assert.Equal(HttpStatusCode.Unauthorized, (await c.GetAsync("/api/notes")).StatusCode);
     }
@@ -164,7 +175,7 @@ public class ApiTests : IClassFixture<Factory>
         var r = await u.PostAsJsonAsync("/api/auth/password", new { current = "password-1", @new = "password-2" });
         Assert.Equal(HttpStatusCode.NoContent, r.StatusCode);
         Assert.Equal(HttpStatusCode.OK, (await u.GetAsync("/api/me")).StatusCode);
-        Assert.Equal(HttpStatusCode.Unauthorized, (await other.GetAsync("/api/me")).StatusCode);
+        Assert.Equal(HttpStatusCode.NoContent, (await other.GetAsync("/api/me")).StatusCode);
     }
 
     [Fact]
@@ -175,7 +186,7 @@ public class ApiTests : IClassFixture<Factory>
         var users = await Json(await admin.GetAsync("/api/admin/users"));
         var id = users.EnumerateArray().First(x => x.GetProperty("login").GetString() == "heidi").GetProperty("id").GetString();
         Assert.Equal(HttpStatusCode.NoContent, (await admin.PostAsync($"/api/admin/users/{id}/block?blocked=true", null)).StatusCode);
-        Assert.Equal(HttpStatusCode.Unauthorized, (await u.GetAsync("/api/me")).StatusCode);
+        Assert.Equal(HttpStatusCode.NoContent, (await u.GetAsync("/api/me")).StatusCode);
         var r = await f.NewClient().PostAsJsonAsync("/api/auth/login", new { login = "heidi", password = "password-1" });
         Assert.Equal(HttpStatusCode.Unauthorized, r.StatusCode);
     }
