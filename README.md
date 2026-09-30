@@ -1,4 +1,4 @@
-# Компас разработчика — vault для подготовки к собеседованиям (Obsidian)
+# Developer Compass — vault для подготовки к собеседованиям (Obsidian)
 
 Fullstack-роадмап: Backend (C#/.NET), Frontend (Vue 3 + TS), базы данных, DevOps, сквозной проект и промпты для AI-ассистента.
 Перенесён по структуре из Notion. Тексты тем заполняются по шаблону `_templates/Тема.md`.

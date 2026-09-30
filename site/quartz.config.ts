@@ -2,12 +2,12 @@ import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
 
 /**
- * Quartz 4 configuration for the "Компас разработчика" vault.
+ * Quartz 4 configuration for the "Developer Compass" vault.
  * CI copies this file over quartz.config.ts at build time (see .github/workflows/deploy.yml).
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Компас разработчика",
+    pageTitle: "Developer Compass",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
