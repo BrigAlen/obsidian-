@@ -2,7 +2,7 @@
 type: stage
 domain: db
 stage: 5
-tags: [db, stage]
+tags: [domain/db, kind/stage]
 ---
 
 # Этап 5 · Миграции и эволюция схем

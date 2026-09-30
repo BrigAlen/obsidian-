@@ -5,7 +5,7 @@ stage: 2
 order: 14
 status: todo
 level: junior
-tags: [devops, stage-2]
+tags: [domain/devops, stage/2, level/junior]
 reviewed: 
 next_review: 
 ---

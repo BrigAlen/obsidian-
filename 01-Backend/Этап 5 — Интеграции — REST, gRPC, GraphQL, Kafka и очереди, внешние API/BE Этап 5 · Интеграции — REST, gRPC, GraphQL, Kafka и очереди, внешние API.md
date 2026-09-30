@@ -2,7 +2,7 @@
 type: stage
 domain: backend
 stage: 5
-tags: [backend, stage]
+tags: [domain/backend, kind/stage]
 ---
 
 # Этап 5 · Интеграции: REST, gRPC, GraphQL, Kafka и очереди, внешние API

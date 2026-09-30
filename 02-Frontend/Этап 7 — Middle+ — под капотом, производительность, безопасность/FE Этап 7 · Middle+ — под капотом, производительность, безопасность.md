@@ -2,7 +2,7 @@
 type: stage
 domain: frontend
 stage: 7
-tags: [frontend, stage]
+tags: [domain/frontend, kind/stage]
 ---
 
 # Этап 7 · Middle+: под капотом, производительность, безопасность

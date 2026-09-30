@@ -7,7 +7,7 @@ order: 1
 status: todo
 level: junior
 notion_id: 3ea33104867981dba430c47c9f16466f
-tags: [backend, stage-1, section]
+tags: [domain/backend, stage/1, kind/section]
 ---
 
 # 1.1 Сети и протоколы для бэкенда

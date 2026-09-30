@@ -5,7 +5,7 @@ stage: 1
 order: 18
 status: todo
 level: junior
-tags: [devops, stage-1]
+tags: [domain/devops, stage/1, level/junior]
 group: Git
 reviewed: 
 next_review: 

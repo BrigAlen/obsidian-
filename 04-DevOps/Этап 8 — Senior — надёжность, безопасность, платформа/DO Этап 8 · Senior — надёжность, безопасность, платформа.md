@@ -2,7 +2,7 @@
 type: stage
 domain: devops
 stage: 8
-tags: [devops, stage]
+tags: [domain/devops, kind/stage]
 ---
 
 # Этап 8 · Senior: надёжность, безопасность, платформа

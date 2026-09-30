@@ -7,7 +7,7 @@ order: 2
 status: todo
 level: junior
 notion_id: 3ea331048679812882d9f5e746fcd550
-tags: [backend, stage-1, networks, http]
+tags: [domain/backend, stage/1, topic/networks, topic/http, level/junior]
 reviewed:
 next_review:
 ---

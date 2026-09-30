@@ -2,7 +2,7 @@
 type: stage
 domain: backend
 stage: 3
-tags: [backend, stage]
+tags: [domain/backend, kind/stage]
 ---
 
 # Этап 3 · ASP.NET Core

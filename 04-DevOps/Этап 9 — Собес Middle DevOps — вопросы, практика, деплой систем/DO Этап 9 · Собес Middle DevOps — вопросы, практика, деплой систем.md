@@ -2,7 +2,7 @@
 type: stage
 domain: devops
 stage: 9
-tags: [devops, stage]
+tags: [domain/devops, kind/stage]
 ---
 
 # Этап 9 · Собес Middle DevOps: вопросы, практика, деплой систем

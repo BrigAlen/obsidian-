@@ -2,7 +2,7 @@
 type: stage
 domain: backend
 stage: 2
-tags: [backend, stage]
+tags: [domain/backend, kind/stage]
 ---
 
 # Этап 2 · C# глубоко и .NET runtime

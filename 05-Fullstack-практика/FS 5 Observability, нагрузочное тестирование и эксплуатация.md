@@ -5,7 +5,7 @@ stage: 0
 order: 5
 status: todo
 level: middle+
-tags: [fullstack, project]
+tags: [domain/fullstack, kind/project, level/middle+]
 ---
 
 # Observability, нагрузочное тестирование и эксплуатация

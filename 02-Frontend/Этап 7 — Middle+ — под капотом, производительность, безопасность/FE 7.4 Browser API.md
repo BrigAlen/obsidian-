@@ -5,7 +5,7 @@ stage: 7
 order: 4
 status: todo
 level: middle+
-tags: [frontend, stage-7]
+tags: [domain/frontend, stage/7, level/middle+]
 reviewed: 
 next_review: 
 ---

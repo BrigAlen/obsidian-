@@ -7,7 +7,7 @@ order: 5
 status: todo
 level: junior
 notion_id: 3ea3310486798180a101f27fb02bd5ef
-tags: [backend, stage-1, os, datetime, encoding]
+tags: [domain/backend, stage/1, topic/os, topic/datetime, topic/encoding, level/junior, flag/rewritten]
 rewritten: true
 reviewed:
 next_review:

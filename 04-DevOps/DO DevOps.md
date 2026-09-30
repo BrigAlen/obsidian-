@@ -1,7 +1,7 @@
 ---
 type: domain
 domain: devops
-tags: [devops, moc]
+tags: [domain/devops, kind/moc]
 ---
 
 # DevOps

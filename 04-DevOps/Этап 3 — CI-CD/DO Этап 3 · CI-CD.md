@@ -2,7 +2,7 @@
 type: stage
 domain: devops
 stage: 3
-tags: [devops, stage]
+tags: [domain/devops, kind/stage]
 ---
 
 # Этап 3 · CI-CD

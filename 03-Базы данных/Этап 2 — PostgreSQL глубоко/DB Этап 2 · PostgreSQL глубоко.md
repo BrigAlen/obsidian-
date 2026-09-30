@@ -2,7 +2,7 @@
 type: stage
 domain: db
 stage: 2
-tags: [db, stage]
+tags: [domain/db, kind/stage]
 ---
 
 # Этап 2 · PostgreSQL глубоко

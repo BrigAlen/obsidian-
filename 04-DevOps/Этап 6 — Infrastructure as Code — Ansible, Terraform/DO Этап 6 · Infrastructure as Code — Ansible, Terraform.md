@@ -2,7 +2,7 @@
 type: stage
 domain: devops
 stage: 6
-tags: [devops, stage]
+tags: [domain/devops, kind/stage]
 ---
 
 # Этап 6 · Infrastructure as Code: Ansible, Terraform

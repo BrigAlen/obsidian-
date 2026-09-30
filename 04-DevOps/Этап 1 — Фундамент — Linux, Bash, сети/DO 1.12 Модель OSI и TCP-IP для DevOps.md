@@ -5,7 +5,7 @@ stage: 1
 order: 12
 status: todo
 level: junior
-tags: [devops, stage-1]
+tags: [domain/devops, stage/1, level/junior]
 group: Сети
 reviewed: 
 next_review: 

@@ -5,7 +5,7 @@ stage: 8
 order: 1
 status: todo
 level: senior
-tags: [frontend, stage-8]
+tags: [domain/frontend, stage/8, level/senior]
 reviewed: 
 next_review: 
 ---

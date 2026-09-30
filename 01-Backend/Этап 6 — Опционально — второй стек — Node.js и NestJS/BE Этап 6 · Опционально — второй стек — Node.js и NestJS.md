@@ -2,7 +2,7 @@
 type: stage
 domain: backend
 stage: 6
-tags: [backend, stage]
+tags: [domain/backend, kind/stage]
 ---
 
 # Этап 6 · Опционально: второй стек — Node.js и NestJS

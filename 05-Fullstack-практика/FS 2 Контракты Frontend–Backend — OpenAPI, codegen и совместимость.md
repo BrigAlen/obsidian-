@@ -5,7 +5,7 @@ stage: 0
 order: 2
 status: todo
 level: middle+
-tags: [fullstack, project]
+tags: [domain/fullstack, kind/project, level/middle+]
 ---
 
 # Контракты Frontend–Backend: OpenAPI, codegen и совместимость

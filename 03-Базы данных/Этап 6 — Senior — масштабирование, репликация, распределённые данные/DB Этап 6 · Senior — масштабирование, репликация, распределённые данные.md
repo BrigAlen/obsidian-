@@ -2,7 +2,7 @@
 type: stage
 domain: db
 stage: 6
-tags: [db, stage]
+tags: [domain/db, kind/stage]
 ---
 
 # Этап 6 · Senior: масштабирование, репликация, распределённые данные
