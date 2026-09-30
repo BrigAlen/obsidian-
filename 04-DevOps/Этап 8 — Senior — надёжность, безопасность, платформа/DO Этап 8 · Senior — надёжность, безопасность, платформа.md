@@ -12,7 +12,7 @@ tags: [domain/devops, kind/stage]
 
 ## Темы
 <!-- toc:start -->
-**Итого:** 9 тем · ~1 ч 4 мин · готово 0 из 9
+**Итого:** 10 тем · ~1 ч 11 мин · готово 0 из 10
 
 <div class="bar"><span style="width:0%"></span></div>
 
@@ -27,5 +27,6 @@ tags: [domain/devops, kind/stage]
 | 7 | [[DO 8.7 Disaster Recovery — backup, restore, RPO, RTO и регулярные учения\|Disaster Recovery: backup, restore, RPO, RTO и регулярные учения]] | <span class="badge nice">По желанию</span> | 6 мин | <span class="badge todo">Не начато</span> |
 | 8 | [[DO 8.8 Platform Engineering — внутренние платформы, golden paths, self-service\|Platform Engineering: внутренние платформы, golden paths, self-service]] | <span class="badge nice">По желанию</span> | 7 мин | <span class="badge todo">Не начато</span> |
 | 9 | [[DO 8.9 Chaos Engineering и проверка отказоустойчивости\|Chaos Engineering и проверка отказоустойчивости]] | <span class="badge nice">По желанию</span> | 8 мин | <span class="badge todo">Не начато</span> |
+| 10 | [[DO 8.10 Аналоги Vault — OpenBao, SOPS и External Secrets\|Аналоги Vault: OpenBao, SOPS и External Secrets]] | <span class="badge nice">По желанию</span> | 7 мин | <span class="badge todo">Не начато</span> |
 <!-- toc:end -->
 
