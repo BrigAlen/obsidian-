@@ -22,6 +22,7 @@ time: 3
 <div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~3 мин чтения</span><span class="chip">Уровень: senior</span></div>
 <!-- meta:end -->
 
+
 > [!info] Зачем это на собесе
 > Часть вопроса «нужен ли Repository поверх EF» (см. [[N:3ea33104867981048155ce6c5ea28bef]]); здесь сами паттерны.
 
