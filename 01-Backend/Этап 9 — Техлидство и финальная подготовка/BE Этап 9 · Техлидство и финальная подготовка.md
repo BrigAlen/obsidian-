@@ -12,13 +12,13 @@ tags: [domain/backend, kind/stage]
 
 ## Темы
 <!-- toc:start -->
-**Итого:** 2 тем · ~40 мин · готово 0 из 2
+**Итого:** 5 тем · ~32 мин · готово 0 из 5
 
 <div class="bar"><span style="width:0%"></span></div>
 
 | # | Раздел или тема | Приоритет | Чтение | Прогресс |
 |---|---|---|---|---|
-| 1 | [[BE 9.1 Техлид на бэкенде\|Техлид на бэкенде]] | <span class="badge must">Обязательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
+| 1 | [[BE 8.1.4 Структурные паттерны — Adapter, Decorator, Facade, Proxy, Composite\|9.1 Техлид на бэкенде]] | <span class="badge must">Обязательно</span> | 12 мин | 0 из 4<br><div class="bar"><span style="width:0%"></span></div> |
 | 2 | [[BE 9.2 Финальная подготовка — проекты, live coding, вопросы\|Финальная подготовка: проекты, live coding, вопросы]] | <span class="badge must">Обязательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
 <!-- toc:end -->
 
