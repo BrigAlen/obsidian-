@@ -23,6 +23,7 @@ time: 3
 <!-- meta:end -->
 
 
+
 > [!info] Зачем это на собесе
 > Ждут отличий Adapter, Decorator и Proxy — их часто путают.
 
