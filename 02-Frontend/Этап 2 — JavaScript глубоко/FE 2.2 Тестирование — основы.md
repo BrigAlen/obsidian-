@@ -1,105 +1,35 @@
 ---
-type: topic
+type: section
 domain: frontend
 stage: 2
+section: "2.2"
 order: 2
 status: todo
-level: junior
-tags: [domain/frontend, stage/2, level/junior, priority/must, flag/todo]
-reviewed: 
-next_review: 
-priority: must
-time: 20
+level: middle
+notion_id: 3ea3310486798122bff2e90419383237
+tags: [domain/frontend, stage/2, kind/section]
 ---
 
-# Тестирование: основы
+# 2.2 Тестирование: основы
 
-↑ [[FE Этап 2 · JavaScript глубоко|Этап 2 · JavaScript глубоко]]
+↑ [[FE Этап 2 · JavaScript глубоко|Этап 2]]
 
-<!-- meta:start -->
-<div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">≈20 мин по плану</span><span class="chip">Уровень: junior</span><span class="chip">тема не наполнена</span></div>
-<!-- meta:end -->
+Пирамида тестирования, unit-тесты чистых функций, Vitest, моки и тесты асинхронного кода.
 
+## Темы
+<!-- toc:start -->
+**Итого:** 4 тем · ~15 мин · готово 0 из 4
 
+<div class="bar"><span style="width:0%"></span></div>
 
+| # | Тема | Приоритет | Чтение | Статус |
+|---|---|---|---|---|
+| 1 | [[FE 2.2.1 Пирамида тестирования\|Пирамида тестирования]] | <span class="badge must">Обязательно</span> | 3 мин | <span class="badge todo">Не начато</span> |
+| 2 | [[FE 2.2.2 Unit-тесты чистых функций — структура AAA, describe, it, expect\|Unit-тесты чистых функций: структура AAA, describe, it, expect]] | <span class="badge must">Обязательно</span> | 4 мин | <span class="badge todo">Не начато</span> |
+| 3 | [[FE 2.2.3 Vitest — основы, моки, spy\|Vitest: основы, моки, spy]] | <span class="badge must">Обязательно</span> | 4 мин | <span class="badge todo">Не начато</span> |
+| 4 | [[FE 2.2.4 Тестирование асинхронного кода и фейковые таймеры\|Тестирование асинхронного кода и фейковые таймеры]] | <span class="badge must">Обязательно</span> | 4 мин | <span class="badge todo">Не начато</span> |
+<!-- toc:end -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-> [!info] Зачем это на собесе
-> _Что именно проверяют этой темой и на каком уровне (junior / middle / senior)._
-
-## Подтемы
-- [ ]
-- [ ]
-- [ ]
-
-## Объяснение
-_Суть своими словами, минимум воды._
-
-## Примеры
-```ts
-
-```
-
-## Нюансы и подводные камни
--
-
-## Практика
-_Задачи для закрепления._
-- [ ]
-
-## Вопросы с ответами
-> [!question]- Вопрос 1
-> Ответ.
-
-## Тестирование
--
-
-## Связанные темы
--
+## Чек-лист раздела
+- [ ] Прочитал все темы
+- [ ] Могу объяснить каждую тему за 2 минуты вслух
