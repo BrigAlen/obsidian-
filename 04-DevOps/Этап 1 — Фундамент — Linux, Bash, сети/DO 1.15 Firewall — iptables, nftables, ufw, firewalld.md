@@ -18,8 +18,9 @@ time: 20
 ↑ [[DO Этап 1 · Фундамент — Linux, Bash, сети|Этап 1 · Фундамент: Linux, Bash, сети]]
 
 <!-- meta:start -->
-> [!abstract] Приоритет: **желательно** · Чтение: **≈20 мин (по плану, тема не наполнена)** · Уровень: **junior**
+<div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">≈20 мин по плану</span><span class="chip">Уровень: junior</span><span class="chip">тема не наполнена</span></div>
 <!-- meta:end -->
+
 
 
 

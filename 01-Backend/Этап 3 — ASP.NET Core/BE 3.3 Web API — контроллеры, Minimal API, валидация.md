@@ -17,8 +17,9 @@ time: 20
 ↑ [[BE Этап 3 · ASP.NET Core|Этап 3 · ASP.NET Core]]
 
 <!-- meta:start -->
-> [!abstract] Приоритет: **обязательно** · Чтение: **≈20 мин (по плану, тема не наполнена)** · Уровень: **middle**
+<div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">≈20 мин по плану</span><span class="chip">Уровень: middle</span><span class="chip">тема не наполнена</span></div>
 <!-- meta:end -->
+
 
 
 

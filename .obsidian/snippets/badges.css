@@ -51,3 +51,25 @@
   font-size: 0.8rem;
   opacity: 0.75;
 }
+
+/* Полоса метаданных вверху темы */
+.meta-strip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 0.4rem 0 1.4rem;
+}
+.meta-strip .chip {
+  font-size: 0.8rem;
+  opacity: 0.75;
+}
+.meta-strip .chip::before {
+  content: "·";
+  margin-right: 0.6rem;
+  opacity: 0.6;
+}
+.meta-strip .badge + .chip::before {
+  content: "";
+  margin: 0;
+}

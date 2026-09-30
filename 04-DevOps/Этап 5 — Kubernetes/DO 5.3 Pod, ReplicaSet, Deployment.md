@@ -17,8 +17,9 @@ time: 20
 ↑ [[DO Этап 5 · Kubernetes|Этап 5 · Kubernetes]]
 
 <!-- meta:start -->
-> [!abstract] Приоритет: **желательно** · Чтение: **≈20 мин (по плану, тема не наполнена)** · Уровень: **middle**
+<div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">≈20 мин по плану</span><span class="chip">Уровень: middle</span><span class="chip">тема не наполнена</span></div>
 <!-- meta:end -->
+
 
 
 

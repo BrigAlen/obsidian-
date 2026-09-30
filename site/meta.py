@@ -133,11 +133,13 @@ for p, n in notes.items():
     fm = fm_set(fm, "time", str(minutes))
     status = fm_get(fm, "status", "todo") or "todo"
     level = fm_get(fm, "level")
-    when = f"≈{minutes} мин (по плану, тема не наполнена)" if stub else f"~{minutes} мин"
-    parts = [f"Приоритет: **{PRIO_LABEL[prio].lower()}**", f"Чтение: **{when}**"]
+    when = f"≈{minutes} мин по плану" if stub else f"~{minutes} мин чтения"
+    chips = [badge(prio, PRIO_LABEL[prio]), f'<span class="chip">{when}</span>']
     if level:
-        parts.append(f"Уровень: **{level}**")
-    block = "<!-- meta:start -->\n> [!abstract] " + " · ".join(parts) + "\n<!-- meta:end -->"
+        chips.append(f'<span class="chip">Уровень: {level}</span>')
+    if stub:
+        chips.append('<span class="chip">тема не наполнена</span>')
+    block = "<!-- meta:start -->\n<div class=\"meta-strip\">" + "".join(chips) + "</div>\n<!-- meta:end -->"
     body = re.sub(r"<!-- meta:start -->.*?<!-- meta:end -->\n?", "", body, flags=re.S)
     lines = body.split("\n")
     idx = next((i for i, l in enumerate(lines) if l.startswith("# ")), None)

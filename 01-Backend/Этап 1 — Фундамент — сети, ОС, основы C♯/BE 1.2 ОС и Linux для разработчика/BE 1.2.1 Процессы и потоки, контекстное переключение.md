@@ -19,8 +19,9 @@ time: 4
 ↑ [[BE 1.2 ОС и Linux для разработчика|1.2 ОС и Linux для разработчика]] · → [[BE 1.2.2 Память — стек, куча, виртуальная память|Следующая]]
 
 <!-- meta:start -->
-> [!abstract] Приоритет: **желательно** · Чтение: **~4 мин** · Уровень: **junior**
+<div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">~4 мин чтения</span><span class="chip">Уровень: junior</span></div>
 <!-- meta:end -->
+
 
 
 

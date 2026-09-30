@@ -19,8 +19,9 @@ time: 5
 ↑ [[BE 1.1 Сети и протоколы для бэкенда|1.1 Сети и протоколы для бэкенда]] · → [[BE 1.1.2 HTTP для бэкенда — методы, статусы, заголовки, keep-alive, HTTP-2 и HTTP-3|Следующая: HTTP для бэкенда]]
 
 <!-- meta:start -->
-> [!abstract] Приоритет: **желательно** · Чтение: **~5 мин** · Уровень: **junior**
+<div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">~5 мин чтения</span><span class="chip">Уровень: junior</span></div>
 <!-- meta:end -->
+
 
 
 

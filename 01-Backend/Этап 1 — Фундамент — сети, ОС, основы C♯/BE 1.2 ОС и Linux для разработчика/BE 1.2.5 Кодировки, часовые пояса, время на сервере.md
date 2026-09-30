@@ -20,8 +20,9 @@ time: 6
 ↑ [[BE 1.2 ОС и Linux для разработчика|1.2 ОС и Linux для разработчика]] · ← [[BE 1.2.4 Linux и shell для бэкендера — логи, сигналы, переменные окружения|Предыдущая]]
 
 <!-- meta:start -->
-> [!abstract] Приоритет: **желательно** · Чтение: **~6 мин** · Уровень: **junior**
+<div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">~6 мин чтения</span><span class="chip">Уровень: junior</span></div>
 <!-- meta:end -->
+
 
 
 

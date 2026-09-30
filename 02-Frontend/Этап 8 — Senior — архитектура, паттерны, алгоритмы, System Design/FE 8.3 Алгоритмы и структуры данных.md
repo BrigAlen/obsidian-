@@ -17,8 +17,9 @@ time: 20
 ↑ [[FE Этап 8 · Senior — архитектура, паттерны, алгоритмы, System Design|Этап 8 · Senior: архитектура, паттерны, алгоритмы, System Design]]
 
 <!-- meta:start -->
-> [!abstract] Приоритет: **желательно** · Чтение: **≈20 мин (по плану, тема не наполнена)** · Уровень: **senior**
+<div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">≈20 мин по плану</span><span class="chip">Уровень: senior</span><span class="chip">тема не наполнена</span></div>
 <!-- meta:end -->
+
 
 
 

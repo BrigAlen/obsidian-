@@ -19,8 +19,9 @@ time: 5
 ↑ [[BE 1.1 Сети и протоколы для бэкенда|1.1 Сети и протоколы для бэкенда]] · ← [[BE 1.1.3 TLS, сертификаты, mTLS|Предыдущая]] · → [[BE 1.1.5 Стили API — REST, RPC, GraphQL, WebSocket, SSE|Следующая]]
 
 <!-- meta:start -->
-> [!abstract] Приоритет: **желательно** · Чтение: **~5 мин** · Уровень: **junior**
+<div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">~5 мин чтения</span><span class="chip">Уровень: junior</span></div>
 <!-- meta:end -->
+
 
 
 
