@@ -23,6 +23,7 @@ time: 5
 <!-- meta:end -->
 
 
+
 > [!info] Зачем это на собесе
 > Как упаковать и раздать SPA: multi-stage Dockerfile, history fallback, кэш и безопасность.
 

@@ -12,13 +12,13 @@ tags: [domain/frontend, kind/stage]
 
 ## Темы
 <!-- toc:start -->
-**Итого:** 5 тем · ~1 ч 40 мин · готово 0 из 5
+**Итого:** 11 тем · ~1 ч 42 мин · готово 0 из 11
 
 <div class="bar"><span style="width:0%"></span></div>
 
 | # | Раздел или тема | Приоритет | Чтение | Прогресс |
 |---|---|---|---|---|
-| 1 | [[FE 7.1 Vue под капотом\|Vue под капотом]] | <span class="badge should">Желательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
+| 1 | [[BE 8.1.4 Структурные паттерны — Adapter, Decorator, Facade, Proxy, Composite\|7.1 Vue под капотом]] | <span class="badge should">Желательно</span> | 22 мин | 0 из 7<br><div class="bar"><span style="width:0%"></span></div> |
 | 2 | [[FE 7.2 Рендеринг и производительность\|Рендеринг и производительность]] | <span class="badge should">Желательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
 | 3 | [[FE 7.3 Безопасность фронтенда\|Безопасность фронтенда]] | <span class="badge should">Желательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
 | 4 | [[FE 7.4 Browser API\|Browser API]] | <span class="badge should">Желательно</span> | 20 мин | <span class="badge todo">Не начато</span> |

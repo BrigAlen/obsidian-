@@ -70,6 +70,7 @@ time: 3
 
 
 
+
 > [!info] Зачем это на собесе
 > Разница liveness/readiness и что проверять — базовый вопрос для Kubernetes и DevOps.
 
