@@ -96,7 +96,9 @@
     const draw = () => {
       form.replaceChildren(
         field("Логин", "text", "login", { autocomplete: "username" }),
-        field("Пароль", "password", "password", { autocomplete: mode === "login" ? "current-password" : "new-password", minlength: "8" }),
+        field("Пароль", "password", "password", mode === "login"
+          ? { autocomplete: "current-password" }
+          : { autocomplete: "new-password", minlength: "8" }), // длину проверяем только при создании пароля
         ...(mode === "register" ? [field("Код приглашения", "text", "invite", { autocomplete: "off" })] : []),
         err,
         el("button", { type: "submit", class: "vbtn primary" }, mode === "login" ? "Войти" : "Зарегистрироваться"),

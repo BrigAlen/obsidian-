@@ -17,6 +17,10 @@ public static class Bootstrap
         var password = cfg["ADMIN_PASSWORD"];
         if (string.IsNullOrWhiteSpace(login) || string.IsNullOrEmpty(password)) return;
 
+        if (password.Length < 8)
+            sp.GetRequiredService<ILoggerFactory>().CreateLogger("Bootstrap")
+                .LogWarning("ADMIN_PASSWORD короче 8 символов: смените пароль после первого входа");
+
         var hasher = sp.GetRequiredService<IPasswordHasher<User>>();
         var admin = new User { Login = login.Trim().ToLowerInvariant(), Role = Role.Admin };
         admin.PasswordHash = hasher.HashPassword(admin, password);
