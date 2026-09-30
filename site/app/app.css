@@ -38,4 +38,14 @@
 #cabinet-root .bar { height: 8px; background: var(--lightgray); border-radius: 4px; overflow: hidden; }
 #cabinet-root .bar span { display: block; height: 100%; background: var(--secondary); }
 
-@media (max-width: 800px) { .acct { top: 0.45rem; right: 0.5rem; } }
+/* на телефоне кнопка внизу справа, чтобы не закрывать кнопки шапки */
+@media (max-width: 800px) {
+  .acct { top: auto; bottom: 0.9rem; right: 0.7rem; }
+  .acct-btn { box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25); }
+  .acct-menu { top: auto; bottom: 100%; margin: 0 0 0.3rem; }
+}
+
+.copy-row { margin: 0.6rem 0; }
+.copy-line { display: flex; gap: 0.5rem; margin-top: 0.25rem; }
+.copy-line .vsearch { margin: 0; min-width: 0; flex: 1; }
+.copy-line .vbtn { white-space: nowrap; }

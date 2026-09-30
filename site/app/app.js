@@ -59,7 +59,7 @@
     document.getElementById("acct")?.remove();
     const box = el("div", { id: "acct", class: "acct" });
     if (!state.me) {
-      box.append(el("button", { class: "acct-btn", onclick: openAuth }, "Войти"));
+      box.append(el("button", { class: "acct-btn", onclick: () => openAuth() }, "Войти"));
     } else {
       const menu = el("div", { class: "acct-menu", hidden: "" },
         el("a", { href: "/cabinet" }, "Личный кабинет"),
@@ -89,8 +89,8 @@
     return el("label", { class: "vf" }, label, el("input", { type, name, required: "", ...extra }));
   }
 
-  function openAuth() {
-    let mode = "login";
+  function openAuth(initMode, invite) {
+    let mode = initMode === "register" ? "register" : "login";
     const err = el("p", { class: "verr" });
     const form = el("form", { class: "vform" });
     const draw = () => {
@@ -99,7 +99,7 @@
         field("Пароль", "password", "password", mode === "login"
           ? { autocomplete: "current-password" }
           : { autocomplete: "new-password", minlength: "8" }), // длину проверяем только при создании пароля
-        ...(mode === "register" ? [field("Код приглашения", "text", "invite", { autocomplete: "off" })] : []),
+        ...(mode === "register" ? [field("Код приглашения", "text", "invite", { autocomplete: "off", value: invite || "" })] : []),
         err,
         el("button", { type: "submit", class: "vbtn primary" }, mode === "login" ? "Войти" : "Зарегистрироваться"),
         el("button", { type: "button", class: "vbtn link", onclick: () => { mode = mode === "login" ? "register" : "login"; err.textContent = ""; draw(); } },
@@ -145,7 +145,7 @@
 
     if (!state.me) {
       panel.append(el("p", { class: "muted" }, "Войдите, чтобы отмечать пройденное и вести заметки к этой теме. ",
-        el("button", { class: "vbtn link", onclick: openAuth }, "Войти")));
+        el("button", { class: "vbtn link", onclick: () => openAuth() }, "Войти")));
       return;
     }
 
@@ -221,7 +221,7 @@
     if (!root) return;
     root.replaceChildren();
     if (!state.me) {
-      root.append(el("p", {}, "Войдите, чтобы увидеть прогресс и заметки. ", el("button", { class: "vbtn link", onclick: openAuth }, "Войти")));
+      root.append(el("p", {}, "Войдите, чтобы увидеть прогресс и заметки. ", el("button", { class: "vbtn link", onclick: () => openAuth() }, "Войти")));
       return;
     }
     // прогресс
@@ -249,12 +249,24 @@
   }
 
   async function renderAdmin(root) {
-    const out = el("p", { class: "muted" });
+    const out = el("div", { class: "invite-out" });
     const users = el("div", { class: "notes" });
+    const copyRow = (label, value) => {
+      const inp = el("input", { type: "text", readonly: "", value, class: "vsearch", onfocus: (e) => e.target.select() });
+      const btn = el("button", { class: "vbtn", onclick: async () => {
+        try { await navigator.clipboard.writeText(value); } catch { inp.select(); document.execCommand("copy"); }
+        btn.textContent = "Скопировано";
+        setTimeout(() => (btn.textContent = "Копировать"), 1500);
+      } }, "Копировать");
+      return el("div", { class: "copy-row" }, el("span", { class: "muted" }, label), el("div", { class: "copy-line" }, inp, btn));
+    };
     root.append(el("h2", { id: "admin" }, "Администрирование"),
       el("button", { class: "vbtn primary", onclick: async () => {
         const r = await api("POST", "/api/admin/invites");
-        out.textContent = "Код приглашения (показывается один раз, действует 7 дней): " + r.code;
+        out.replaceChildren(
+          el("p", { class: "muted" }, "Показывается один раз, действует 7 дней, подходит для одного человека."),
+          copyRow("Ссылка для регистрации", location.origin + "/?invite=" + encodeURIComponent(r.code)),
+          copyRow("Только код", r.code));
       } }, "Создать приглашение"), out, users);
     const us = await api("GET", "/api/admin/users");
     users.replaceChildren(...us.map((u) => el("div", { class: "note" },
@@ -270,6 +282,11 @@
 
   async function refresh() {
     await loadMe();
+    const invite = new URLSearchParams(location.search).get("invite");
+    if (invite && !state.me) {
+      history.replaceState(null, "", location.pathname + location.hash); // код не оставляем в адресной строке
+      openAuth("register", invite);
+    }
     renderAccount();
     renderTopicPanel();
     renderCabinet();
