@@ -12,12 +12,12 @@ tags: [domain/frontend, kind/stage]
 
 ## Темы
 <!-- toc:start -->
-**Итого:** 1 тем · ~20 мин · готово 0 из 1
+**Итого:** 29 тем · ~1 ч 32 мин · готово 0 из 29
 
 <div class="bar"><span style="width:0%"></span></div>
 
 | # | Раздел или тема | Приоритет | Чтение | Прогресс |
 |---|---|---|---|---|
-| 1 | [[FE 4.1 Vue 3 — основы, компоненты, Composition API\|Vue 3: основы, компоненты, Composition API]] | <span class="badge must">Обязательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
+| 1 | [[BE 8.1.4 Структурные паттерны — Adapter, Decorator, Facade, Proxy, Composite\|4.1 Vue 3: основы, компоненты, Composition API]] | <span class="badge must">Обязательно</span> | 1 ч 32 мин | 0 из 29<br><div class="bar"><span style="width:0%"></span></div> |
 <!-- toc:end -->
 
