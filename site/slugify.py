@@ -71,19 +71,27 @@ for p in sorted(files):
         txt = txt.replace("---\n", f'---\ntitle: "{title}"\n', 1)
     open(p, "w", encoding="utf-8").write(txt)
 
-# 2. wikilink'и
-LINK = re.compile(r"\[\[([^\]|#]+)(#[^\]|]*)?(\|[^\]]*)?\]\]")
+# 2. wikilink'и (в таблицах пайп экранирован: \\|)
+LINK = re.compile(r"\[\[([^\]|#\\]+)(#[^\]|\\]*)?(\\?\|[^\]]*)?\]\]")
+known = set(mapping) | set(mapping.values()) | {"index"}
 
 
 def repl(m):
     t = m.group(1).strip()
-    if t not in mapping:
-        return m.group(0)
-    alias = m.group(3) or "|" + re.sub(r"^(BE|FE|DB|DO|FS) ", "", t).replace("|", "").replace("#", "♯")
-    return f"[[{mapping[t]}{m.group(2) or ''}{alias}]]"
+    pipe = "\\|" if (m.group(3) or "").startswith("\\") else "|"
+    alias = (m.group(3) or "").lstrip("\\").lstrip("|")
+    if t not in known:                      # страница не публикуется (например, Дашборд) — просто текст
+        return alias or t
+    if t in mapping:
+        if not alias:
+            alias = re.sub(r"^(BE|FE|DB|DO|FS) ", "", t).replace("#", "♯")
+        return f"[[{mapping[t]}{m.group(2) or ''}{pipe}{alias}]]"
+    return m.group(0)
 
 
-for p in files:
+for p in files + [os.path.join(root, "index.md")]:
+    if not os.path.exists(p):
+        continue
     txt = read(p)
     new = LINK.sub(repl, txt)
     if new != txt:
