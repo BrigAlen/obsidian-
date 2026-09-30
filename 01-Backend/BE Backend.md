@@ -4,7 +4,7 @@ domain: backend
 tags: [backend, moc]
 ---
 
-# ⚙️ Backend
+# Backend
 
 C#, .NET 9, ASP.NET Core, EF Core, gRPC, GraphQL, Kafka, микросервисы, observability.
 

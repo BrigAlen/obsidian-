@@ -4,7 +4,7 @@ domain: fullstack
 tags: [fullstack, moc]
 ---
 
-# 🧪 Fullstack-практика: сквозной production-проект
+# Fullstack-практика: сквозной production-проект
 
 ↑ [[00 Карта]]
 

@@ -4,7 +4,7 @@ domain: frontend
 tags: [frontend, moc]
 ---
 
-# 🎨 Frontend
+# Frontend
 
 Vue 3 + Quasar + TypeScript, middle+/senior.
 
