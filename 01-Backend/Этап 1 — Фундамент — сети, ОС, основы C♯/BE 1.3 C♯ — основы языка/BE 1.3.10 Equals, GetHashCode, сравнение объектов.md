@@ -68,6 +68,7 @@ time: 6
 
 
 
+
 > [!info] Зачем это на собесе
 > контракт `Equals`/`GetHashCode` — любимый вопрос: «что будет, если переопределить Equals, но не GetHashCode». От этого зависит работа Dictionary, HashSet, LINQ `Distinct` и сравнений сущностей.
 

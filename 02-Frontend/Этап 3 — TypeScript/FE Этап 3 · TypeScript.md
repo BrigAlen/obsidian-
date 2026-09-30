@@ -12,12 +12,12 @@ tags: [domain/frontend, kind/stage]
 
 ## Темы
 <!-- toc:start -->
-**Итого:** 1 тем · ~20 мин · готово 0 из 1
+**Итого:** 19 тем · ~58 мин · готово 0 из 19
 
 <div class="bar"><span style="width:0%"></span></div>
 
 | # | Раздел или тема | Приоритет | Чтение | Прогресс |
 |---|---|---|---|---|
-| 1 | [[FE 3.1 TypeScript — от базовых типов к продвинутым\|TypeScript: от базовых типов к продвинутым]] | <span class="badge must">Обязательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
+| 1 | [[BE 8.1.4 Структурные паттерны — Adapter, Decorator, Facade, Proxy, Composite\|3.1 TypeScript: от базовых типов к продвинутым]] | <span class="badge must">Обязательно</span> | 58 мин | 0 из 19<br><div class="bar"><span style="width:0%"></span></div> |
 <!-- toc:end -->
 

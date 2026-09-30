@@ -25,6 +25,7 @@ time: 3
 
 
 
+
 > [!info] Зачем это на собесе
 > Grid — двумерная раскладка; спрашивают `fr`, `minmax`, `auto-fit`, `grid-template-areas`.
 

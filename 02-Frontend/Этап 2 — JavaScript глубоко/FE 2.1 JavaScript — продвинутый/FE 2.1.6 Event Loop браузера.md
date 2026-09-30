@@ -23,6 +23,7 @@ time: 3
 <!-- meta:end -->
 
 
+
 > [!info] Зачем это на собесе
 > Как event loop связан с рендерингом: `requestAnimationFrame`, layout thrashing, «подвисания» интерфейса.
 

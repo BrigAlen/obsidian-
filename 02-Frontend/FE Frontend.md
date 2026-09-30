@@ -16,7 +16,7 @@ Vue 3 + Quasar + TypeScript, middle+/senior.
 
 ## Этапы
 <!-- toc:start -->
-**Итого:** 79 тем · ~10 ч 35 мин · готово 0 из 79
+**Итого:** 97 тем · ~11 ч 13 мин · готово 0 из 97
 
 <div class="bar"><span style="width:0%"></span></div>
 
@@ -24,7 +24,7 @@ Vue 3 + Quasar + TypeScript, middle+/senior.
 |---|---|---|---|
 | [[FE Этап 1 · Фундамент — веб, HTML, CSS, база JS\|Этап 1 · Фундамент: веб, HTML, CSS, база JS]] | <span class="badge should">Желательно</span> | 1 ч 49 мин | 0 из 36<br><div class="bar"><span style="width:0%"></span></div> |
 | [[FE Этап 2 · JavaScript глубоко\|Этап 2 · JavaScript глубоко]] | <span class="badge must">Обязательно</span> | 1 ч 6 мин | 0 из 20<br><div class="bar"><span style="width:0%"></span></div> |
-| [[FE Этап 3 · TypeScript\|Этап 3 · TypeScript]] | <span class="badge must">Обязательно</span> | 20 мин | 0 из 1<br><div class="bar"><span style="width:0%"></span></div> |
+| [[FE Этап 3 · TypeScript\|Этап 3 · TypeScript]] | <span class="badge must">Обязательно</span> | 58 мин | 0 из 19<br><div class="bar"><span style="width:0%"></span></div> |
 | [[FE Этап 4 · Vue 3 — основы и компоненты\|Этап 4 · Vue 3: основы и компоненты]] | <span class="badge must">Обязательно</span> | 20 мин | 0 из 1<br><div class="bar"><span style="width:0%"></span></div> |
 | [[FE Этап 5 · Экосистема — Router, Pinia, Quasar, API, Auth\|Этап 5 · Экосистема: Router, Pinia, Quasar, API, Auth]] | <span class="badge must">Обязательно</span> | 2 ч 20 мин | 0 из 7<br><div class="bar"><span style="width:0%"></span></div> |
 | [[FE Этап 6 · Инженерные практики — Git, сборка, качество, тесты\|Этап 6 · Инженерные практики: Git, сборка, качество, тесты]] | <span class="badge should">Желательно</span> | 1 ч | 0 из 3<br><div class="bar"><span style="width:0%"></span></div> |
