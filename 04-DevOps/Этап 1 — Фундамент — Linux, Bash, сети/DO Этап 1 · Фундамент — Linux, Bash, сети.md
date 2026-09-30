@@ -12,7 +12,7 @@ tags: [domain/devops, kind/stage]
 
 ## Темы
 <!-- toc:start -->
-**Итого:** 18 тем · ~1 ч 33 мин · готово 0 из 18
+**Итого:** 19 тем · ~1 ч 40 мин · готово 0 из 19
 
 <div class="bar"><span style="width:0%"></span></div>
 
@@ -36,5 +36,6 @@ tags: [domain/devops, kind/stage]
 | 16 | [[DO 1.16 SSH — ключи, туннели, конфиг\|SSH: ключи, туннели, конфиг]] | <span class="badge should">Желательно</span> | 7 мин | <span class="badge todo">Не начато</span> |
 | 17 | [[DO 1.17 Диагностика сети — ping, traceroute, dig, nc, tcpdump\|Диагностика сети: ping, traceroute, dig, nc, tcpdump]] | <span class="badge should">Желательно</span> | 5 мин | <span class="badge todo">Не начато</span> |
 | 18 | [[DO 1.18 Git для DevOps — ветки, теги, релизы, GitFlow и trunk-based\|Git для DevOps: ветки, теги, релизы, GitFlow и trunk-based]] | <span class="badge should">Желательно</span> | 4 мин | <span class="badge todo">Не начато</span> |
+| 19 | [[DO 1.19 Диагностика процессов — strace, lsof, perf и eBPF\|Диагностика процессов: strace, lsof, perf и eBPF]] | <span class="badge should">Желательно</span> | 7 мин | <span class="badge todo">Не начато</span> |
 <!-- toc:end -->
 

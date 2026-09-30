@@ -12,7 +12,7 @@ tags: [domain/devops, kind/stage]
 
 ## Темы
 <!-- toc:start -->
-**Итого:** 7 тем · ~1 ч 6 мин · готово 0 из 7
+**Итого:** 8 тем · ~1 ч 17 мин · готово 0 из 8
 
 <div class="bar"><span style="width:0%"></span></div>
 
@@ -25,5 +25,6 @@ tags: [domain/devops, kind/stage]
 | 5 | [[DO 6.5 Облако на практике — VPC, виртуальные машины, S3, IAM (Yandex Cloud и AWS)\|Облако на практике: VPC, виртуальные машины, S3, IAM (Yandex Cloud и AWS)]] | <span class="badge nice">По желанию</span> | 8 мин | <span class="badge todo">Не начато</span> |
 | 6 | [[DO 6.6 Terraform — providers, resources, state, modules, plan и apply\|Terraform: providers, resources, state, modules, plan и apply]] | <span class="badge nice">По желанию</span> | 10 мин | <span class="badge todo">Не начато</span> |
 | 7 | [[DO 6.7 Terraform в команде — remote state, блокировки, модули, окружения, drift, CI для инфраструктуры\|Terraform в команде: remote state, блокировки, модули, окружения, drift, CI для инфраструктуры]] | <span class="badge nice">По желанию</span> | 8 мин | <span class="badge todo">Не начато</span> |
+| 8 | [[DO 6.8 Альтернативы Terraform — OpenTofu, Pulumi и Crossplane\|Альтернативы Terraform: OpenTofu, Pulumi и Crossplane]] | <span class="badge nice">По желанию</span> | 11 мин | <span class="badge todo">Не начато</span> |
 <!-- toc:end -->
 
