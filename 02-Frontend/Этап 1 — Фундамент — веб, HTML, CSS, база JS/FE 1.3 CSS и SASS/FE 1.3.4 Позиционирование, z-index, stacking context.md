@@ -23,6 +23,7 @@ time: 3
 <!-- meta:end -->
 
 
+
 > [!info] Зачем это на собесе
 > «Почему z-index не работает?» — классика про stacking context.
 
