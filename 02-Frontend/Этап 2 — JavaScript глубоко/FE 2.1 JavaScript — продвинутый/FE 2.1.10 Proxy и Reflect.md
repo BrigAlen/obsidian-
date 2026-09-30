@@ -22,6 +22,7 @@ time: 3
 <div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~3 мин чтения</span><span class="chip">Уровень: middle</span></div>
 <!-- meta:end -->
 
+
 > [!info] Зачем это на собесе
 > Proxy — основа реактивности Vue 3. Вопрос «как работает реактивность» требует понимания перехватчиков.
 

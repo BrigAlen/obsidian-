@@ -22,6 +22,7 @@ time: 3
 <div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~3 мин чтения</span><span class="chip">Уровень: middle</span></div>
 <!-- meta:end -->
 
+
 > [!info] Зачем это на собесе
 > Асинхронность — основа фронтенда. Ждут понимания состояний Promise, комбинаторов и обработки ошибок.
 
