@@ -16,7 +16,7 @@ Linux, Docker, CI/CD, Nginx, Kubernetes, Ansible, Terraform, observability, бе
 
 ## Этапы
 <!-- toc:start -->
-**Итого:** 105 тем · ~13 ч 56 мин · готово 0 из 105
+**Итого:** 105 тем · ~11 ч 51 мин · готово 0 из 105
 
 <div class="bar"><span style="width:0%"></span></div>
 
@@ -30,7 +30,7 @@ Linux, Docker, CI/CD, Nginx, Kubernetes, Ansible, Terraform, observability, бе
 | [[DO Этап 6 · Infrastructure as Code — Ansible, Terraform\|Этап 6 · Infrastructure as Code: Ansible, Terraform]] | <span class="badge nice">По желанию</span> | 1 ч 6 мин | 0 из 7<br><div class="bar"><span style="width:0%"></span></div> |
 | [[DO Этап 7 · Observability и эксплуатация\|Этап 7 · Observability и эксплуатация]] | <span class="badge should">Желательно</span> | 55 мин | 0 из 8<br><div class="bar"><span style="width:0%"></span></div> |
 | [[DO Этап 8 · Senior — надёжность, безопасность, платформа\|Этап 8 · Senior: надёжность, безопасность, платформа]] | <span class="badge nice">По желанию</span> | 1 ч 4 мин | 0 из 9<br><div class="bar"><span style="width:0%"></span></div> |
-| [[DO Этап 9 · Собес Middle DevOps — вопросы, практика, деплой систем\|Этап 9 · Собес Middle DevOps: вопросы, практика, деплой систем]] | <span class="badge must">Обязательно</span> | 3 ч 20 мин | 0 из 10<br><div class="bar"><span style="width:0%"></span></div> |
+| [[DO Этап 9 · Собес Middle DevOps — вопросы, практика, деплой систем\|Этап 9 · Собес Middle DevOps: вопросы, практика, деплой систем]] | <span class="badge must">Обязательно</span> | 1 ч 15 мин | 0 из 10<br><div class="bar"><span style="width:0%"></span></div> |
 <!-- toc:end -->
 
 ## Прогресс
