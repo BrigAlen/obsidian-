@@ -12,7 +12,7 @@ tags: [domain/devops, kind/stage]
 
 ## Темы
 <!-- toc:start -->
-**Итого:** 12 тем · ~1 ч 14 мин · готово 0 из 12
+**Итого:** 13 тем · ~1 ч 25 мин · готово 0 из 13
 
 <div class="bar"><span style="width:0%"></span></div>
 
@@ -30,5 +30,6 @@ tags: [domain/devops, kind/stage]
 | 10 | [[DO 3.10 Стратегии деплоя — rolling, blue-green, canary, feature flags, откат\|Стратегии деплоя: rolling, blue-green, canary, feature flags, откат]] | <span class="badge must">Обязательно</span> | 5 мин | <span class="badge todo">Не начато</span> |
 | 11 | [[DO 3.11 Метрики и оптимизация CI-CD — DORA, flaky jobs, critical path, стоимость\|Метрики и оптимизация CI-CD: DORA, flaky jobs, critical path, стоимость]] | <span class="badge must">Обязательно</span> | 4 мин | <span class="badge todo">Не начато</span> |
 | 12 | [[DO 3.12 DevSecOps и supply chain — SAST, SCA, SBOM, подпись и provenance\|DevSecOps и supply chain: SAST, SCA, SBOM, подпись и provenance]] | <span class="badge must">Обязательно</span> | 6 мин | <span class="badge todo">Не начато</span> |
+| 13 | [[DO 3.13 Альтернативные CI-CD системы — Tekton, Argo Workflows, Woodpecker и Dagger\|Альтернативные CI-CD системы: Tekton, Argo Workflows, Woodpecker и Dagger]] | <span class="badge must">Обязательно</span> | 11 мин | <span class="badge todo">Не начато</span> |
 <!-- toc:end -->
 

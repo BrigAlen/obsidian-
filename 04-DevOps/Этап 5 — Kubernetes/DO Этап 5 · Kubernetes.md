@@ -12,7 +12,7 @@ tags: [domain/devops, kind/stage]
 
 ## Темы
 <!-- toc:start -->
-**Итого:** 17 тем · ~2 ч · готово 0 из 17
+**Итого:** 20 тем · ~2 ч 23 мин · готово 0 из 20
 
 <div class="bar"><span style="width:0%"></span></div>
 
@@ -35,5 +35,8 @@ tags: [domain/devops, kind/stage]
 | 15 | [[DO 5.15 Control plane и etcd — HA, backup, restore, обновление кластера\|Control plane и etcd: HA, backup, restore, обновление кластера]] | <span class="badge should">Желательно</span> | 6 мин | <span class="badge todo">Не начато</span> |
 | 16 | [[DO 5.16 Безопасность workloads — SecurityContext, Pod Security Standards, admission policies\|Безопасность workloads: SecurityContext, Pod Security Standards, admission policies]] | <span class="badge should">Желательно</span> | 8 мин | <span class="badge todo">Не начато</span> |
 | 17 | [[DO 5.17 Observability Kubernetes — metrics-server, Prometheus, логи и аудит\|Observability Kubernetes: metrics-server, Prometheus, логи и аудит]] | <span class="badge should">Желательно</span> | 8 мин | <span class="badge todo">Не начато</span> |
+| 18 | [[DO 5.18 Gateway API и вывод из поддержки ingress-nginx\|Gateway API и вывод из поддержки ingress-nginx]] | <span class="badge should">Желательно</span> | 9 мин | <span class="badge todo">Не начато</span> |
+| 19 | [[DO 5.19 Service mesh — Istio, Linkerd, Cilium и когда он нужен\|Service mesh: Istio, Linkerd, Cilium и когда он нужен]] | <span class="badge should">Желательно</span> | 8 мин | <span class="badge todo">Не начато</span> |
+| 20 | [[DO 5.20 CNI в Kubernetes — Calico, Cilium и eBPF\|CNI в Kubernetes: Calico, Cilium и eBPF]] | <span class="badge should">Желательно</span> | 6 мин | <span class="badge todo">Не начато</span> |
 <!-- toc:end -->
 

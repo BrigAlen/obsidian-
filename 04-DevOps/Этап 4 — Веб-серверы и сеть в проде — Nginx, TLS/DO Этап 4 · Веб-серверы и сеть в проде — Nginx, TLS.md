@@ -12,7 +12,7 @@ tags: [domain/devops, kind/stage]
 
 ## Темы
 <!-- toc:start -->
-**Итого:** 10 тем · ~1 ч 11 мин · готово 0 из 10
+**Итого:** 11 тем · ~1 ч 20 мин · готово 0 из 11
 
 <div class="bar"><span style="width:0%"></span></div>
 
@@ -28,5 +28,6 @@ tags: [domain/devops, kind/stage]
 | 8 | [[DO 4.8 Безопасность edge — security headers, rate limiting, allowlists, WAF\|Безопасность edge: security headers, rate limiting, allowlists, WAF]] | <span class="badge should">Желательно</span> | 7 мин | <span class="badge todo">Не начато</span> |
 | 9 | [[DO 4.9 HTTP-1.1, HTTP-2 и HTTP-3 — keep-alive, таймауты, буферы\|HTTP-1.1, HTTP-2 и HTTP-3: keep-alive, таймауты, буферы]] | <span class="badge should">Желательно</span> | 7 мин | <span class="badge todo">Не начато</span> |
 | 10 | [[DO 4.10 WebSocket, SSE и gRPC через Nginx\|WebSocket, SSE и gRPC через Nginx]] | <span class="badge should">Желательно</span> | 8 мин | <span class="badge todo">Не начато</span> |
+| 11 | [[DO 4.11 Альтернативы Nginx — Traefik, Caddy, HAProxy и Envoy\|Альтернативы Nginx: Traefik, Caddy, HAProxy и Envoy]] | <span class="badge should">Желательно</span> | 9 мин | <span class="badge todo">Не начато</span> |
 <!-- toc:end -->
 
