@@ -16,7 +16,7 @@ Vue 3 + Quasar + TypeScript, middle+/senior.
 
 ## Этапы
 <!-- toc:start -->
-**Итого:** 97 тем · ~11 ч 13 мин · готово 0 из 97
+**Итого:** 125 тем · ~12 ч 25 мин · готово 0 из 125
 
 <div class="bar"><span style="width:0%"></span></div>
 
@@ -25,7 +25,7 @@ Vue 3 + Quasar + TypeScript, middle+/senior.
 | [[FE Этап 1 · Фундамент — веб, HTML, CSS, база JS\|Этап 1 · Фундамент: веб, HTML, CSS, база JS]] | <span class="badge should">Желательно</span> | 1 ч 49 мин | 0 из 36<br><div class="bar"><span style="width:0%"></span></div> |
 | [[FE Этап 2 · JavaScript глубоко\|Этап 2 · JavaScript глубоко]] | <span class="badge must">Обязательно</span> | 1 ч 6 мин | 0 из 20<br><div class="bar"><span style="width:0%"></span></div> |
 | [[FE Этап 3 · TypeScript\|Этап 3 · TypeScript]] | <span class="badge must">Обязательно</span> | 58 мин | 0 из 19<br><div class="bar"><span style="width:0%"></span></div> |
-| [[FE Этап 4 · Vue 3 — основы и компоненты\|Этап 4 · Vue 3: основы и компоненты]] | <span class="badge must">Обязательно</span> | 20 мин | 0 из 1<br><div class="bar"><span style="width:0%"></span></div> |
+| [[FE Этап 4 · Vue 3 — основы и компоненты\|Этап 4 · Vue 3: основы и компоненты]] | <span class="badge must">Обязательно</span> | 1 ч 32 мин | 0 из 29<br><div class="bar"><span style="width:0%"></span></div> |
 | [[FE Этап 5 · Экосистема — Router, Pinia, Quasar, API, Auth\|Этап 5 · Экосистема: Router, Pinia, Quasar, API, Auth]] | <span class="badge must">Обязательно</span> | 2 ч 20 мин | 0 из 7<br><div class="bar"><span style="width:0%"></span></div> |
 | [[FE Этап 6 · Инженерные практики — Git, сборка, качество, тесты\|Этап 6 · Инженерные практики: Git, сборка, качество, тесты]] | <span class="badge should">Желательно</span> | 1 ч | 0 из 3<br><div class="bar"><span style="width:0%"></span></div> |
 | [[FE Этап 7 · Middle+ — под капотом, производительность, безопасность\|Этап 7 · Middle+: под капотом, производительность, безопасность]] | <span class="badge should">Желательно</span> | 1 ч 40 мин | 0 из 5<br><div class="bar"><span style="width:0%"></span></div> |
