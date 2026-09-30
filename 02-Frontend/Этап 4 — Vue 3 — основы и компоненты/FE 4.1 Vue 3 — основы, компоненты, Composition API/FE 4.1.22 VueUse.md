@@ -23,6 +23,7 @@ time: 3
 <!-- meta:end -->
 
 
+
 > [!info] Зачем это на собесе
 > Знание готовых composables экономит время: `useStorage`, `useDebounceFn`, `useEventListener`.
 
