@@ -22,15 +22,6 @@ time: 3
 <div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">~3 мин чтения</span><span class="chip">Уровень: senior</span></div>
 <!-- meta:end -->
 
-
-
-
-
-
-
-
-
-
 > [!info] Зачем это на собесе
 > CSP — второй эшелон защиты от XSS; вопросы: как настроить и как жить с inline-скриптами.
 

@@ -22,14 +22,6 @@ time: 4
 <div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">~4 мин чтения</span><span class="chip">Уровень: senior</span></div>
 <!-- meta:end -->
 
-
-
-
-
-
-
-
-
 > [!info] Зачем это на собесе
 > PWA даёт offline, установку и push. Спрашивают жизненный цикл SW и стратегии кэша.
 

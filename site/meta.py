@@ -141,6 +141,7 @@ for p, n in notes.items():
         chips.append('<span class="chip">тема не наполнена</span>')
     block = "<!-- meta:start -->\n<div class=\"meta-strip\">" + "".join(chips) + "</div>\n<!-- meta:end -->"
     body = re.sub(r"<!-- meta:start -->.*?<!-- meta:end -->\n?", "", body, flags=re.S)
+    body = re.sub(r"\n{3,}", "\n\n", body).rstrip("\n") + "\n"
     lines = body.split("\n")
     idx = next((i for i, l in enumerate(lines) if l.startswith("# ")), None)
     if idx is not None:
@@ -227,11 +228,11 @@ for p, n in notes.items():
                 items.append((m["order"], m["name"], m["title"], m["prio"], m["time"], m["status"], int(m["status"] == "done"), 1))
         for q, m in notes.items():
             if m["type"] == "section" and os.path.dirname(q) == d:
-                items.append(("sec", m))
+                items.append(("sec", m, q))
         sec_rows = []
         for it in items:
             if it[0] == "sec":
-                m = it[1]
+                m, q = it[1], it[2]
                 sect = fm_get(m["fm"], "section")
                 kids = topics_of(dom, stage, sect)
                 if not kids:

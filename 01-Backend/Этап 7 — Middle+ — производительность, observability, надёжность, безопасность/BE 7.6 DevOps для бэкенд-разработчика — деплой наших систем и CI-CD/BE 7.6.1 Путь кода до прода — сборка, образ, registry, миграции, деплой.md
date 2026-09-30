@@ -22,44 +22,6 @@ time: 3
 <div class="meta-strip"><span class="badge nice">По желанию</span><span class="chip">~3 мин чтения</span><span class="chip">Уровень: senior</span></div>
 <!-- meta:end -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 > [!info] Зачем это на собесе
 > Бэкендера часто спрашивают, как его код попадает в прод и что происходит при сбое релиза.
 

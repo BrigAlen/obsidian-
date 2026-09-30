@@ -22,53 +22,6 @@ time: 3
 <div class="meta-strip"><span class="badge nice">По желанию</span><span class="chip">~3 мин чтения</span><span class="chip">Уровень: junior</span></div>
 <!-- meta:end -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 > [!info] Зачем это на собесе
 > Главный вопрос по Node.js: почему один поток обслуживает тысячи запросов и что блокирует event loop.
 

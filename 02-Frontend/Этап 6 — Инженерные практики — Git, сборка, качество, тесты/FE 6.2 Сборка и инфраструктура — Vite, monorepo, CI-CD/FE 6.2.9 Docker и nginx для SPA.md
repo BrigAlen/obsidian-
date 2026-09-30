@@ -22,19 +22,6 @@ time: 5
 <div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">~5 мин чтения</span><span class="chip">Уровень: middle</span></div>
 <!-- meta:end -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 > [!info] Зачем это на собесе
 > Как упаковать и раздать SPA: multi-stage Dockerfile, history fallback, кэш и безопасность.
 

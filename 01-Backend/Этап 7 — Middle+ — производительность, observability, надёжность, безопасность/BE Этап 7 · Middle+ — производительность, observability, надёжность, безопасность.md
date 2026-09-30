@@ -18,11 +18,11 @@ tags: [domain/backend, kind/stage]
 
 | # | Раздел или тема | Приоритет | Чтение | Прогресс |
 |---|---|---|---|---|
-| 1 | [[BE 8.1.4 Структурные паттерны — Adapter, Decorator, Facade, Proxy, Composite\|7.1 Производительность .NET и кэширование]] | <span class="badge should">Желательно</span> | 18 мин | 0 из 6<br><div class="bar"><span style="width:0%"></span></div> |
-| 2 | [[BE 8.1.4 Структурные паттерны — Adapter, Decorator, Facade, Proxy, Composite\|7.2 Observability: логи, метрики, трейсинг, OpenTelemetry]] | <span class="badge should">Желательно</span> | 22 мин | 0 из 7<br><div class="bar"><span style="width:0%"></span></div> |
-| 3 | [[BE 8.1.4 Структурные паттерны — Adapter, Decorator, Facade, Proxy, Composite\|7.3 Надёжность и отказоустойчивость]] | <span class="badge should">Желательно</span> | 15 мин | 0 из 5<br><div class="bar"><span style="width:0%"></span></div> |
-| 4 | [[BE 8.1.4 Структурные паттерны — Adapter, Decorator, Facade, Proxy, Composite\|7.4 Безопасность бэкенда]] | <span class="badge should">Желательно</span> | 15 мин | 0 из 5<br><div class="bar"><span style="width:0%"></span></div> |
-| 5 | [[BE 8.1.4 Структурные паттерны — Adapter, Decorator, Facade, Proxy, Composite\|7.5 Нагрузочное и продвинутое тестирование]] | <span class="badge should">Желательно</span> | 12 мин | 0 из 4<br><div class="bar"><span style="width:0%"></span></div> |
-| 6 | [[BE 8.1.4 Структурные паттерны — Adapter, Decorator, Facade, Proxy, Composite\|7.6 DevOps для бэкенд-разработчика: деплой наших систем и CI∕CD]] | <span class="badge nice">По желанию</span> | 27 мин | 0 из 8<br><div class="bar"><span style="width:0%"></span></div> |
+| 1 | [[BE 7.1 Производительность .NET и кэширование\|7.1 Производительность .NET и кэширование]] | <span class="badge should">Желательно</span> | 18 мин | 0 из 6<br><div class="bar"><span style="width:0%"></span></div> |
+| 2 | [[BE 7.2 Observability — логи, метрики, трейсинг, OpenTelemetry\|7.2 Observability: логи, метрики, трейсинг, OpenTelemetry]] | <span class="badge should">Желательно</span> | 22 мин | 0 из 7<br><div class="bar"><span style="width:0%"></span></div> |
+| 3 | [[BE 7.3 Надёжность и отказоустойчивость\|7.3 Надёжность и отказоустойчивость]] | <span class="badge should">Желательно</span> | 15 мин | 0 из 5<br><div class="bar"><span style="width:0%"></span></div> |
+| 4 | [[BE 7.4 Безопасность бэкенда\|7.4 Безопасность бэкенда]] | <span class="badge should">Желательно</span> | 15 мин | 0 из 5<br><div class="bar"><span style="width:0%"></span></div> |
+| 5 | [[BE 7.5 Нагрузочное и продвинутое тестирование\|7.5 Нагрузочное и продвинутое тестирование]] | <span class="badge should">Желательно</span> | 12 мин | 0 из 4<br><div class="bar"><span style="width:0%"></span></div> |
+| 6 | [[BE 7.6 DevOps для бэкенд-разработчика — деплой наших систем и CI-CD\|7.6 DevOps для бэкенд-разработчика: деплой наших систем и CI∕CD]] | <span class="badge nice">По желанию</span> | 27 мин | 0 из 8<br><div class="bar"><span style="width:0%"></span></div> |
 <!-- toc:end -->
 

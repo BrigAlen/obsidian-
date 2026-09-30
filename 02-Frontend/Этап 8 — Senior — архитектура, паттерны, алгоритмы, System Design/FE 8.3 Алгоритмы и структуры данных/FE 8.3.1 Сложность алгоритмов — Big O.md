@@ -22,10 +22,6 @@ time: 3
 <div class="meta-strip"><span class="badge should">Желательно</span><span class="chip">~3 мин чтения</span><span class="chip">Уровень: senior</span></div>
 <!-- meta:end -->
 
-
-
-
-
 > [!info] Зачем это на собесе
 > Без оценки сложности нельзя обсуждать решение. Ожидают, что вы назовёте время и память для каждого решения.
 

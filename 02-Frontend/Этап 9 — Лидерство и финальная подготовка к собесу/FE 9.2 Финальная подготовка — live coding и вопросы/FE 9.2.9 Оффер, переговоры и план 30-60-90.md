@@ -22,7 +22,6 @@ time: 3
 <div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~3 мин чтения</span><span class="chip">Уровень: senior</span></div>
 <!-- meta:end -->
 
-
 > [!info] Зачем это на собесе
 > Заключительный этап: важно грамотно оценить оффер, договориться об условиях и начать работу с планом.
 

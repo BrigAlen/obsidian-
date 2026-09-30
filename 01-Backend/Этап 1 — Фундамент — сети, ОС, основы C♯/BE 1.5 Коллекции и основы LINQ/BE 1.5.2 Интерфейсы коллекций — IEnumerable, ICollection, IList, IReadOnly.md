@@ -22,75 +22,6 @@ time: 6
 <div class="meta-strip"><span class="badge must">Обязательно</span><span class="chip">~6 мин чтения</span><span class="chip">Уровень: junior</span></div>
 <!-- meta:end -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 > [!info] Зачем это на собесе
 > Что принимать и что возвращать из методов: `IEnumerable<T>`, `IReadOnlyList<T>`, `List<T>`? Это вопрос про дизайн API и про отложенное выполнение. Заодно проверяют, понимаете ли вы, что скрывается за `foreach` и `yield`.
 
@@ -111,7 +42,6 @@ time: 6
 | `IReadOnlyDictionary<K,V>` / `IDictionary<K,V>` | доступ по ключу | нет / да |
 
 Все они наследуют `IEnumerable<T>`: `IReadOnlyList<T>` строится на `IReadOnlyCollection<T>`, `IList<T>` на `ICollection<T>`.
-
 
 ### `IEnumerable<T>`
 Минимальный контракт «последовательность»: `GetEnumerator()` возвращает перечислитель с `MoveNext()` и `Current`. `foreach` разворачивается именно в него.

@@ -22,44 +22,6 @@ time: 4
 <div class="meta-strip"><span class="badge nice">По желанию</span><span class="chip">~4 мин чтения</span><span class="chip">Уровень: senior</span></div>
 <!-- meta:end -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 > [!info] Зачем это на собесе
 > Умение поднять многосервисное окружение одной командой и объяснить порядок запуска.
 
