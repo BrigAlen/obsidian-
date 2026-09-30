@@ -18,9 +18,9 @@ tags: [domain/backend, kind/stage]
 
 | # | Раздел или тема | Приоритет | Чтение | Прогресс |
 |---|---|---|---|---|
-| 1 | [[BE 8.3 Микросервисы и распределённые системы\|6.1 Node.js изнутри]] | <span class="badge nice">По желанию</span> | 12 мин | 0 из 4<br><div class="bar"><span style="width:0%"></span></div> |
-| 2 | [[BE 8.3 Микросервисы и распределённые системы\|6.2 NestJS]] | <span class="badge nice">По желанию</span> | 16 мин | 0 из 5<br><div class="bar"><span style="width:0%"></span></div> |
-| 3 | [[BE 8.3 Микросервисы и распределённые системы\|6.3 ORM в Node.js: Sequelize, TypeORM, Prisma]] | <span class="badge nice">По желанию</span> | 9 мин | 0 из 3<br><div class="bar"><span style="width:0%"></span></div> |
-| 4 | [[BE 8.3 Микросервисы и распределённые системы\|6.4 Тестирование в NestJS]] | <span class="badge nice">По желанию</span> | 6 мин | 0 из 2<br><div class="bar"><span style="width:0%"></span></div> |
+| 1 | [[BE 8.1.4 Структурные паттерны — Adapter, Decorator, Facade, Proxy, Composite\|6.1 Node.js изнутри]] | <span class="badge nice">По желанию</span> | 12 мин | 0 из 4<br><div class="bar"><span style="width:0%"></span></div> |
+| 2 | [[BE 8.1.4 Структурные паттерны — Adapter, Decorator, Facade, Proxy, Composite\|6.2 NestJS]] | <span class="badge nice">По желанию</span> | 16 мин | 0 из 5<br><div class="bar"><span style="width:0%"></span></div> |
+| 3 | [[BE 8.1.4 Структурные паттерны — Adapter, Decorator, Facade, Proxy, Composite\|6.3 ORM в Node.js: Sequelize, TypeORM, Prisma]] | <span class="badge nice">По желанию</span> | 9 мин | 0 из 3<br><div class="bar"><span style="width:0%"></span></div> |
+| 4 | [[BE 8.1.4 Структурные паттерны — Adapter, Decorator, Facade, Proxy, Composite\|6.4 Тестирование в NestJS]] | <span class="badge nice">По желанию</span> | 6 мин | 0 из 2<br><div class="bar"><span style="width:0%"></span></div> |
 <!-- toc:end -->
 

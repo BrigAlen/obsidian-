@@ -18,9 +18,9 @@ tags: [domain/backend, kind/stage]
 
 | # | Раздел или тема | Приоритет | Чтение | Прогресс |
 |---|---|---|---|---|
-| 1 | [[BE 8.3 Микросервисы и распределённые системы\|2.1 C♯: продвинутый язык]] | <span class="badge must">Обязательно</span> | 1 ч 14 мин | 0 из 12<br><div class="bar"><span style="width:0%"></span></div> |
-| 2 | [[BE 8.3 Микросервисы и распределённые системы\|2.2 .NET runtime: CLR, память, GC]] | <span class="badge must">Обязательно</span> | 35 мин | 0 из 6<br><div class="bar"><span style="width:0%"></span></div> |
-| 3 | [[BE 8.3 Микросервисы и распределённые системы\|2.3 Асинхронность и многопоточность]] | <span class="badge must">Обязательно</span> | 51 мин | 0 из 10<br><div class="bar"><span style="width:0%"></span></div> |
-| 4 | [[BE 8.3 Микросервисы и распределённые системы\|2.4 Тестирование в .NET — основы]] | <span class="badge must">Обязательно</span> | 21 мин | 0 из 6<br><div class="bar"><span style="width:0%"></span></div> |
+| 1 | [[BE 8.1.4 Структурные паттерны — Adapter, Decorator, Facade, Proxy, Composite\|2.1 C♯: продвинутый язык]] | <span class="badge must">Обязательно</span> | 1 ч 14 мин | 0 из 12<br><div class="bar"><span style="width:0%"></span></div> |
+| 2 | [[BE 8.1.4 Структурные паттерны — Adapter, Decorator, Facade, Proxy, Composite\|2.2 .NET runtime: CLR, память, GC]] | <span class="badge must">Обязательно</span> | 35 мин | 0 из 6<br><div class="bar"><span style="width:0%"></span></div> |
+| 3 | [[BE 8.1.4 Структурные паттерны — Adapter, Decorator, Facade, Proxy, Composite\|2.3 Асинхронность и многопоточность]] | <span class="badge must">Обязательно</span> | 51 мин | 0 из 10<br><div class="bar"><span style="width:0%"></span></div> |
+| 4 | [[BE 8.1.4 Структурные паттерны — Adapter, Decorator, Facade, Proxy, Composite\|2.4 Тестирование в .NET — основы]] | <span class="badge must">Обязательно</span> | 21 мин | 0 из 6<br><div class="bar"><span style="width:0%"></span></div> |
 <!-- toc:end -->
 

@@ -18,12 +18,12 @@ tags: [domain/backend, kind/stage]
 
 | # | Раздел или тема | Приоритет | Чтение | Прогресс |
 |---|---|---|---|---|
-| 1 | [[BE 8.3 Микросервисы и распределённые системы\|5.1 Проектирование REST API]] | <span class="badge must">Обязательно</span> | 18 мин | 0 из 6<br><div class="bar"><span style="width:0%"></span></div> |
-| 2 | [[BE 8.3 Микросервисы и распределённые системы\|5.2 gRPC]] | <span class="badge must">Обязательно</span> | 18 мин | 0 из 6<br><div class="bar"><span style="width:0%"></span></div> |
-| 3 | [[BE 8.3 Микросервисы и распределённые системы\|5.3 GraphQL на бэкенде и Federation]] | <span class="badge must">Обязательно</span> | 15 мин | 0 из 5<br><div class="bar"><span style="width:0%"></span></div> |
-| 4 | [[BE 8.3 Микросервисы и распределённые системы\|5.4 Очереди и брокеры: Kafka, RabbitMQ]] | <span class="badge must">Обязательно</span> | 31 мин | 0 из 10<br><div class="bar"><span style="width:0%"></span></div> |
-| 5 | [[BE 8.3 Микросервисы и распределённые системы\|5.5 Интеграции со сторонними API: 1С, Битрикс24, FHIR]] | <span class="badge nice">По желанию</span> | 21 мин | 0 из 7<br><div class="bar"><span style="width:0%"></span></div> |
-| 6 | [[BE 8.3 Микросервисы и распределённые системы\|5.6 Генерация документов и отчётов]] | <span class="badge should">Желательно</span> | 12 мин | 0 из 4<br><div class="bar"><span style="width:0%"></span></div> |
-| 7 | [[BE 8.3 Микросервисы и распределённые системы\|5.7 Тестирование интеграций]] | <span class="badge must">Обязательно</span> | 12 мин | 0 из 4<br><div class="bar"><span style="width:0%"></span></div> |
+| 1 | [[BE 8.1.4 Структурные паттерны — Adapter, Decorator, Facade, Proxy, Composite\|5.1 Проектирование REST API]] | <span class="badge must">Обязательно</span> | 18 мин | 0 из 6<br><div class="bar"><span style="width:0%"></span></div> |
+| 2 | [[BE 8.1.4 Структурные паттерны — Adapter, Decorator, Facade, Proxy, Composite\|5.2 gRPC]] | <span class="badge must">Обязательно</span> | 18 мин | 0 из 6<br><div class="bar"><span style="width:0%"></span></div> |
+| 3 | [[BE 8.1.4 Структурные паттерны — Adapter, Decorator, Facade, Proxy, Composite\|5.3 GraphQL на бэкенде и Federation]] | <span class="badge must">Обязательно</span> | 15 мин | 0 из 5<br><div class="bar"><span style="width:0%"></span></div> |
+| 4 | [[BE 8.1.4 Структурные паттерны — Adapter, Decorator, Facade, Proxy, Composite\|5.4 Очереди и брокеры: Kafka, RabbitMQ]] | <span class="badge must">Обязательно</span> | 31 мин | 0 из 10<br><div class="bar"><span style="width:0%"></span></div> |
+| 5 | [[BE 8.1.4 Структурные паттерны — Adapter, Decorator, Facade, Proxy, Composite\|5.5 Интеграции со сторонними API: 1С, Битрикс24, FHIR]] | <span class="badge nice">По желанию</span> | 21 мин | 0 из 7<br><div class="bar"><span style="width:0%"></span></div> |
+| 6 | [[BE 8.1.4 Структурные паттерны — Adapter, Decorator, Facade, Proxy, Composite\|5.6 Генерация документов и отчётов]] | <span class="badge should">Желательно</span> | 12 мин | 0 из 4<br><div class="bar"><span style="width:0%"></span></div> |
+| 7 | [[BE 8.1.4 Структурные паттерны — Adapter, Decorator, Facade, Proxy, Composite\|5.7 Тестирование интеграций]] | <span class="badge must">Обязательно</span> | 12 мин | 0 из 4<br><div class="bar"><span style="width:0%"></span></div> |
 <!-- toc:end -->
 
