@@ -30,6 +30,7 @@ time: 5
 
 
 
+
 > [!info] Зачем это на собесе
 > Как упаковать и раздать SPA: multi-stage Dockerfile, history fallback, кэш и безопасность.
 
