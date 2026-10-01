@@ -19,8 +19,10 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Inter",
-        body: "Inter",
+        // «цифровой» вид: Exo 2 для заголовков, Onest (современная замена Roboto) для текста, JetBrains Mono для подписей и кода.
+        // У этих шрифтов нет курсива на Google Fonts, поэтому includeItalic: false.
+        header: { name: "Exo 2", weights: [500, 600, 700], includeItalic: false },
+        body: { name: "Onest", weights: [400, 500, 600], includeItalic: false },
         code: "JetBrains Mono",
       },
       colors: {
