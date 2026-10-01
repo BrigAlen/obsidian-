@@ -260,7 +260,7 @@ body::before {
 }
 
 // Название сайта: лавандовый маркер, строгая типографика
-.page-title a { color: var(--dark); letter-spacing: -0.01em; font-weight: 600; }
+.page-title a { color: var(--dark); letter-spacing: 0.01em; font-weight: 700; }
 .page-title a::before {
   content: "";
   display: inline-block;
@@ -273,7 +273,7 @@ body::before {
 }
 
 // Заголовки
-article h1, .article-title { letter-spacing: -0.02em; font-weight: 600; }
+article h1, .article-title { letter-spacing: 0; font-weight: 600; }
 article h2 { border-bottom-color: var(--lightgray); }
 
 // Плашки и чипы: прямоугольные, как у Render
@@ -371,3 +371,6 @@ article tbody tr:hover td { background: color-mix(in srgb, var(--secondary) 5%, 
 
 // Ссылки в тексте: чуть легче
 article a.internal { font-weight: 500; }
+
+// Плотные межстрочные интервалы у заголовков (Exo 2 выглядит лучше в тесном ритме)
+article h1, article h2, article h3, article h4, .article-title { line-height: 1.25; }
