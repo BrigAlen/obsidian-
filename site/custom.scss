@@ -204,3 +204,170 @@ article {
 
   .page-title { font-size: 1.4rem; }
 }
+
+// =====================================================================
+// Оформление в духе документации Render: почти чёрный фон, тонкие границы,
+// сетка в шапке, моноширинные подписи, лавандовый акцент.
+// =====================================================================
+:root {
+  --mono: "JetBrains Mono", "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --grid: color-mix(in srgb, var(--gray) 16%, transparent);
+  --radius: 6px;
+}
+
+// Сетка вверху страницы с плавным затуханием
+#quartz-root { position: relative; z-index: 1; }
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0 0 auto 0;
+  height: 460px;
+  z-index: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(var(--grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+  background-size: 72px 72px;
+  background-position: -1px -1px;
+  -webkit-mask-image: linear-gradient(to bottom, #000 0%, transparent 100%);
+  mask-image: linear-gradient(to bottom, #000 0%, transparent 100%);
+}
+
+::selection { background: color-mix(in srgb, var(--secondary) 35%, transparent); }
+
+// Моноширинные подписи
+.badge,
+.chip,
+.page-title + .search label,
+.toc > .toc-header h3,
+.explorer > button h2,
+.backlinks > h3,
+.graph > h3,
+.search .search-button p,
+.recent-notes > h3 {
+  font-family: var(--mono);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.68rem;
+}
+.explorer > button h2,
+.backlinks > h3,
+.graph > h3,
+.recent-notes > h3,
+.toc > .toc-header h3 {
+  color: var(--gray);
+  font-weight: 500;
+}
+
+// Название сайта: лавандовый маркер, строгая типографика
+.page-title a { color: var(--dark); letter-spacing: -0.01em; font-weight: 600; }
+.page-title a::before {
+  content: "";
+  display: inline-block;
+  width: 0.62em;
+  height: 0.62em;
+  margin-right: 0.5em;
+  background: var(--secondary);
+  border-radius: 2px 2px 2px 7px;
+  vertical-align: 0.02em;
+}
+
+// Заголовки
+article h1, .article-title { letter-spacing: -0.02em; font-weight: 600; }
+article h2 { border-bottom-color: var(--lightgray); }
+
+// Плашки и чипы: прямоугольные, как у Render
+article .badge, .meta-strip .badge { border-radius: 4px; }
+.meta-strip .chip, .tags .tag-link {
+  border: 1px solid var(--lightgray);
+  background: transparent;
+  border-radius: 4px;
+  color: var(--darkgray);
+  padding: 0.12rem 0.5rem;
+}
+.tags .tag-link:hover { border-color: var(--secondary); color: var(--secondary); }
+
+// Карточки на главной
+.cards a.card {
+  border-radius: var(--radius);
+  background: color-mix(in srgb, var(--light) 94%, var(--gray));
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+
+  &:hover {
+    border-color: var(--secondary);
+    background: color-mix(in srgb, var(--secondary) 6%, var(--light));
+  }
+  strong { letter-spacing: -0.01em; }
+}
+
+// Код
+article pre, pre {
+  border: 1px solid var(--lightgray);
+  border-radius: var(--radius);
+  background: color-mix(in srgb, var(--light) 88%, black);
+}
+:root[saved-theme="light"] article pre, :root[saved-theme="light"] pre {
+  background: color-mix(in srgb, var(--light) 94%, var(--gray));
+}
+code { font-family: var(--mono); font-size: 0.86em; }
+:not(pre) > code { border: 1px solid var(--lightgray); border-radius: 4px; background: transparent; padding: 0.05em 0.35em; }
+
+// Таблицы: без вертикальных линий, шапка в моноширинных заглавных
+article table { border-collapse: collapse; width: 100%; }
+article th, article td { border: 0; border-bottom: 1px solid var(--lightgray); padding: 0.5rem 0.7rem; }
+article th {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 500;
+  color: var(--gray);
+}
+article tbody tr:hover td { background: color-mix(in srgb, var(--secondary) 5%, transparent); }
+
+// Вставки (callouts): плоские, с тонкой рамкой
+.callout { border-radius: var(--radius); }
+
+// Поиск, кнопки темы, разделитель
+.search .search-button { border-radius: var(--radius); }
+.darkmode, .readermode { border-radius: var(--radius); }
+
+// Дерево: активная заметка с лавандовой чертой
+.explorer-content ul li > a.active { box-shadow: inset 2px 0 0 var(--secondary); border-radius: 0 5px 5px 0; }
+
+// Граф и блоки справа
+.graph .graph-outer { border-radius: var(--radius); border-color: var(--lightgray); }
+
+// Тонкие полосы прокрутки
+* { scrollbar-width: thin; scrollbar-color: var(--lightgray) transparent; }
+
+// Прогресс-бары и показатели
+.bar { background: var(--lightgray); border-radius: 2px; height: 0.35rem; }
+.bar > span { background: var(--secondary); border-radius: 2px; }
+.kpi { border-radius: var(--radius); }
+
+@media (max-width: 800px) {
+  body::before { height: 300px; background-size: 56px 56px; }
+}
+
+// Теги: моноширинные строчные, без «крика»
+.tags .tag-link {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+// Боковое дерево: серые пункты, лавандовый только у активного и при наведении
+.explorer-content a,
+.explorer-content .folder-container button span,
+.explorer-content .folder-container div > a {
+  color: var(--darkgray);
+}
+.explorer-content a:hover,
+.explorer-content .folder-container button:hover span { color: var(--dark); }
+.explorer-content a.active { color: var(--secondary); }
+.explorer-content .explorer-ul > li > .folder-container button span { color: var(--dark); }
+
+// Ссылки в тексте: чуть легче
+article a.internal { font-weight: 500; }
