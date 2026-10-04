@@ -51,13 +51,13 @@ flowchart LR
 
 ## Этапы
 <!-- toc:start -->
-**Итого:** 233 тем · ~68 ч 16 мин · готово 0 из 233
+**Итого:** 233 тем · ~66 ч 57 мин · готово 0 из 233
 
 <div class="bar"><span style="width:0%"></span></div>
 
 | Этап | Приоритет | Чтение | Прогресс |
 |---|---|---|---|
-| [[AN Этап 1 · API для чайников — HTTP, JSON, Postman\|Этап 1 · API для чайников: HTTP, JSON, Postman]] | <span class="badge must">Обязательно</span> | 6 ч 56 мин | 0 из 49<br><div class="bar"><span style="width:0%"></span></div> |
+| [[AN Этап 1 · API для чайников — HTTP, JSON, Postman\|Этап 1 · API для чайников: HTTP, JSON, Postman]] | <span class="badge must">Обязательно</span> | 5 ч 37 мин | 0 из 49<br><div class="bar"><span style="width:0%"></span></div> |
 | [[AN Этап 2 · Данные — базы, SQL и отчётность\|Этап 2 · Данные: базы, SQL и отчётность]] | <span class="badge must">Обязательно</span> | 8 ч 20 мин | 0 из 25<br><div class="bar"><span style="width:0%"></span></div> |
 | [[AN Этап 3 · Бизнес- и системный анализ\|Этап 3 · Бизнес- и системный анализ]] | <span class="badge must">Обязательно</span> | 18 ч 40 мин | 0 из 56<br><div class="bar"><span style="width:0%"></span></div> |
 | [[AN Этап 4 · Agile и управление командой\|Этап 4 · Agile и управление командой]] | <span class="badge must">Обязательно</span> | 13 ч | 0 из 39<br><div class="bar"><span style="width:0%"></span></div> |
