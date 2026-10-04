@@ -9,8 +9,8 @@ import glob, math, os, re, sys
 ROOT = sys.argv[1] if len(sys.argv) > 1 else "."
 os.chdir(ROOT)
 
-DOMAINS = {"backend": "Backend", "frontend": "Frontend", "db": "Базы данных", "devops": "DevOps", "fullstack": "Fullstack-практика"}
-DOMAIN_ORDER = ["backend", "db", "frontend", "devops", "fullstack"]
+DOMAINS = {"backend": "Backend", "frontend": "Frontend", "db": "Базы данных", "devops": "DevOps", "fullstack": "Fullstack-практика", "analytics": "Аналитика и PM"}
+DOMAIN_ORDER = ["backend", "db", "frontend", "devops", "fullstack", "analytics"]
 PRIO_LABEL = {"must": "Обязательно", "should": "Желательно", "nice": "По желанию"}
 PRIO_RANK = {"must": 0, "should": 1, "nice": 2}
 STATUS_LABEL = {"todo": "Не начато", "wip": "В работе", "done": "Готово"}
@@ -22,6 +22,7 @@ STAGE_PRIO = {
     "db": {1: "must", 2: "must", 3: "should", 4: "should", 5: "should", 6: "should", 7: "nice"},
     "devops": {1: "should", 2: "must", 3: "must", 4: "should", 5: "should", 6: "nice", 7: "should", 8: "nice", 9: "must"},
     "fullstack": {0: "should"},
+    "analytics": {1: "must", 2: "must", 3: "must", 4: "must", 5: "should", 6: "should", 7: "nice"},
 }
 SECTION_PRIO = {
     ("backend", "1.3"): "must", ("backend", "1.4"): "must", ("backend", "1.5"): "must",
@@ -122,7 +123,7 @@ for p, n in notes.items():
     key = section or f"{stage}.{fm_get(fm, 'order')}"   # тема-раздел без вложенных страниц: этап.порядок
     prio = fm_get(fm, "priority_override") or SECTION_PRIO.get((domain, key)) or STAGE_PRIO.get(domain, {}).get(stage, "should")
     words, code_lines = estimate(body)
-    stub = words < 150
+    stub = words < 150 or fm_get(fm, "skeleton") == "true"   # skeleton: true — каркас, текст ещё не написан
     minutes = 20 if stub else max(3, round(words / 170 + code_lines / 12))
     tags = [t for t in tags_get(fm) if not t.startswith("priority/") and t != "flag/todo"]
     tags.append(f"priority/{prio}")
@@ -326,4 +327,9 @@ for flag, title in (("flag/hot", "Часто спрашивают"), ("flag/weak
     if ts:
         out += ["", f"## {title}", ""] + [f"- [[{n['name']}\\|{n['title']}]]" for n in ts[:20]]
 open("Прогресс.md", "w", encoding="utf-8").write("\n".join(out) + "\n")
+if os.path.exists("cabinet.md"):   # общее число тем для полосы прогресса в личном кабинете
+    cab = open("cabinet.md", encoding="utf-8").read()
+    new_cab = re.sub(r'data-total="\d+"', f'data-total="{total}"', cab)
+    if new_cab != cab:
+        open("cabinet.md", "w", encoding="utf-8").write(new_cab)
 print(f"topics={total} filled={filled} done={done} left={fmt_min(left_min)}")

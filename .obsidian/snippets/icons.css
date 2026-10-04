@@ -1,6 +1,6 @@
 /* Outline-иконки заголовков (Lucide). Работает и в Obsidian, и на сайте.
    Класс подключается через frontmatter: cssclasses: [i-backend] */
-.i-backend h1:first-of-type::before, .i-frontend h1:first-of-type::before, .i-db h1:first-of-type::before, .i-devops h1:first-of-type::before, .i-fullstack h1:first-of-type::before, .i-notes h1:first-of-type::before, .i-guide h1:first-of-type::before, .i-home h1:first-of-type::before {
+.i-backend h1:first-of-type::before, .i-frontend h1:first-of-type::before, .i-db h1:first-of-type::before, .i-devops h1:first-of-type::before, .i-fullstack h1:first-of-type::before, .i-analytics h1:first-of-type::before, .i-notes h1:first-of-type::before, .i-guide h1:first-of-type::before, .i-home h1:first-of-type::before {
   content: "";
   display: inline-block;
   width: 1.05em;
@@ -19,3 +19,4 @@
 .i-notes { --i: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cpath d=%22M12 20h9%22/%3E%3Cpath d=%22M16.376 3.622a1 1 0 0 1 3.002 3.002L7.368 18.635a2 2 0 0 1-.855.506l-2.872.838a.5.5 0 0 1-.62-.62l.838-2.872a2 2 0 0 1 .506-.854z%22/%3E%3C/svg%3E"); }
 .i-guide { --i: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cpath d=%22M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20%22/%3E%3C/svg%3E"); }
 .i-home { --i: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Ccircle cx=%2212%22 cy=%2212%22 r=%2210%22/%3E%3Cpolygon points=%2216.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76%22/%3E%3C/svg%3E"); }
+.i-analytics { --i: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Crect width=%228%22 height=%224%22 x=%228%22 y=%222%22 rx=%221%22 ry=%221%22/%3E%3Cpath d=%22M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2%22/%3E%3Cpath d=%22M12 11h4%22/%3E%3Cpath d=%22M12 16h4%22/%3E%3Cpath d=%22M8 11h.01%22/%3E%3Cpath d=%22M8 16h.01%22/%3E%3C/svg%3E"); }

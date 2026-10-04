@@ -61,9 +61,9 @@ const explorer = Component.Explorer({
   },
   mapFn: (node) => {
     let n = node.displayName
-    n = n.replace(/^07-notes$/, "Мои заметки").replace(/^\d{2}-(?=[a-z])/, "")
+    n = n.replace(/^07-notes$/, "Мои заметки").replace(/^06-analytics$/, "Аналитика и PM").replace(/^\d{2}-(?=[a-z])/, "")
     n = n.replace(/^00 /, "")
-    n = n.replace(/^(BE|FE|DB|DO|FS) /, "") // BE 1.1 -> 1.1
+    n = n.replace(/^(BE|FE|DB|DO|FS|AN) /, "") // BE 1.1 -> 1.1
     const m = n.match(/^Этап (\d+)\s*[—·:-]\s*(.*)$/)
     if (m) n = `${m[1]}. ${m[2].split(/\s+[—:]\s+|:\s+/)[0]}`
     node.displayName = n
