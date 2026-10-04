@@ -19,17 +19,17 @@ tags: [domain/analytics, stage/1, kind/section, track/shared]
 
 ## Темы
 <!-- toc:start -->
-**Итого:** 5 тем · ~1 ч 40 мин · готово 0 из 5
+**Итого:** 5 тем · ~21 мин · готово 0 из 5
 
 <div class="bar"><span style="width:0%"></span></div>
 
 | # | Тема | Приоритет | Чтение | Статус |
 |---|---|---|---|---|
-| 1 | [[AN 1.7.1 DevTools браузера — вкладка Network\|DevTools браузера: вкладка Network]] | <span class="badge should">Желательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
-| 2 | [[AN 1.7.2 Копирование запроса как cURL, HAR\|Копирование запроса как cURL, HAR]] | <span class="badge should">Желательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
-| 3 | [[AN 1.7.3 Читать логи — Kibana, Grafana Loki, Sentry\|Читать логи: Kibana, Grafana Loki, Sentry]] | <span class="badge should">Желательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
-| 4 | [[AN 1.7.4 Трассировка запроса — trace id и корреляция\|Трассировка запроса: trace id и корреляция]] | <span class="badge should">Желательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
-| 5 | [[AN 1.7.5 curl и командная строка — минимум\|curl и командная строка: минимум]] | <span class="badge should">Желательно</span> | 20 мин | <span class="badge todo">Не начато</span> |
+| 1 | [[AN 1.7.1 DevTools браузера — вкладка Network\|DevTools браузера: вкладка Network]] | <span class="badge should">Желательно</span> | 4 мин | <span class="badge todo">Не начато</span> |
+| 2 | [[AN 1.7.2 Копирование запроса как cURL, HAR\|Копирование запроса как cURL, HAR]] | <span class="badge should">Желательно</span> | 5 мин | <span class="badge todo">Не начато</span> |
+| 3 | [[AN 1.7.3 Читать логи — Kibana, Grafana Loki, Sentry\|Читать логи: Kibana, Grafana Loki, Sentry]] | <span class="badge should">Желательно</span> | 4 мин | <span class="badge todo">Не начато</span> |
+| 4 | [[AN 1.7.4 Трассировка запроса — trace id и корреляция\|Трассировка запроса: trace id и корреляция]] | <span class="badge should">Желательно</span> | 4 мин | <span class="badge todo">Не начато</span> |
+| 5 | [[AN 1.7.5 curl и командная строка — минимум\|curl и командная строка: минимум]] | <span class="badge should">Желательно</span> | 4 мин | <span class="badge todo">Не начато</span> |
 <!-- toc:end -->
 
 ## Практика
