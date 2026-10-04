@@ -8,7 +8,7 @@ root = sys.argv[1]
 TR = dict(zip("абвгдеёжзийклмнопрстуфхцчшщъыьэюя",
               ["a","b","v","g","d","e","e","zh","z","i","y","k","l","m","n","o","p","r","s","t","u","f","h","c","ch","sh","sch","","y","","e","yu","ya"]))
 DOM = {"01-Backend": "01-backend", "02-Frontend": "02-frontend", "03-Базы данных": "03-databases",
-       "04-DevOps": "04-devops", "05-Fullstack-практика": "05-fullstack", "07-Мои-заметки": "07-notes"}
+       "04-DevOps": "04-devops", "05-Fullstack-практика": "05-fullstack", "06-Аналитика-и-PM": "06-analytics", "07-Мои-заметки": "07-notes"}
 MAXLEN = 44
 
 

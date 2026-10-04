@@ -12,6 +12,7 @@
     { "query": "path:03-Базы данных", "color": { "a": 1, "rgb": 7324299 } },
     { "query": "path:04-DevOps", "color": { "a": 1, "rgb": 11898073 } },
     { "query": "path:05-Fullstack-практика", "color": { "a": 1, "rgb": 14707829 } },
+    { "query": "path:06-Аналитика-и-PM", "color": { "a": 1, "rgb": 3447003 } },
     { "query": "path:07-Мои-заметки", "color": { "a": 1, "rgb": 8947848 } }
   ],
   "collapse-display": false,
